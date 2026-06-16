@@ -4,7 +4,15 @@ import { useEffect, useState } from "react";
 import { products } from "./lib/products";
 
 export default function Home() {
-  const [cart, setCart] = useState<typeof products>([]);
+type CartItem = {
+  id: number;
+  name: string;
+  price: number;
+  image: string;
+  bundleQuantity?: number;
+};
+
+const [cart, setCart] = useState<CartItem[]>([]);
   const [search, setSearch] = useState("");
   const [category, setCategory] = useState("All");
   const [cartOpen, setCartOpen] = useState(false);
@@ -21,10 +29,22 @@ export default function Home() {
     localStorage.setItem("globalSupplyCart", JSON.stringify(cart));
   }, [cart]);
 
-  function addToCart(product: (typeof products)[0]) {
-    setCart([...cart, product]);
-    setCartOpen(true);
-  }
+ function addToCart(
+  product: (typeof products)[0],
+  bundleQuantity = 1,
+  bundlePrice = product.price
+) {
+  const cartItem = {
+    id: product.id,
+    name: product.name,
+    image: product.image,
+    price: bundlePrice,
+    bundleQuantity,
+  };
+
+  setCart([...cart, cartItem]);
+  setCartOpen(true);
+}
 
   function removeFromCart(indexToRemove: number) {
     setCart(cart.filter((_, index) => index !== indexToRemove));
@@ -102,6 +122,13 @@ Please send payment information.`;
                       <div className="flex justify-between gap-4">
                         <div>
                           <p className="font-bold">{item.name}</p>
+                          
+                          {item.bundleQuantity && item.bundleQuantity > 1 && (
+                            <p className="text-sm text-gray-400">
+                             Bundle: {item.bundleQuantity}
+                             </p>
+                          )}
+
                           <p className="text-gray-400">${item.price}</p>
                         </div>
 
@@ -522,8 +549,7 @@ Please send payment information.`;
                       ADD TO CART
                     </button>
                   </div>
-                </div>
-              ))}
+                </div>              ))}
             </div>
           )}
         </div>

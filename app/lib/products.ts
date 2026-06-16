@@ -9,6 +9,11 @@ export const products = [
     image: "/airpods-pro.jpg",
     badge: "BUNDLE DEAL",
     description: "Bundle pricing: 1 for $45, 2 for $80, 5 for $150.",
+    deals: [
+  { quantity: 1, price: 45 },
+  { quantity: 2, price: 80 },
+  { quantity: 5, price: 150 },
+],
   },
   {
     id: 2,
@@ -19,6 +24,11 @@ export const products = [
     image: "/airpods-pro.jpg",
     badge: "BUNDLE DEAL",
     description: "Bundle pricing: 1 for $60, 2 for $100, 5 for $200.",
+   deals: [
+  { quantity: 1, price: 60 },
+  { quantity: 2, price: 100 },
+  { quantity: 5, price: 200 },
+],
   },
   {
     id: 3,
@@ -29,6 +39,11 @@ export const products = [
     image: "/airpods-max.jpg",
     badge: "BEST SELLER",
     description: "AirPods Max. Bundle pricing: 2 for $160 each.",
+    deals: [
+  { quantity: 1, price: 180 },
+  { quantity: 2, price: 280 },
+  { quantity: 5, price: 650 },
+],
   },
 
   // SHOES\
@@ -43,6 +58,11 @@ export const products = [
   image: "/air-jordan-4-black-cat.png",
   badge: "BEST SELLER",
   description: "$100 without box. $120 with box.",
+  deals: [
+  { quantity: 1, price: 100 },
+  { quantity: 2, price: 190 },
+  { quantity: 5, price: 450 },
+],
 },
 
 {
@@ -54,6 +74,11 @@ export const products = [
   image: "/air-jordan-4-military-black.png",
   badge: "BEST SELLER",
   description: "$100 without box. $120 with box.",
+  deals: [
+  { quantity: 1, price: 100 },
+  { quantity: 2, price: 190 },
+  { quantity: 5, price: 450 },
+],
 },
 
 {
@@ -65,6 +90,11 @@ export const products = [
   image: "/air-jordan-4-white-cement.png",
   badge: "LIMITED STOCK",
   description: "$100 without box. $120 with box.",
+  deals: [
+  { quantity: 1, price: 100 },
+  { quantity: 2, price: 190 },
+  { quantity: 5, price: 450 },
+],
 },
 
   // FRAGRANCES
@@ -79,8 +109,12 @@ export const products = [
   image: "/dior-sauvage.jpg",
   badge: "BEST SELLER",
   description: "One of the most popular men's fragrances worldwide.",
+  deals: [
+    { quantity: 1, price: 70 },
+    { quantity: 5, price: 250 },
+    { quantity: 10, price: 450 },
+  ],
 },
-
 {
   id: 12,
   slug: "bleu-de-chanel",
@@ -90,6 +124,11 @@ export const products = [
   image: "/bleu-de-chanel.jpg",
   badge: "BEST SELLER",
   description: "Fresh, clean and versatile fragrance.",
+  deals: [
+  { quantity: 1, price: 70 },
+  { quantity: 5, price: 250 },
+  { quantity: 10, price: 450 },
+]
 },
 
 {
@@ -101,6 +140,11 @@ export const products = [
   image: "/creed-aventus.jpg",
   badge: "LUXURY",
   description: "Luxury fragrance with a powerful signature scent.",
+  deals: [
+  { quantity: 1, price: 70 },
+  { quantity: 5, price: 250 },
+  { quantity: 10, price: 450 },
+],
 },
 
 {
@@ -112,6 +156,11 @@ export const products = [
   image: "/baccarat-rouge-540.jpg",
   badge: "BEST SELLER",
   description: "Iconic luxury fragrance with outstanding projection.",
+  deals: [
+  { quantity: 1, price: 60 },
+  { quantity: 5, price: 250 },
+  { quantity: 10, price: 450 },
+],
 },
 
 {
@@ -123,6 +172,11 @@ export const products = [
   image: "/lv-cologne.jpg",
   badge: "LUXURY",
   description: "Premium Louis Vuitton fragrance collection.",
+  deals: [
+  { quantity: 1, price: 80 },
+  { quantity: 5, price: 400 },
+  { quantity: 10, price: 800 },
+],
 },
 
 {
@@ -134,6 +188,11 @@ export const products = [
   image: "/ysl-y.jpg",
   badge: "POPULAR",
   description: "Fresh and modern Yves Saint Laurent fragrance.",
+  deals: [
+  { quantity: 1, price: 70 },
+  { quantity: 5, price: 250 },
+  { quantity: 10, price: 450 },
+],
 },
 
 {
@@ -145,6 +204,11 @@ export const products = [
   image: "/valentino-uomo.jpg",
   badge: "NEW DROP",
   description: "Elegant Valentino fragrance with premium notes.",
+  deals: [
+  { quantity: 1, price: 70 },
+  { quantity: 5, price: 250 },
+  { quantity: 10, price: 450 },
+],
 },
 
 {
@@ -156,6 +220,11 @@ export const products = [
   image: "/tom-ford-oud-wood.jpg",
   badge: "LUXURY",
   description: "Sophisticated Tom Ford fragrance.",
+  deals: [
+  { quantity: 1, price: 70 },
+  { quantity: 5, price: 250 },
+  { quantity: 10, price: 450 },
+],
 },
 
 {
@@ -167,6 +236,11 @@ export const products = [
   image: "/jean-paul-gaultier-le-male.jpg",
   badge: "BEST SELLER",
   description: "Popular Jean Paul Gaultier fragrance.",
+  deals: [
+  { quantity: 1, price: 60 },
+  { quantity: 5, price: 250 },
+  { quantity: 10, price: 450 },
+],
 },
 // CLOTHING
 
@@ -179,6 +253,11 @@ export const products = [
   image: "/spider-hoodie.png",
   badge: "BEST SELLER",
   description: "Spider hoodie. Premium quality.",
+  deals: [
+  { quantity: 1, price: 70 },
+  { quantity: 2, price: 130 },
+  { quantity: 5, price: 300 },
+],
 },
 
 {
@@ -190,6 +269,11 @@ export const products = [
   image: "/spider-sweatpants.png",
   badge: "NEW DROP",
   description: "Spider sweatpants. Premium quality.",
+  deals: [
+  { quantity: 1, price: 70 },
+  { quantity: 2, price: 130 },
+  { quantity: 5, price: 300 },
+],
 },
 
 {
@@ -201,6 +285,11 @@ export const products = [
   image: "/essentials-hoodie-beige.png",
   badge: "BEST SELLER",
   description: "Essentials beige hoodie. Premium quality.",
+  deals: [
+  { quantity: 1, price: 70 },
+  { quantity: 2, price: 130 },
+  { quantity: 5, price: 300 },
+],
 },
 
 {
@@ -212,6 +301,11 @@ export const products = [
   image: "/essentials-sweatpants.png",
   badge: "LIMITED STOCK",
   description: "Essentials black sweatpants. Premium quality.",
+  deals: [
+  { quantity: 1, price: 70 },
+  { quantity: 2, price: 130 },
+  { quantity: 5, price: 300 },
+],
 },
 
 {
@@ -223,6 +317,11 @@ export const products = [
   image: "/chrome-hearts-tshirt.png",
   badge: "BEST SELLER",
   description: "Chrome Hearts style t-shirt.",
+  deals: [
+  { quantity: 1, price: 60 },
+  { quantity: 2, price: 110 },
+  { quantity: 5, price: 250 },
+],
 },
 
 {
@@ -234,6 +333,11 @@ export const products = [
   image: "/chrome-hearts-long-sleeve.png",
   badge: "NEW DROP",
   description: "Chrome Hearts style long sleeve.",
+  deals: [
+  { quantity: 1, price: 60 },
+  { quantity: 2, price: 110 },
+  { quantity: 5, price: 250 },
+],
 },
 
   // BAGS - MESSAGE FOR PRICING

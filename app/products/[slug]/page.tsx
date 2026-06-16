@@ -2,13 +2,15 @@ import Image from "next/image";
 import { notFound } from "next/navigation";
 import { products } from "@/app/lib/products";
 
-export default function ProductPage({
+export default async function ProductPage({
   params,
 }: {
-  params: { slug: string };
+  params: Promise<{ slug: string }>;
 }) {
+  const { slug } = await params;
+
   const product = products.find(
-    (p) => p.slug === params.slug
+    (p) => p.slug === slug
   );
 
   if (!product) {
@@ -49,11 +51,42 @@ export default function ProductPage({
               {product.category}
             </p>
 
-            <p className="text-4xl font-black mt-6">
-             {product.price === 0 ? "Message For Pricing" : `$${product.price}`}
-            </p>
+           <p className="text-4xl font-black mt-6">
+  {product.price === 0 ? "Message For Pricing" : `$${product.price}`}
+</p>
 
-            <div className="mt-8 bg-zinc-950 border border-white/10 rounded-[2rem] p-6">
+{product.deals && (
+  <div className="mt-8">
+    <h3 className="text-xl font-black mb-4">
+      BULK DEALS
+    </h3>
+
+    <div className="space-y-3">
+     {product.deals.map((deal) => (
+  <div
+  key={deal.quantity}
+    className="w-full flex items-center justify-between bg-zinc-950 border border-white/10 rounded-2xl p-4 hover:border-green-500 transition"
+  >
+          <span className="font-bold">
+            Buy {deal.quantity}
+          </span>
+
+          <span className="text-2xl font-black">
+            ${deal.price}
+          </span>
+        </div>
+      ))}
+    </div>
+
+    {product.category === "Shoes" && (
+      <p className="text-yellow-400 text-sm mt-4 font-semibold">
+        * Prices shown are WITHOUT box. Add $20 for original box.
+      </p>
+    )}
+  </div>
+)}
+
+<div className="mt-8 bg-zinc-950 border border-white/10 rounded-[2rem] p-6">
               <div className="space-y-3">
                 <p>✓ Premium Quality</p>
                 <p>✓ Fast Shipping</p>
