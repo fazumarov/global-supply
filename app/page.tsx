@@ -81,7 +81,7 @@ Please send payment information.`;
 
   function copyOrder() {
     navigator.clipboard.writeText(orderMessage);
-    alert("Order copied. Open Telegram, paste with Ctrl + V, and send it.");
+    alert("Order copied. Open Telegram, Paste your order into Telegram and send it..");
   }
 
   return (
