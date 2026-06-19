@@ -158,7 +158,7 @@ Please send payment information.`;
                       2. Open Telegram.
                     </p>
                     <p className="text-sm text-gray-400">
-                      3. Paste with Ctrl + V and send it.
+                      3. Paste your order into Telegram and send it.
                     </p>
                   </div>
 
