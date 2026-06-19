@@ -222,7 +222,12 @@ Please send payment information.`;
             onClick={() => setCartOpen(true)}
             className="rounded-full border border-white/20 px-4 py-2 text-sm hover:bg-white hover:text-black transition"
           >
-            Cart: <span className="font-bold">{cart.length}</span>
+           Cart: <span className="font-bold">
+  {cart.reduce(
+    (total, item) => total + (item.bundleQuantity || 1),
+    0
+  )}
+</span>
           </button>
         </div>
       </nav>
@@ -308,7 +313,23 @@ Please send payment information.`;
           Nike Tech, streetwear and daily drops.
         </p>
       </div>
+<div
+  onClick={() => {
+    setCategory("Shoes");
+    document
+      .getElementById("catalog")
+      ?.scrollIntoView({ behavior: "smooth" });
+  }}
+  className="group bg-zinc-950 border border-white/10 rounded-[2rem] p-8 hover:border-white/40 hover:-translate-y-2 hover:shadow-2xl transition cursor-pointer"
+>
+  <h3 className="text-2xl font-black group-hover:text-white transition">
+    Shoes
+  </h3>
 
+  <p className="text-gray-400 mt-3">
+    Jordan 4s and premium sneaker drops.
+  </p>
+</div>
 <div
   onClick={() => {
     setCategory("Fragrances");
@@ -325,15 +346,15 @@ Please send payment information.`;
       </div>
 
      <div
-  onClick={() => {
-    setCategory("Watches");
-    document
-      .getElementById("catalog")
-      ?.scrollIntoView({ behavior: "smooth" });
-  }}
+      onClick={() => {
+        setCategory("Bags");
+       document
+        .getElementById("catalog")
+        ?.scrollIntoView({ behavior: "smooth" });
+}}
   className="group bg-zinc-950 border border-white/10 rounded-[2rem] p-8 hover:border-white/40 hover:-translate-y-2 hover:shadow-2xl transition-all duration-300 cursor-pointer"
 >
-        <h3 className="text-2xl font-black group-hover:text-white transition">Watches</h3>
+        <h3 className="text-2xl font-black group-hover:text-white transition">Bags</h3>
         <p className="text-gray-400 mt-3">
           Luxury timepieces and exclusive models.
         </p>
@@ -341,6 +362,8 @@ Please send payment information.`;
     </div>
   </div>
 </section>
+
+
 
 <section className="px-6 py-20 border-t border-white/10">
   <div className="max-w-7xl mx-auto">

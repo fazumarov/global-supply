@@ -14,6 +14,13 @@ export default function ProductPageClient({ product }: { product: Product }) {
   function getDeals(): Deal[] {
     if (product.price === 0) return [];
 
+if (product.slug === "lv-cologne") {
+  return [
+    { quantity: 1, price: 80 },
+    { quantity: 5, price: 400 },
+    { quantity: 10, price: 800 },
+  ];
+}
     if (product.category === "Fragrances") {
       return [
         { quantity: 1, price: product.price },
@@ -57,7 +64,7 @@ export default function ProductPageClient({ product }: { product: Product }) {
     return [{ quantity: 1, price: product.price }];
   }
 
-  const deals = getDeals();
+  const deals = product.deals || getDeals();
   const [selectedDeal, setSelectedDeal] = useState<Deal>(
     deals[0] || { quantity: 1, price: product.price }
   );
