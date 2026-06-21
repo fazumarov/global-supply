@@ -110,7 +110,7 @@ export const products = [
   badge: "BEST SELLER",
   description: "One of the most popular men's fragrances worldwide.",
 deals: [
-  { quantity: 1, price: 60 },
+  { quantity: 1, price: 50 },
   { quantity: 2, price: 130 },
   { quantity: 5, price: 250 },
   { quantity: 10, price: 450 },
@@ -126,7 +126,7 @@ deals: [
   badge: "BEST SELLER",
   description: "Fresh, clean and versatile fragrance.",
 deals: [
-  { quantity: 1, price: 60 },
+  { quantity: 1, price: 50 },
   { quantity: 2, price: 130 },
   { quantity: 5, price: 250 },
   { quantity: 10, price: 450 },
@@ -143,7 +143,7 @@ deals: [
   badge: "LUXURY",
   description: "Luxury fragrance with a powerful signature scent.",
 deals: [
-  { quantity: 1, price: 60 },
+  { quantity: 1, price: 50 },
   { quantity: 2, price: 130 },
   { quantity: 5, price: 250 },
   { quantity: 10, price: 450 },
@@ -160,7 +160,7 @@ deals: [
   badge: "BEST SELLER",
   description: "Iconic luxury fragrance with outstanding projection.",
 deals: [
-  { quantity: 1, price: 60 },
+  { quantity: 1, price: 50 },
   { quantity: 2, price: 130 },
   { quantity: 5, price: 250 },
   { quantity: 10, price: 450 },
@@ -193,7 +193,7 @@ deals: [
   badge: "POPULAR",
   description: "Fresh and modern Yves Saint Laurent fragrance.",
 deals: [
-  { quantity: 1, price: 60 },
+  { quantity: 1, price: 50 },
   { quantity: 2, price: 130 },
   { quantity: 5, price: 250 },
   { quantity: 10, price: 450 },
@@ -210,7 +210,7 @@ deals: [
   badge: "NEW DROP",
   description: "Elegant Valentino fragrance with premium notes.",
 deals: [
-  { quantity: 1, price: 60 },
+  { quantity: 1, price: 50 },
   { quantity: 2, price: 130 },
   { quantity: 5, price: 250 },
   { quantity: 10, price: 450 },
@@ -227,7 +227,7 @@ deals: [
   badge: "LUXURY",
   description: "Sophisticated Tom Ford fragrance.",
  deals: [
-  { quantity: 1, price: 60 },
+  { quantity: 1, price: 50 },
   { quantity: 2, price: 130 },
   { quantity: 5, price: 250 },
   { quantity: 10, price: 450 },
