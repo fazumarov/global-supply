@@ -109,11 +109,12 @@ export const products = [
   image: "/dior-sauvage.jpg",
   badge: "BEST SELLER",
   description: "One of the most popular men's fragrances worldwide.",
-  deals: [
-    { quantity: 1, price: 70 },
-    { quantity: 5, price: 250 },
-    { quantity: 10, price: 450 },
-  ],
+ deals: [
+  { quantity: 1, price: 70 },
+  { quantity: 2, price: 130 },
+  { quantity: 5, price: 250 },
+  { quantity: 10, price: 450 },
+],
 },
 {
   id: 12,
@@ -124,11 +125,12 @@ export const products = [
   image: "/bleu-de-chanel.jpg",
   badge: "BEST SELLER",
   description: "Fresh, clean and versatile fragrance.",
-  deals: [
+ deals: [
   { quantity: 1, price: 70 },
+  { quantity: 2, price: 130 },
   { quantity: 5, price: 250 },
   { quantity: 10, price: 450 },
-]
+],
 },
 
 {
@@ -140,8 +142,9 @@ export const products = [
   image: "/creed-aventus.jpg",
   badge: "LUXURY",
   description: "Luxury fragrance with a powerful signature scent.",
-  deals: [
+ deals: [
   { quantity: 1, price: 70 },
+  { quantity: 2, price: 130 },
   { quantity: 5, price: 250 },
   { quantity: 10, price: 450 },
 ],
@@ -157,7 +160,8 @@ export const products = [
   badge: "BEST SELLER",
   description: "Iconic luxury fragrance with outstanding projection.",
   deals: [
-  { quantity: 1, price: 60 },
+  { quantity: 1, price: 70 },
+  { quantity: 2, price: 130 },
   { quantity: 5, price: 250 },
   { quantity: 10, price: 450 },
 ],
@@ -188,8 +192,9 @@ export const products = [
   image: "/ysl-y.jpg",
   badge: "POPULAR",
   description: "Fresh and modern Yves Saint Laurent fragrance.",
-  deals: [
+deals: [
   { quantity: 1, price: 70 },
+  { quantity: 2, price: 130 },
   { quantity: 5, price: 250 },
   { quantity: 10, price: 450 },
 ],
@@ -204,8 +209,9 @@ export const products = [
   image: "/valentino-uomo.jpg",
   badge: "NEW DROP",
   description: "Elegant Valentino fragrance with premium notes.",
-  deals: [
+ deals: [
   { quantity: 1, price: 70 },
+  { quantity: 2, price: 130 },
   { quantity: 5, price: 250 },
   { quantity: 10, price: 450 },
 ],
@@ -222,6 +228,7 @@ export const products = [
   description: "Sophisticated Tom Ford fragrance.",
   deals: [
   { quantity: 1, price: 70 },
+  { quantity: 2, price: 130 },
   { quantity: 5, price: 250 },
   { quantity: 10, price: 450 },
 ],
@@ -237,7 +244,8 @@ export const products = [
   badge: "BEST SELLER",
   description: "Popular Jean Paul Gaultier fragrance.",
   deals: [
-  { quantity: 1, price: 60 },
+  { quantity: 1, price: 70 },
+  { quantity: 2, price: 130 },
   { quantity: 5, price: 250 },
   { quantity: 10, price: 450 },
 ],

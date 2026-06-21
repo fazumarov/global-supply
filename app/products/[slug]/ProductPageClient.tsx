@@ -128,7 +128,17 @@ if (product.slug === "lv-cologne") {
             {deals.length > 0 && product.price !== 0 && (
               <div className="mt-8">
                 <h3 className="text-xl font-black mb-4">BULK DEALS</h3>
+    {product.category === "Fragrances" && (
+      <p className="text-green-400 text-sm mt-4 font-semibold">
+        Mix & Match available. Bundle deals can include different fragrances and quantities.
+      </p>
+    )}
 
+    {product.category === "Shoes" && (
+      <p className="text-yellow-400 text-sm mt-4 font-semibold">
+        * Prices shown are WITHOUT box. Add $20 for original box.
+      </p>
+    )}
                 <div className="space-y-3">
                   {deals.map((deal) => (
                     <button
