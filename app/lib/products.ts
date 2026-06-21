@@ -244,7 +244,7 @@ deals: [
   badge: "BEST SELLER",
   description: "Popular Jean Paul Gaultier fragrance.",
 deals: [
-  { quantity: 1, price: 60 },
+  { quantity: 1, price: 50 },
   { quantity: 2, price: 130 },
   { quantity: 5, price: 250 },
   { quantity: 10, price: 450 },
