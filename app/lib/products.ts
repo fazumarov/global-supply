@@ -45,6 +45,21 @@ export const products = [
   { quantity: 5, price: 650 },
 ],
   },
+  {
+    id: 1,
+    slug: "airpods-gen-4",
+    name: "AirPods Gen 4",
+    price: 35,
+    category: "Electronics",
+    image: "/airpods-pro.jpg",
+    badge: "BUNDLE DEAL",
+    description: "Bundle pricing: 1 for $35, 2 for $55, 5 for $125.",
+    deals: [
+  { quantity: 1, price: 35 },
+  { quantity: 2, price: 55 },
+  { quantity: 5, price: 125 },
+],
+  },
 
   // SHOES\
 // SHOES
