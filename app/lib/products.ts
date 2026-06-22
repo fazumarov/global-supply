@@ -46,7 +46,7 @@ export const products = [
 ],
   },
   {
-    id: 1,
+    id: 4,
     slug: "airpods-gen-4",
     name: "AirPods Gen 4",
     price: 35,
