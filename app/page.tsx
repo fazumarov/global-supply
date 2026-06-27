@@ -246,7 +246,7 @@ Please send payment information.`;
              
             </p>
 
-            <div className="mt-8 flex flex-col sm:flex-row gap-4">
+           <div className="mt-10 flex flex-row justify-center gap-4">
               <a
                 href="#catalog"
                 className="bg-white text-black px-8 py-4 rounded-full font-black text-center hover:bg-gray-200 transition"
