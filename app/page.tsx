@@ -265,7 +265,7 @@ Please send payment information.`;
           </div>
         </div>
       </section>
-<section className="px-6 py-20">
+<section className="px-6 py-12">
   <div className="max-w-7xl mx-auto">
     <p className="text-sm tracking-[0.3em] text-gray-500 font-bold">
       SHOP BY CATEGORY
