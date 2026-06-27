@@ -85,7 +85,7 @@ Please send payment information.`;
   }
 
   return (
-    <main className="min-h-[65vh][050505] text-white">
+    <main className="min-h-[55vh] md:min-h-[60vh] [050505] text-white">
       {cartOpen && (
         <div className="fixed inset-0 z-[100]">
           <div
