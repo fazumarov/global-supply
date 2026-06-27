@@ -34,13 +34,14 @@ export const products = [
     id: 3,
     slug: "airpods-max",
     name: "AirPods Max",
-    price: 139.99,
+    price: 160,
     category: "Electronics",
     image: "/airpods-max.jpg",
     badge: "BEST SELLER",
     description: "AirPods Max. Bundle pricing: 2 for $160 each.",
     deals: [
-  { quantity: 1, price: 139.99 },
+  { quantity: 1, price: 160
+   },
   { quantity: 2, price: 280 },
   { quantity: 5, price: 650 },
 ],
