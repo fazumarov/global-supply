@@ -232,7 +232,7 @@ Please send payment information.`;
         </div>
       </nav>
 
-     <section className="relative min-h-[45vh] md:min-h-[55vh] flex items-center px-6 pt-20 pb-8">
+     <section className="relative min-h-[55vh] md:min-h-[65vh] flex items-center px-6 pt-20 pb-8">
         <div className="absolute inset-0 bg-[url('/hero-bg.png')] bg-cover bg-center opacity-80"></div>
       <div className="absolute inset-0 bg-black/25"></div>
       <div className="absolute inset-0 bg-gradient-to-r from-black via-black/50 to-black/10"></div>
@@ -246,7 +246,7 @@ Please send payment information.`;
              
             </p>
 
-           <div className="mt-10 flex flex-row justify-center gap-4">
+          <div className="mt-32 flex justify-center gap-4">
               <a
                 href="#catalog"
                 className="bg-white text-black px-8 py-4 rounded-full font-black text-center hover:bg-gray-200 transition"
