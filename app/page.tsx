@@ -239,19 +239,15 @@ Please send payment information.`;
       <div className="absolute inset-0 bg-gradient-to-b from-black/20 via-transparent to-[#050505]"></div>
         <div className="relative max-w-7xl mx-auto w-full">
           <div className="max-w-3xl">
-            <p className="text-sm tracking-[0.4em] text-gray-400 font-bold">
-              PRIVATE ACCESS • DAILY DROPS • TELEGRAM CHECKOUT
-            </p>
+          
 
-            <h1 className="mt-5 text-4xl md:text-7xl font-black leading-[0.9] max-w-4xl">
-              EXCLUSIVE
-              <br />
-              SUPPLY.
-            </h1>
-
+            <h1 className="mt-6 text-5xl md:text-7xl font-black leading-none">
+  Premium Products.
+  <br />
+  Fast Telegram Checkout.
+</h1>
             <p className="mt-5 text-base md:text-lg max-w-2xl">
-              Premium products, private deals, and fast checkout through
-              Telegram.
+             
             </p>
 
             <div className="mt-8 flex flex-col sm:flex-row gap-4">
