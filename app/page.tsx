@@ -241,11 +241,7 @@ Please send payment information.`;
           <div className="max-w-3xl">
           
 
-            <h1 className="mt-6 text-5xl md:text-7xl font-black leading-none">
-  Premium Products.
-  <br />
-  Fast Telegram Checkout.
-</h1>
+           
             <p className="mt-5 text-base md:text-lg max-w-2xl">
              
             </p>
