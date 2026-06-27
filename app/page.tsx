@@ -232,7 +232,7 @@ Please send payment information.`;
         </div>
       </nav>
 
-      <section className="relative min-h-screen flex items-center px-6 pt-28 overflow-hidden">
+     <section className="relative min-h-[70vh] md:min-h-[75vh] flex items-center px-6 pt-24 pb-16">
         <div className="absolute inset-0 bg-[url('/hero-bg.png')] bg-cover bg-center opacity-80"></div>
       <div className="absolute inset-0 bg-black/25"></div>
       <div className="absolute inset-0 bg-gradient-to-r from-black via-black/50 to-black/10"></div>
@@ -243,13 +243,13 @@ Please send payment information.`;
               PRIVATE ACCESS • DAILY DROPS • TELEGRAM CHECKOUT
             </p>
 
-            <h1 className="mt-6 text-5xl md:text-8xl font-black leading-none tracking-tight">
+            <h1 className="mt-5 text-4xl md:text-7xl font-black leading-[0.9] max-w-4xl">
               EXCLUSIVE
               <br />
               SUPPLY.
             </h1>
 
-            <p className="mt-6 text-lg text-gray-300 max-w-xl">
+            <p className="mt-5 text-base md:text-lg max-w-2xl">
               Premium products, private deals, and fast checkout through
               Telegram.
             </p>
