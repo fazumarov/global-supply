@@ -232,7 +232,7 @@ Please send payment information.`;
         </div>
       </nav>
 
-     <section className="relative min-h-[70vh] md:min-h-[75vh] flex items-center px-6 pt-24 pb-16">
+     <section className="relative min-h-[45vh] md:min-h-[55vh] flex items-center px-6 pt-20 pb-8">
         <div className="absolute inset-0 bg-[url('/hero-bg.png')] bg-cover bg-center opacity-80"></div>
       <div className="absolute inset-0 bg-black/25"></div>
       <div className="absolute inset-0 bg-gradient-to-r from-black via-black/50 to-black/10"></div>
