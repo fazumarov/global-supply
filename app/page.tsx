@@ -320,7 +320,7 @@ Please send payment information.`;
 </h3>
 
 <p className="text-gray-400 mt-3 relative z-10">
-  Nike Tech, Essentials and Chrome Hearts.
+  Essentials and Chrome Hearts.
 </p>
       </div>
 <div
