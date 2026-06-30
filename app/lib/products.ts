@@ -71,9 +71,9 @@ export const products = [
   badge: "BUNDLE DEAL",
   description: "Premium wireless headphones with bundle pricing.",
   deals: [
-    { quantity: 1, price: 65 },
-    { quantity: 2, price: 120 },
-    { quantity: 5, price: 300 },
+    { quantity: 1, price: 60 },
+    { quantity: 2, price: 110 },
+    { quantity: 5, price: 250 },
   ],
 },
 
