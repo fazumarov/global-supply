@@ -61,6 +61,21 @@ export const products = [
   { quantity: 5, price: 125 },
 ],
   },
+  {
+  id: 5, // Change this to the next unused ID
+  slug: "beats-solo-4",
+  name: "Beats Solo 4",
+  price: 65,
+  category: "Electronics",
+  image: "/beatssolo4.png",
+  badge: "BUNDLE DEAL",
+  description: "Premium wireless headphones with bundle pricing.",
+  deals: [
+    { quantity: 1, price: 65 },
+    { quantity: 2, price: 120 },
+    { quantity: 5, price: 300 },
+  ],
+},
 
   // SHOES\
 // SHOES
