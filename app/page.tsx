@@ -306,12 +306,22 @@ Please send payment information.`;
       .getElementById("catalog")
       ?.scrollIntoView({ behavior: "smooth" });
   }}
-  className="group bg-zinc-950 border border-white/10 rounded-[2rem] p-8 hover:border-white/40 hover:-translate-y-2 hover:shadow-2xl transition-all duration-300 cursor-pointer"
+ className="group relative overflow-hidden bg-zinc-950 border border-white/10 rounded-[2rem] p-8 hover:border-white/40 transition cursor-pointer"
 >
-        <h3 className="text-2xl font-black group-hover:text-white transition">Clothing</h3>
-        <p className="text-gray-400 mt-3">
-          Nike Tech, streetwear and daily drops.
-        </p>
+  <Image
+  src="/essentials-hoodie-black.jpg"
+  alt="Clothing"
+  width={220}
+  height={220}
+  className="absolute right-0 bottom-0 w-44 opacity-30 group-hover:opacity-60 group-hover:scale-105 transition duration-500 pointer-events-none"
+/>
+       <h3 className="text-2xl font-black group-hover:text-white transition relative z-10">
+  Clothing
+</h3>
+
+<p className="text-gray-400 mt-3 relative z-10">
+  Nike Tech, Essentials and Chrome Hearts.
+</p>
       </div>
 <div
   onClick={() => {
@@ -320,8 +330,15 @@ Please send payment information.`;
       .getElementById("catalog")
       ?.scrollIntoView({ behavior: "smooth" });
   }}
-  className="group bg-zinc-950 border border-white/10 rounded-[2rem] p-8 hover:border-white/40 hover:-translate-y-2 hover:shadow-2xl transition cursor-pointer"
+ className="group relative overflow-hidden bg-zinc-950 border border-white/10 rounded-[2rem] p-8 hover:border-white/40 transition cursor-pointer"
 >
+  <Image
+  src="/air-jordan-4-black-cat.jpg"
+  alt="Shoes"
+  width={220}
+  height={220}
+  className="absolute right-0 bottom-0 w-44 opacity-30 group-hover:opacity-60 group-hover:scale-105 transition duration-500 pointer-events-none"
+/>
   <h3 className="text-2xl font-black group-hover:text-white transition">
     Shoes
   </h3>
@@ -337,12 +354,22 @@ Please send payment information.`;
       .getElementById("catalog")
       ?.scrollIntoView({ behavior: "smooth" });
   }}
-  className="group bg-zinc-950 border border-white/10 rounded-[2rem] p-8 hover:border-white/40 hover:-translate-y-2 hover:shadow-2xl transition-all duration-300 cursor-pointer"
+ className="group relative overflow-hidden bg-zinc-950 border border-white/10 rounded-[2rem] p-8 hover:border-white/40 transition cursor-pointer"
 >
-        <h3 className="text-2xl font-black group-hover:text-white transition">Fragrances</h3>
-        <p className="text-gray-400 mt-3">
-          Designer scents and premium releases.
-        </p>  
+  <Image
+  src="/dior-sauvage.jpg"
+  alt="Fragrances"
+  width={200}
+  height={200}
+  className="absolute right-4 bottom-0 w-28 opacity-30 group-hover:opacity-60 group-hover:scale-105 transition duration-500 pointer-events-none"
+/>
+        <h3 className="text-2xl font-black group-hover:text-white transition relative z-10">
+  Fragrances
+</h3>
+
+<p className="text-gray-400 mt-3 relative z-10">
+  Designer fragrances and bundle deals.
+</p>
       </div>
 
      <div
@@ -352,12 +379,22 @@ Please send payment information.`;
         .getElementById("catalog")
         ?.scrollIntoView({ behavior: "smooth" });
 }}
-  className="group bg-zinc-950 border border-white/10 rounded-[2rem] p-8 hover:border-white/40 hover:-translate-y-2 hover:shadow-2xl transition-all duration-300 cursor-pointer"
+  className="group relative overflow-hidden bg-zinc-950 border border-white/10 rounded-[2rem] p-8 hover:border-white/40 transition cursor-pointer"
 >
-        <h3 className="text-2xl font-black group-hover:text-white transition">Bags</h3>
-        <p className="text-gray-400 mt-3">
-          Luxury timepieces and exclusive models.
-        </p>
+  <Image
+  src="/lv-neverfull.jpg"
+  alt="Bags"
+  width={220}
+  height={220}
+  className="absolute right-0 bottom-0 w-40 opacity-30 group-hover:opacity-60 group-hover:scale-105 transition duration-500 pointer-events-none"
+/>
+        <h3 className="text-2xl font-black group-hover:text-white transition relative z-10">
+  Bags
+</h3>
+
+<p className="text-gray-400 mt-3 relative z-10">
+  Luxury handbags and accessories.
+</p>
       </div>
     </div>
   </div>
