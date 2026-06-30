@@ -287,7 +287,7 @@ Please send payment information.`;
   className="group relative overflow-hidden bg-zinc-950 border border-white/10 rounded-[2rem] p-8 hover:border-white/40 transition cursor-pointer"
 >
    <Image
-    src="/airpods-max.jpg"
+    src="/airpods-max.png"
     alt="Electronics"
     width={220}
     height={220}
@@ -309,7 +309,7 @@ Please send payment information.`;
  className="group relative overflow-hidden bg-zinc-950 border border-white/10 rounded-[2rem] p-8 hover:border-white/40 transition cursor-pointer"
 >
   <Image
-  src="/essentials-hoodie-black.jpg"
+  src="/essentials-hoodie-black.png"
   alt="Clothing"
   width={220}
   height={220}
@@ -333,7 +333,7 @@ Please send payment information.`;
  className="group relative overflow-hidden bg-zinc-950 border border-white/10 rounded-[2rem] p-8 hover:border-white/40 transition cursor-pointer"
 >
   <Image
-  src="/air-jordan-4-black-cat.jpg"
+  src="/air-jordan-4-black-cat.png"
   alt="Shoes"
   width={220}
   height={220}
@@ -382,7 +382,7 @@ Please send payment information.`;
   className="group relative overflow-hidden bg-zinc-950 border border-white/10 rounded-[2rem] p-8 hover:border-white/40 transition cursor-pointer"
 >
   <Image
-  src="/lv-neverfull.jpg"
+  src="/lv-neverfull.png"
   alt="Bags"
   width={220}
   height={220}
