@@ -664,7 +664,7 @@ Please send payment information.`;
 </footer>
 
  <a
-  href="https://t.me/GlobalSupplyOffical"
+  href="https://https://t.me/+UVjctKKEN_wzN2M5"
   target="_blank"
   className="fixed bottom-6 right-6 z-50 bg-white text-black px-6 py-3 rounded-full font-black shadow-lg hover:scale-105 transition"
 >
