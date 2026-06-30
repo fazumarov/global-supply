@@ -382,55 +382,61 @@ Please send payment information.`;
     </div>
   </div>
 </section>
-<section className="px-6 py-20">
+<section className="px-6 py-20 border-t border-white/10">
   <div className="max-w-7xl mx-auto">
-    <div className="grid md:grid-cols-2 gap-16 items-center">
-      <div>
-        <p className="text-sm tracking-[0.3em] text-gray-500 font-bold">
-          ABOUT GLOBAL SUPPLY
-        </p>
+    <p className="text-sm tracking-[0.3em] text-gray-500 font-bold">
+      HOW TO ORDER
+    </p>
 
-        <h2 className="text-4xl md:text-6xl font-black mt-3">
-          EXCLUSIVE DROPS.
-          <br />
-          PRIVATE ACCESS.
-        </h2>
+    <h2 className="text-4xl md:text-6xl font-black mt-3">
+      ORDER IN
+      <br />
+      3 SIMPLE STEPS.
+    </h2>
 
-        <p className="text-gray-400 mt-6 text-lg leading-relaxed">
-          Global Supply provides access to premium products, daily
-          releases, and exclusive deals through a streamlined Telegram
-          checkout experience.
-        </p>
+    <p className="text-gray-400 mt-6 text-lg max-w-2xl">
+      Browse products, build your cart, and checkout directly through Telegram.
+      Fast, simple, and secure.
+    </p>
 
-        <p className="text-gray-400 mt-4 text-lg leading-relaxed">
-          Fast responses. Fast shipping. Premium products.
+    <div className="grid md:grid-cols-3 gap-6 mt-12">
+
+      <div className="bg-zinc-950 border border-white/10 rounded-[2rem] p-8 hover:border-white/30 transition">
+        <div className="text-5xl font-black text-white/20">01</div>
+
+        <h3 className="text-2xl font-black mt-4">
+          Browse
+        </h3>
+
+        <p className="text-gray-400 mt-3 leading-relaxed">
+          Explore Electronics, Clothing, Shoes, Fragrances, and Bags.
         </p>
       </div>
 
-      <div className="bg-zinc-950 border border-white/10 rounded-[2rem] p-10">
-        <div className="space-y-6">
-          <div>
-            <h3 className="text-xl font-black">Premium Products</h3>
-            <p className="text-gray-400 mt-2">
-              Carefully selected products from trusted suppliers.
-            </p>
-          </div>
+      <div className="bg-zinc-950 border border-white/10 rounded-[2rem] p-8 hover:border-white/30 transition">
+        <div className="text-5xl font-black text-white/20">02</div>
 
-          <div>
-            <h3 className="text-xl font-black">Private Checkout</h3>
-            <p className="text-gray-400 mt-2">
-              Quick ordering through Telegram with direct support.
-            </p>
-          </div>
+        <h3 className="text-2xl font-black mt-4">
+          Add To Cart
+        </h3>
 
-          <div>
-            <h3 className="text-xl font-black">Daily Drops</h3>
-            <p className="text-gray-400 mt-2">
-              New products and limited deals added regularly.
-            </p>
-          </div>
-        </div>
+        <p className="text-gray-400 mt-3 leading-relaxed">
+          Choose your quantity or bundle deal, then review your cart before checkout.
+        </p>
       </div>
+
+      <div className="bg-zinc-950 border border-white/10 rounded-[2rem] p-8 hover:border-white/30 transition">
+        <div className="text-5xl font-black text-white/20">03</div>
+
+        <h3 className="text-2xl font-black mt-4">
+          Checkout
+        </h3>
+
+        <p className="text-gray-400 mt-3 leading-relaxed">
+          Complete your order through Telegram. We'll confirm your order, shipping details, and answer any questions.
+        </p>
+      </div>
+
     </div>
   </div>
 </section>
