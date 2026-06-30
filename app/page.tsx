@@ -287,7 +287,7 @@ Please send payment information.`;
   className="group relative overflow-hidden bg-zinc-950 border border-white/10 rounded-[2rem] p-8 hover:border-white/40 transition cursor-pointer"
 >
    <Image
-    src="/airpods-max.png"
+    src="/airpods-pro.jpg"
     alt="Electronics"
     width={220}
     height={220}
@@ -309,7 +309,7 @@ Please send payment information.`;
  className="group relative overflow-hidden bg-zinc-950 border border-white/10 rounded-[2rem] p-8 hover:border-white/40 transition cursor-pointer"
 >
   <Image
-  src="/essentials-hoodie-black.png"
+  src="/essentials-hoodie-beige.png"
   alt="Clothing"
   width={220}
   height={220}
@@ -333,7 +333,7 @@ Please send payment information.`;
  className="group relative overflow-hidden bg-zinc-950 border border-white/10 rounded-[2rem] p-8 hover:border-white/40 transition cursor-pointer"
 >
   <Image
-  src="/air-jordan-4-black-cat.png"
+  src="/air-jordan-4-white-cement.png"
   alt="Shoes"
   width={220}
   height={220}
