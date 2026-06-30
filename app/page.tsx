@@ -440,54 +440,6 @@ Please send payment information.`;
     </div>
   </div>
 </section>
-<section className="px-6 py-24 border-t border-white/10">
-  <div className="max-w-7xl mx-auto">
-    <p className="text-sm tracking-[0.3em] text-gray-500 font-bold">
-      FEATURED DROP
-    </p>
-
-    <div className="grid md:grid-cols-2 gap-12 items-center mt-6">
-      <div className="overflow-hidden rounded-[2rem] border border-white/10 bg-zinc-950">
-        <img
-          src="/airpods-max.jpg"
-          alt="AirPods Max"
-          className="w-full h-full object-cover hover:scale-105 transition duration-700"
-        />
-      </div>
-
-      <div>
-        <div className="inline-flex rounded-full bg-white text-black px-4 py-2 text-xs font-black tracking-widest mb-6">
-          BEST SELLER
-        </div>
-
-        <h2 className="text-5xl md:text-7xl font-black leading-none">
-          AIRPODS
-          <br />
-          MAX
-        </h2>
-              
-        <p className="text-gray-400 text-lg mt-8 leading-relaxed">
-          Premium over-ear headphones with luxury design,
-          immersive sound, and strong resale demand.
-        </p>
-
-        <div className="mt-8 space-y-3">
-          <p>✓ Premium Audio Experience</p>
-          <p>✓ Luxury Design</p>
-          <p>✓ Fast Shipping</p>
-          <p>✓ Limited Availability</p>
-        </div>
-
-        <a
-          href="/products/airpods-max"
-          className="inline-block mt-10 bg-white text-black px-8 py-4 rounded-full font-black hover:bg-gray-200 transition"
-        >
-          SHOP NOW
-        </a>
-      </div>
-    </div>
-  </div>
-</section>
       <section id="catalog" className="px-6 py-16">
         <div className="max-w-7xl mx-auto">
           <div className="flex flex-col md:flex-row md:items-end md:justify-between gap-6 mb-8">
