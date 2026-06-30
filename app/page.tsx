@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import Image from "next/image";
 import { products } from "./lib/products";
 
 export default function Home() {
@@ -283,8 +284,15 @@ Please send payment information.`;
       .getElementById("catalog")
       ?.scrollIntoView({ behavior: "smooth" });
   }}
-  className="group bg-zinc-950 border border-white/10 rounded-[2rem] p-8 hover:border-white/40 hover:-translate-y-2 hover:shadow-2xl transition-all duration-300 cursor-pointer"
+  className="group relative overflow-hidden bg-zinc-950 border border-white/10 rounded-[2rem] p-8 hover:border-white/40 transition cursor-pointer"
 >
+   <Image
+    src="/airpods-max.jpg"
+    alt="Electronics"
+    width={220}
+    height={220}
+    className="absolute right-0 bottom-0 w-40 opacity-30 group-hover:opacity-60 group-hover:scale-105 transition duration-500 pointer-events-none"
+    />
         <h3 className="text-2xl font-black group-hover:text-white transition">Electronics</h3>
         <p className="text-gray-400 mt-3">
           AirPods, headphones, accessories and more.
