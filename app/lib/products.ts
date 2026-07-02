@@ -281,6 +281,22 @@ deals: [
   { quantity: 10, price: 450 },
 ],
 },
+{
+  id: 21, // use the next available ID
+  slug: "ysl-libre",
+  name: "YSL Libre",
+  price: 50,
+  category: "Fragrances",
+  image: "/ysl-libre.jpg",
+  badge: "NEW",
+  description: "Elegant floral fragrance with a modern and luxurious scent.",
+  deals: [
+  { quantity: 1, price: 50 },
+  { quantity: 2, price: 130 },
+  { quantity: 5, price: 250 },
+  { quantity: 10, price: 450 },
+],
+},
 // CLOTHING
 
 {
