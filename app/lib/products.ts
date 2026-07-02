@@ -140,11 +140,11 @@ export const products = [
   image: "/dior-sauvage.jpg",
   badge: "BEST SELLER",
   description: "One of the most popular men's fragrances worldwide.",
-deals: [
+ deals: [
   { quantity: 1, price: 50 },
-  { quantity: 2, price: 130 },
-  { quantity: 5, price: 250 },
-  { quantity: 10, price: 450 },
+  { quantity: 2, price: 90 },
+  { quantity: 5, price: 200 },
+  { quantity: 10, price: 350 },
 ],
 },
 {
@@ -156,11 +156,11 @@ deals: [
   image: "/bleu-de-chanel.jpg",
   badge: "BEST SELLER",
   description: "Fresh, clean and versatile fragrance.",
-deals: [
+ deals: [
   { quantity: 1, price: 50 },
-  { quantity: 2, price: 130 },
-  { quantity: 5, price: 250 },
-  { quantity: 10, price: 450 },
+  { quantity: 2, price: 90 },
+  { quantity: 5, price: 200 },
+  { quantity: 10, price: 350 },
 ],
 },
 
@@ -173,11 +173,11 @@ deals: [
   image: "/creed-aventus.jpg",
   badge: "LUXURY",
   description: "Luxury fragrance with a powerful signature scent.",
-deals: [
+ deals: [
   { quantity: 1, price: 50 },
-  { quantity: 2, price: 130 },
-  { quantity: 5, price: 250 },
-  { quantity: 10, price: 450 },
+  { quantity: 2, price: 90 },
+  { quantity: 5, price: 200 },
+  { quantity: 10, price: 350 },
 ],
 },
 
@@ -190,11 +190,11 @@ deals: [
   image: "/baccarat-rouge-540.jpg",
   badge: "BEST SELLER",
   description: "Iconic luxury fragrance with outstanding projection.",
-deals: [
+ deals: [
   { quantity: 1, price: 50 },
-  { quantity: 2, price: 130 },
-  { quantity: 5, price: 250 },
-  { quantity: 10, price: 450 },
+  { quantity: 2, price: 90 },
+  { quantity: 5, price: 200 },
+  { quantity: 10, price: 350 },
 ],
 },
 
@@ -223,11 +223,11 @@ deals: [
   image: "/ysl-y.jpg",
   badge: "POPULAR",
   description: "Fresh and modern Yves Saint Laurent fragrance.",
-deals: [
+ deals: [
   { quantity: 1, price: 50 },
-  { quantity: 2, price: 130 },
-  { quantity: 5, price: 250 },
-  { quantity: 10, price: 450 },
+  { quantity: 2, price: 90 },
+  { quantity: 5, price: 200 },
+  { quantity: 10, price: 350 },
 ],
 },
 
@@ -240,11 +240,11 @@ deals: [
   image: "/valentino-uomo.jpg",
   badge: "NEW DROP",
   description: "Elegant Valentino fragrance with premium notes.",
-deals: [
+ deals: [
   { quantity: 1, price: 50 },
-  { quantity: 2, price: 130 },
-  { quantity: 5, price: 250 },
-  { quantity: 10, price: 450 },
+  { quantity: 2, price: 90 },
+  { quantity: 5, price: 200 },
+  { quantity: 10, price: 350 },
 ],
 },
 
@@ -257,11 +257,11 @@ deals: [
   image: "/tom-ford-oud-wood.jpg",
   badge: "LUXURY",
   description: "Sophisticated Tom Ford fragrance.",
- deals: [
+  deals: [
   { quantity: 1, price: 50 },
-  { quantity: 2, price: 130 },
-  { quantity: 5, price: 250 },
-  { quantity: 10, price: 450 },
+  { quantity: 2, price: 90 },
+  { quantity: 5, price: 200 },
+  { quantity: 10, price: 350 },
 ],
 },
 
@@ -274,11 +274,11 @@ deals: [
   image: "/jean-paul-gaultier-le-male.jpg",
   badge: "BEST SELLER",
   description: "Popular Jean Paul Gaultier fragrance.",
-deals: [
+ deals: [
   { quantity: 1, price: 50 },
-  { quantity: 2, price: 130 },
-  { quantity: 5, price: 250 },
-  { quantity: 10, price: 450 },
+  { quantity: 2, price: 90 },
+  { quantity: 5, price: 200 },
+  { quantity: 10, price: 350 },
 ],
 },
 {
@@ -292,9 +292,9 @@ deals: [
   description: "Elegant floral fragrance with a modern and luxurious scent.",
   deals: [
   { quantity: 1, price: 50 },
-  { quantity: 2, price: 130 },
-  { quantity: 5, price: 250 },
-  { quantity: 10, price: 450 },
+  { quantity: 2, price: 90 },
+  { quantity: 5, price: 200 },
+  { quantity: 10, price: 350 },
 ],
 },
 // CLOTHING
