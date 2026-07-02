@@ -130,7 +130,22 @@ export const products = [
 
   // FRAGRANCES
 // FRAGRANCES
-
+{
+  id: 10, // Use the next available unique ID
+  slug: "parfums-de-marly",
+  name: "Parfums de Marly",
+  price: 70,
+  category: "Fragrances",
+  image: "/parfums-de-marly.jpg",
+  badge: "NEW",
+  description: "Luxury niche fragrance with exceptional performance and premium quality.",
+  deals: [
+    { quantity: 1, price: 70 },
+    { quantity: 2, price: 130 },
+    { quantity: 5, price: 300 },
+    { quantity: 10, price: 550 },
+  ],
+},
 {
   id: 11,
   slug: "dior-sauvage",
@@ -288,7 +303,6 @@ export const products = [
   price: 50,
   category: "Fragrances",
   image: "/ysl-libre.jpg",
-  badge: "NEW",
   description: "Elegant floral fragrance with a modern and luxurious scent.",
   deals: [
   { quantity: 1, price: 50 },
