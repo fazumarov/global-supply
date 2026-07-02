@@ -266,7 +266,7 @@ deals: [
 },
 
 {
-  id: 20,
+  id: 19,
   slug: "jean-paul-gaultier-le-male",
   name: "Jean Paul Gaultier Le Male",
   price: 50,
@@ -282,7 +282,7 @@ deals: [
 ],
 },
 {
-  id: 21, // use the next available ID
+  id: 20, // use the next available ID
   slug: "ysl-libre",
   name: "YSL Libre",
   price: 50,
