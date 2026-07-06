@@ -4,7 +4,7 @@ export const products = [
     id: 1,
     slug: "airpods-pro-2",
     name: "AirPods Pro 2",
-    price: 45,
+    price: 40,
     category: "Electronics",
     image: "/airpods-pro.jpg",
     badge: "BUNDLE DEAL",
