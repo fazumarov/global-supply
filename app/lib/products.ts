@@ -343,7 +343,7 @@ export const products = [
 },
 {
   id: 28,
-  slug: "Creed Absolute",
+  slug: "creed Absolute",
   name: "Creed Absolute",
   price: 70,
   category: "Fragrances",
