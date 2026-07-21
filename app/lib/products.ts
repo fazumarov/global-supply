@@ -205,7 +205,6 @@ export const products = [
   price: 50,
   category: "Fragrances",
   image: "/baccarat-rouge-540.jpg",
-  badge: "BEST SELLER",
   description: "Iconic luxury fragrance with outstanding projection.",
  deals: [
   { quantity: 1, price: 50 },
@@ -255,7 +254,6 @@ export const products = [
   price: 50,
   category: "Fragrances",
   image: "/valentino-uomo.jpg",
-  badge: "NEW DROP",
   description: "Elegant Valentino fragrance with premium notes.",
  deals: [
   { quantity: 1, price: 50 },
@@ -289,7 +287,6 @@ export const products = [
   price: 50,
   category: "Fragrances",
   image: "/jean-paul-gaultier-le-male.jpg",
-  badge: "BEST SELLER",
   description: "Popular Jean Paul Gaultier fragrance.",
  deals: [
   { quantity: 1, price: 50 },
@@ -320,7 +317,6 @@ export const products = [
   price: 50,
   category: "Fragrances",
   image: "/jpg-le-beau-le-parfum.jpg",
-  badge: "NEW",
   description: "Popular Jean Paul Gaultier fragrance.",
   deals: [
     { quantity: 1, price: 50 },
@@ -336,7 +332,7 @@ export const products = [
   price: 50,
   category: "Fragrances",
   image: "/jpg-le-male-elixir.jpg",
-  badge: "NEW",
+  badge: "POPULAR",
   description: "Premium Jean Paul Gaultier fragrance.",
   deals: [
     { quantity: 1, price: 50 },
@@ -344,6 +340,22 @@ export const products = [
     { quantity: 5, price: 200 },
     { quantity: 10, price: 350 },
   ],
+},
+{
+  id: 28,
+  slug: "Creed Absolute",
+  name: "Creed Absolute",
+  price: 70,
+  category: "Fragrances",
+  image: "Creed-Absolute.png",
+  badge: "NEW DROP",
+ description: "A bold and sophisticated fragrance with a rich, fresh scent made to leave a lasting impression.",
+ deals: [
+  { quantity: 1, price: 70 },
+  { quantity: 2, price: 120 },
+  { quantity: 5, price: 250 },
+  { quantity: 10, price: 400 },
+],
 },
 // CLOTHING
 
