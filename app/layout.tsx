@@ -13,8 +13,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-title: "Global Supply",
-description: "Exclusive drops, private checkout, and premium products.",
+  title: "Global Supply",
+  description: "Exclusive drops, private checkout, and premium products.",
+  themeColor: "#000000",
 };
 
 export default function RootLayout({
@@ -25,9 +26,11 @@ export default function RootLayout({
   return (
     <html
       lang="en"
-      className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
+      className={`${geistSans.variable} ${geistMono.variable} h-full`}
     >
-      <body className="min-h-full flex flex-col">{children}</body>
+      <body className="min-h-screen bg-black text-white flex flex-col">
+        {children}
+      </body>
     </html>
   );
 }
