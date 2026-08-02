@@ -8,6 +8,7 @@ type Product = (typeof products)[0];
 type Deal = {
   quantity: number;
   price: number;
+  label?: string;
 };
 
 export default function ProductPageClient({ product }: { product: Product }) {
@@ -64,7 +65,7 @@ if (product.slug === "lv-cologne") {
     return [{ quantity: 1, price: product.price }];
   }
 
-  const deals = product.deals || getDeals();
+  const deals: Deal[] = product.deals || getDeals();
   const [selectedDeal, setSelectedDeal] = useState<Deal>(
     deals[0] || { quantity: 1, price: product.price }
   );
@@ -140,8 +141,21 @@ if (product.slug === "lv-cologne") {
                           : "border-white/10 bg-zinc-950 hover:border-white/30"
                       }`}
                     >
-                      <span className="font-bold">Buy {deal.quantity}</span>
-                      <span className="text-2xl font-black">${deal.price}</span>
+                     <div className="text-left">
+  <span className="font-bold">
+    Buy {deal.quantity}
+  </span>
+
+  {deal.label && (
+    <p className="text-xs text-green-400 font-bold mt-1">
+      {deal.label}
+    </p>
+  )}
+</div>
+
+<span className="text-2xl font-black">
+  ${deal.price}
+</span>
                     </button>
                   ))}
                 </div>
