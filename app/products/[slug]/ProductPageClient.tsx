@@ -3,7 +3,10 @@
 import { useState } from "react";
 import Image from "next/image";
 import { products } from "@/app/lib/products";
-type Product = (typeof products)[0];
+
+type Product = (typeof products)[0] & {
+  originalPrice?: number;
+};
 
 type Deal = {
   quantity: number;
@@ -122,9 +125,25 @@ if (product.slug === "lv-cologne") {
               {product.category}
             </p>
 
-            <p className="text-4xl font-black mt-6">
-              {product.price === 0 ? "Message For Pricing" : `$${selectedDeal.price}`}
-            </p>
+            <div className="mt-6 flex items-center gap-3 flex-wrap">
+  {product.originalPrice && (
+    <span className="text-2xl text-gray-500 line-through">
+      ${product.originalPrice}
+    </span>
+  )}
+
+  <span className="text-4xl font-black">
+    {product.price === 0
+      ? "Message For Pricing"
+      : `$${product.price}`}
+  </span>
+
+  {product.originalPrice && (
+    <span className="rounded-full bg-green-500 px-3 py-1 text-xs font-black text-black">
+      PROMOTION
+    </span>
+  )}
+</div>
 
             {deals.length > 0 && product.price !== 0 && (
               <div className="mt-8">
