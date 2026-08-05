@@ -218,7 +218,6 @@ export const products = [
   price: 50,
   category: "Fragrances",
   image: "/ysl-y.jpg",
-  badge: "POPULAR",
   description: "Fresh and modern Yves Saint Laurent fragrance.",
  deals: [
   { quantity: 1, price: 50 },
@@ -328,7 +327,6 @@ export const products = [
   price: 70,
   category: "Fragrances",
   image: "Creed-Absolute.png",
-  badge: "NEW DROP",
  description: "A bold and sophisticated fragrance with a rich, fresh scent made to leave a lasting impression.",
  deals: [
   { quantity: 1, price: 70 },
@@ -336,6 +334,21 @@ export const products = [
   { quantity: 5, price: 250 },
   { quantity: 10, price: 400 },
 ],
+},
+{
+  id: 13,
+  slug: "santal-33",
+  name: "Santal 33",
+  price: 50,
+  category: "Fragrances",
+  image: "/santal-33.jpg",
+  description: "New Drop",
+   deals: [
+    { quantity: 1, price: 50,},
+    { quantity: 2, price: 80 },
+    { quantity: 5, price: 200 },
+    { quantity: 10, price: 350 },
+  ],
 },
 // CLOTHING
 
