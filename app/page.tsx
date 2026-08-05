@@ -66,7 +66,13 @@ const [cart, setCart] = useState<CartItem[]>([]);
 
     return matchesSearch && matchesCategory;
   });
-
+console.log(
+  filteredProducts.map((product) => ({
+    id: product.id,
+    slug: product.slug,
+    name: product.name,
+  }))
+);
   const total = cart.reduce((sum, item) => sum + item.price, 0);
   const telegramUsername = "GlobalSupplyOffical";
 
@@ -520,7 +526,8 @@ Please send payment information.`;
                 {item}
               </button>
             ))}
-          </div>
+          </div> 
+
 
           {filteredProducts.length === 0 ? (
             <p className="text-gray-400">No products found.</p>
@@ -528,7 +535,7 @@ Please send payment information.`;
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
               {filteredProducts.map((product) => (
                 <div
-                  key={product.id}
+                  key={product.slug}
                   className="group bg-zinc-950 rounded-[2rem] p-4 border border-white/10 hover:border-white/40 transition"
                 >
                   <div className="mb-3 inline-flex rounded-full bg-white text-black px-3 py-1 text-xs font-black tracking-widest">
