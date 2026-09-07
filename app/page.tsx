@@ -74,7 +74,7 @@ console.log(
   }))
 );
   const total = cart.reduce((sum, item) => sum + item.price, 0);
-  const telegramUsername = "GlobalSupplyOffical";
+  const telegramUsername = "GlobalSupplyTM";
 
   const orderMessage = `Hello Global Supply,
 
