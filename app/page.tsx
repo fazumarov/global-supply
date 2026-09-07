@@ -594,7 +594,7 @@ Please send payment information.`;
       </a>
 
       <a
-        href="https://t.me/GlobalSupplyOffical"
+        href="https://t.me/GlobalSupplyTM"
         target="_blank"
         className="hover:text-white"
       >
