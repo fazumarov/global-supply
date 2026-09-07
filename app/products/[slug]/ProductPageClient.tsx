@@ -205,7 +205,7 @@ if (product.slug === "lv-cologne") {
 
             {product.price === 0 ? (
               <a
-                href="https://t.me/GlobalSupplyOffical"
+                href="https://t.me/GlobalSupplyTM"
                 target="_blank"
                 className="block mt-8 w-full bg-white text-black py-4 rounded-full font-black text-center hover:bg-gray-200 transition"
               >
