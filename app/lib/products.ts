@@ -293,7 +293,7 @@ export const products = [
   id: 36,
   slug: "jean-paul-gaultier-le-beau-le-parfum",
   name: "Jean Paul Gaultier Le Beau Le Parfum",
-  price: 50,
+  price: 50, 
   category: "Fragrances",
   image: "/jpg-le-beau-le-parfum.jpg",
   description: "Popular Jean Paul Gaultier fragrance.",
