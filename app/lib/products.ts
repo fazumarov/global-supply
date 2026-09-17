@@ -960,7 +960,7 @@ export const products = [
     name: "Chrome Hearts Black Logo Long Sleeve",
     price: 50,
     category: "Clothing",
-    image: "/clothing-corrected/chrome-hearts-black-logo-long-sleeve.png",
+    image: "/clothing-transparent/chrome-hearts-black-logo-long-sleeve.png",
     deals: [],
   },
 
@@ -970,7 +970,7 @@ export const products = [
     name: "Chrome Hearts Black Long Sleeve",
     price: 50,
     category: "Clothing",
-    image: "/clothing-corrected/chrome-hearts-black-long-sleeve.png",
+    image: "/clothing-transparent/chrome-hearts-black-long-sleeve.png",
     deals: [],
   },
 
@@ -980,7 +980,7 @@ export const products = [
     name: "Chrome Hearts Black Pink Long Sleeve",
     price: 50,
     category: "Clothing",
-    image: "/clothing-corrected/chrome-hearts-black-pink-long-sleeve.png",
+    image: "/clothing-transparent/chrome-hearts-black-pink-long-sleeve.png",
     deals: [],
   },
 
@@ -990,7 +990,7 @@ export const products = [
     name: "Chrome Hearts Black T-Shirt",
     price: 50,
     category: "Clothing",
-    image: "/clothing-corrected/chrome-hearts-black-tshirt.png",
+    image: "/clothing-transparent/chrome-hearts-black-tshirt.png",
     deals: [],
   },
 
@@ -1000,7 +1000,7 @@ export const products = [
     name: "Chrome Hearts White Black Raglan",
     price: 50,
     category: "Clothing",
-    image: "/clothing-corrected/chrome-hearts-white-black-raglan.png",
+    image: "/clothing-transparent/chrome-hearts-white-black-raglan.png",
     deals: [],
   },
 
@@ -1010,7 +1010,7 @@ export const products = [
     name: "Chrome Hearts White Blue Raglan",
     price: 50,
     category: "Clothing",
-    image: "/clothing-corrected/chrome-hearts-white-blue-raglan.png",
+    image: "/clothing-transparent/chrome-hearts-white-blue-raglan.png",
     deals: [],
   },
 
@@ -1020,7 +1020,7 @@ export const products = [
     name: "Chrome Hearts White Rainbow Long Sleeve",
     price: 50,
     category: "Clothing",
-    image: "/clothing-corrected/chrome-hearts-white-rainbow-long-sleeve.png",
+    image: "/clothing-transparent/chrome-hearts-white-rainbow-long-sleeve.png",
     deals: [],
   },
 
@@ -1030,7 +1030,7 @@ export const products = [
     name: "Essentials Black Logo Shorts",
     price: 50,
     category: "Clothing",
-    image: "/clothing-corrected/essentials-black-logo-shorts.png",
+    image: "/clothing-transparent/essentials-black-logo-shorts.png",
     deals: [],
   },
 
@@ -1040,7 +1040,7 @@ export const products = [
     name: "Essentials Black Shorts",
     price: 50,
     category: "Clothing",
-    image: "/clothing-corrected/essentials-black-shorts.png",
+    image: "/clothing-transparent/essentials-black-shorts.png",
     deals: [],
   },
 
@@ -1050,7 +1050,7 @@ export const products = [
     name: "Essentials Black Sweatpants",
     price: 70,
     category: "Clothing",
-    image: "/clothing-corrected/essentials-black-sweatpants.png",
+    image: "/clothing-transparent/essentials-black-sweatpants.png",
     deals: [],
   },
 
@@ -1060,7 +1060,7 @@ export const products = [
     name: "Essentials Coral Shorts",
     price: 50,
     category: "Clothing",
-    image: "/clothing-corrected/essentials-coral-shorts.png",
+    image: "/clothing-transparent/essentials-coral-shorts.png",
     deals: [],
   },
 
@@ -1070,7 +1070,7 @@ export const products = [
     name: "Essentials Cream Logo Hoodie",
     price: 70,
     category: "Clothing",
-    image: "/clothing-corrected/essentials-cream-logo-hoodie.png",
+    image: "/clothing-transparent/essentials-cream-logo-hoodie.png",
     deals: [],
   },
 
@@ -1080,7 +1080,7 @@ export const products = [
     name: "Essentials Cream Sweatpants",
     price: 70,
     category: "Clothing",
-    image: "/clothing-corrected/essentials-cream-sweatpants.png",
+    image: "/clothing-transparent/essentials-cream-sweatpants.png",
     deals: [],
   },
 
@@ -1090,7 +1090,7 @@ export const products = [
     name: "Essentials Grey Minimal Hoodie",
     price: 70,
     category: "Clothing",
-    image: "/clothing-corrected/essentials-grey-minimal-hoodie.png",
+    image: "/clothing-transparent/essentials-grey-minimal-hoodie.png",
     deals: [],
   },
 
@@ -1100,7 +1100,7 @@ export const products = [
     name: "Essentials Grey Shorts",
     price: 50,
     category: "Clothing",
-    image: "/clothing-corrected/essentials-grey-shorts.png",
+    image: "/clothing-transparent/essentials-grey-shorts.png",
     deals: [],
   },
 
@@ -1110,7 +1110,7 @@ export const products = [
     name: "Essentials Grey Sweatpants",
     price: 70,
     category: "Clothing",
-    image: "/clothing-corrected/essentials-grey-sweatpants.png",
+    image: "/clothing-transparent/essentials-grey-sweatpants.png",
     deals: [],
   },
 
@@ -1120,7 +1120,7 @@ export const products = [
     name: "Essentials Red Fear of God Hoodie",
     price: 70,
     category: "Clothing",
-    image: "/clothing-corrected/essentials-red-fear-of-god-hoodie.png",
+    image: "/clothing-transparent/essentials-red-fear-of-god-hoodie.png",
     deals: [],
   },
 
@@ -1130,7 +1130,7 @@ export const products = [
     name: "Essentials Red Sweatpants",
     price: 70,
     category: "Clothing",
-    image: "/clothing-corrected/essentials-red-sweatpants.png",
+    image: "/clothing-transparent/essentials-red-sweatpants.png",
     deals: [],
   },
 
@@ -1140,7 +1140,7 @@ export const products = [
     name: "Essentials Taupe Minimal Hoodie",
     price: 70,
     category: "Clothing",
-    image: "/clothing-corrected/essentials-taupe-minimal-hoodie.png",
+    image: "/clothing-transparent/essentials-taupe-minimal-hoodie.png",
     deals: [],
   },
 
@@ -1150,7 +1150,7 @@ export const products = [
     name: "Essentials Taupe Sweatpants",
     price: 70,
     category: "Clothing",
-    image: "/clothing-corrected/essentials-taupe-sweatpants.png",
+    image: "/clothing-transparent/essentials-taupe-sweatpants.png",
     deals: [],
   },
 
@@ -1160,7 +1160,7 @@ export const products = [
     name: "Essentials White Grey Shorts",
     price: 50,
     category: "Clothing",
-    image: "/clothing-corrected/essentials-white-grey-shorts.png",
+    image: "/clothing-transparent/essentials-white-grey-shorts.png",
     deals: [],
   },
 
@@ -1170,7 +1170,7 @@ export const products = [
     name: "SP5DER Atlanta Navy Hoodie",
     price: 70,
     category: "Clothing",
-    image: "/clothing-corrected/sp5der-atlanta-navy-hoodie.png",
+    image: "/clothing-transparent/sp5der-atlanta-navy-hoodie.png",
     deals: [],
   },
 
@@ -1180,7 +1180,7 @@ export const products = [
     name: "SP5DER Atlanta Navy Sweatpants",
     price: 70,
     category: "Clothing",
-    image: "/clothing-corrected/sp5der-atlanta-navy-sweatpants.png",
+    image: "/clothing-transparent/sp5der-atlanta-navy-sweatpants.png",
     deals: [],
   },
 
@@ -1190,7 +1190,7 @@ export const products = [
     name: "SP5DER Black Basic Hoodie",
     price: 70,
     category: "Clothing",
-    image: "/clothing-corrected/sp5der-black-basic-hoodie.png",
+    image: "/clothing-transparent/sp5der-black-basic-hoodie.png",
     deals: [],
   },
 
@@ -1200,7 +1200,7 @@ export const products = [
     name: "SP5DER Black Basic Sweatpants",
     price: 70,
     category: "Clothing",
-    image: "/clothing-corrected/sp5der-black-basic-sweatpants.png",
+    image: "/clothing-transparent/sp5der-black-basic-sweatpants.png",
     deals: [],
   },
 
@@ -1210,7 +1210,7 @@ export const products = [
     name: "SP5DER Black Floral Hoodie",
     price: 70,
     category: "Clothing",
-    image: "/clothing-corrected/sp5der-black-floral-hoodie.png",
+    image: "/clothing-transparent/sp5der-black-floral-hoodie.png",
     deals: [],
   },
 
@@ -1220,7 +1220,7 @@ export const products = [
     name: "SP5DER Black Pink Hoodie",
     price: 70,
     category: "Clothing",
-    image: "/clothing-corrected/sp5der-black-pink-hoodie.png",
+    image: "/clothing-transparent/sp5der-black-pink-hoodie.png",
     deals: [],
   },
 
@@ -1230,7 +1230,7 @@ export const products = [
     name: "SP5DER Black Pink Sweatpants",
     price: 70,
     category: "Clothing",
-    image: "/clothing-corrected/sp5der-black-pink-sweatpants.png",
+    image: "/clothing-transparent/sp5der-black-pink-sweatpants.png",
     deals: [],
   },
 
@@ -1240,7 +1240,7 @@ export const products = [
     name: "SP5DER Black Pink Web Hoodie",
     price: 70,
     category: "Clothing",
-    image: "/clothing-corrected/sp5der-black-pink-web-hoodie.png",
+    image: "/clothing-transparent/sp5der-black-pink-web-hoodie.png",
     deals: [],
   },
 
@@ -1250,7 +1250,7 @@ export const products = [
     name: "SP5DER Black Pink Web Sweatpants",
     price: 70,
     category: "Clothing",
-    image: "/clothing-corrected/sp5der-black-pink-web-sweatpants.png",
+    image: "/clothing-transparent/sp5der-black-pink-web-sweatpants.png",
     deals: [],
   },
 
@@ -1260,7 +1260,7 @@ export const products = [
     name: "SP5DER Blue Floral Shorts",
     price: 50,
     category: "Clothing",
-    image: "/clothing-corrected/sp5der-blue-floral-shorts.png",
+    image: "/clothing-transparent/sp5der-blue-floral-shorts.png",
     deals: [],
   },
 
@@ -1270,7 +1270,7 @@ export const products = [
     name: "SP5DER Burgundy Floral Hoodie",
     price: 70,
     category: "Clothing",
-    image: "/clothing-corrected/sp5der-burgundy-floral-hoodie.png",
+    image: "/clothing-transparent/sp5der-burgundy-floral-hoodie.png",
     deals: [],
   },
 
@@ -1280,7 +1280,7 @@ export const products = [
     name: "SP5DER Burgundy Floral Sweatpants",
     price: 70,
     category: "Clothing",
-    image: "/clothing-corrected/sp5der-burgundy-floral-sweatpants.png",
+    image: "/clothing-transparent/sp5der-burgundy-floral-sweatpants.png",
     deals: [],
   },
 
@@ -1290,7 +1290,7 @@ export const products = [
     name: "SP5DER Charcoal Floral Hoodie",
     price: 70,
     category: "Clothing",
-    image: "/clothing-corrected/sp5der-charcoal-floral-hoodie.png",
+    image: "/clothing-transparent/sp5der-charcoal-floral-hoodie.png",
     deals: [],
   },
 
@@ -1300,7 +1300,7 @@ export const products = [
     name: "SP5DER Charcoal Floral Sweatpants",
     price: 70,
     category: "Clothing",
-    image: "/clothing-corrected/sp5der-charcoal-floral-sweatpants.png",
+    image: "/clothing-transparent/sp5der-charcoal-floral-sweatpants.png",
     deals: [],
   },
 
@@ -1310,7 +1310,7 @@ export const products = [
     name: "SP5DER Grey Floral Hoodie",
     price: 70,
     category: "Clothing",
-    image: "/clothing-corrected/sp5der-grey-floral-hoodie.png",
+    image: "/clothing-transparent/sp5der-grey-floral-hoodie.png",
     deals: [],
   },
 
@@ -1320,7 +1320,7 @@ export const products = [
     name: "SP5DER Grey Floral Shorts",
     price: 50,
     category: "Clothing",
-    image: "/clothing-corrected/sp5der-grey-floral-shorts.png",
+    image: "/clothing-transparent/sp5der-grey-floral-shorts.png",
     deals: [],
   },
 
@@ -1330,7 +1330,7 @@ export const products = [
     name: "SP5DER Grey Floral Sweatpants",
     price: 70,
     category: "Clothing",
-    image: "/clothing-corrected/sp5der-grey-floral-sweatpants.png",
+    image: "/clothing-transparent/sp5der-grey-floral-sweatpants.png",
     deals: [],
   },
 
@@ -1340,7 +1340,7 @@ export const products = [
     name: "SP5DER Grey Green Hoodie",
     price: 70,
     category: "Clothing",
-    image: "/clothing-corrected/sp5der-grey-green-hoodie.png",
+    image: "/clothing-transparent/sp5der-grey-green-hoodie.png",
     deals: [],
   },
 
@@ -1350,7 +1350,7 @@ export const products = [
     name: "SP5DER Grey Green Sweatpants",
     price: 70,
     category: "Clothing",
-    image: "/clothing-corrected/sp5der-grey-green-sweatpants.png",
+    image: "/clothing-transparent/sp5der-grey-green-sweatpants.png",
     deals: [],
   },
 
@@ -1360,7 +1360,7 @@ export const products = [
     name: "SP5DER Grey Stars Hoodie",
     price: 70,
     category: "Clothing",
-    image: "/clothing-corrected/sp5der-grey-stars-hoodie.png",
+    image: "/clothing-transparent/sp5der-grey-stars-hoodie.png",
     deals: [],
   },
 
@@ -1370,7 +1370,7 @@ export const products = [
     name: "SP5DER Grey Stars Sweatpants",
     price: 70,
     category: "Clothing",
-    image: "/clothing-corrected/sp5der-grey-stars-sweatpants.png",
+    image: "/clothing-transparent/sp5der-grey-stars-sweatpants.png",
     deals: [],
   },
 
@@ -1380,7 +1380,7 @@ export const products = [
     name: "SP5DER Lavender Hoodie",
     price: 70,
     category: "Clothing",
-    image: "/clothing-corrected/sp5der-lavender-hoodie.png",
+    image: "/clothing-transparent/sp5der-lavender-hoodie.png",
     deals: [],
   },
 
@@ -1390,7 +1390,7 @@ export const products = [
     name: "SP5DER Lavender Sweatpants",
     price: 70,
     category: "Clothing",
-    image: "/clothing-corrected/sp5der-lavender-sweatpants.png",
+    image: "/clothing-transparent/sp5der-lavender-sweatpants.png",
     deals: [],
   },
 
@@ -1400,7 +1400,7 @@ export const products = [
     name: "SP5DER Light Blue Floral Hoodie",
     price: 70,
     category: "Clothing",
-    image: "/clothing-corrected/sp5der-light-blue-floral-hoodie.png",
+    image: "/clothing-transparent/sp5der-light-blue-floral-hoodie.png",
     deals: [],
   },
 
@@ -1410,7 +1410,7 @@ export const products = [
     name: "SP5DER Light Blue Floral Sweatpants",
     price: 70,
     category: "Clothing",
-    image: "/clothing-corrected/sp5der-light-blue-floral-sweatpants.png",
+    image: "/clothing-transparent/sp5der-light-blue-floral-sweatpants.png",
     deals: [],
   },
 
@@ -1420,7 +1420,7 @@ export const products = [
     name: "SP5DER Light Blue Hoodie",
     price: 70,
     category: "Clothing",
-    image: "/clothing-corrected/sp5der-light-blue-hoodie.png",
+    image: "/clothing-transparent/sp5der-light-blue-hoodie.png",
     deals: [],
   },
 
@@ -1430,7 +1430,7 @@ export const products = [
     name: "SP5DER Light Blue Sweatpants",
     price: 70,
     category: "Clothing",
-    image: "/clothing-corrected/sp5der-light-blue-sweatpants.png",
+    image: "/clothing-transparent/sp5der-light-blue-sweatpants.png",
     deals: [],
   },
 
@@ -1440,7 +1440,7 @@ export const products = [
     name: "SP5DER Pink Floral Shorts",
     price: 50,
     category: "Clothing",
-    image: "/clothing-corrected/sp5der-pink-floral-shorts.png",
+    image: "/clothing-transparent/sp5der-pink-floral-shorts.png",
     deals: [],
   },
 
@@ -1450,7 +1450,7 @@ export const products = [
     name: "SP5DER Pink Hoodie",
     price: 70,
     category: "Clothing",
-    image: "/clothing-corrected/sp5der-pink-hoodie.png",
+    image: "/clothing-transparent/sp5der-pink-hoodie.png",
     deals: [],
   },
 
@@ -1460,7 +1460,7 @@ export const products = [
     name: "SP5DER Pink Sweatpants",
     price: 70,
     category: "Clothing",
-    image: "/clothing-corrected/sp5der-pink-sweatpants.png",
+    image: "/clothing-transparent/sp5der-pink-sweatpants.png",
     deals: [],
   },
 
@@ -1470,7 +1470,7 @@ export const products = [
     name: "SP5DER Purple Sweatpants",
     price: 70,
     category: "Clothing",
-    image: "/clothing-corrected/sp5der-purple-sweatpants.png",
+    image: "/clothing-transparent/sp5der-purple-sweatpants.png",
     deals: [],
   },
 
@@ -1480,7 +1480,7 @@ export const products = [
     name: "SP5DER Purple Web Hoodie",
     price: 70,
     category: "Clothing",
-    image: "/clothing-corrected/sp5der-purple-web-hoodie.png",
+    image: "/clothing-transparent/sp5der-purple-web-hoodie.png",
     deals: [],
   },
 
@@ -1490,7 +1490,7 @@ export const products = [
     name: "SP5DER Red Floral Shorts",
     price: 50,
     category: "Clothing",
-    image: "/clothing-corrected/sp5der-red-floral-shorts.png",
+    image: "/clothing-transparent/sp5der-red-floral-shorts.png",
     deals: [],
   },
 
