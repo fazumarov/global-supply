@@ -1,5 +1,6 @@
 export const products = [
   // ELECTRONICS
+
   {
     id: 1,
     slug: "airpods-pro-2",
@@ -10,12 +11,13 @@ export const products = [
     badge: "BUNDLE DEAL",
     description: "AirPods Pro 2.",
     deals: [
-  { quantity: 1, price: 40 },
-  { quantity: 2, price: 76 },
-  { quantity: 5, price: 175 },
-  { quantity: 10, price: 300 }, 
-],
+      { quantity: 1, price: 40 },
+      { quantity: 2, price: 76 },
+      { quantity: 5, price: 175 },
+      { quantity: 10, price: 300 },
+    ],
   },
+
   {
     id: 2,
     slug: "airpods-pro-3",
@@ -25,13 +27,14 @@ export const products = [
     image: "/airpods-pro.jpg",
     badge: "BUNDLE DEAL",
     description: "AirPods Pro 3.",
-   deals: [
-  { quantity: 1, price: 45 },
-  { quantity: 2, price: 80 },
-  { quantity: 5, price: 190 },
-  { quantity: 10, price: 350 },
-],
+    deals: [
+      { quantity: 1, price: 45 },
+      { quantity: 2, price: 80 },
+      { quantity: 5, price: 190 },
+      { quantity: 10, price: 350 },
+    ],
   },
+
   {
     id: 3,
     slug: "airpods-max",
@@ -40,14 +43,14 @@ export const products = [
     category: "Electronics",
     image: "/airpods-max.jpg",
     badge: "BEST SELLER",
-    description: "AirPods Max. Bundle pricing: 2 for $160 each.",
+    description: "AirPods Max.",
     deals: [
-  { quantity: 1, price: 160
-   },
-  { quantity: 2, price: 280 },
-  { quantity: 5, price: 650 },
-],
+      { quantity: 1, price: 160 },
+      { quantity: 2, price: 280 },
+      { quantity: 5, price: 650 },
+    ],
   },
+
   {
     id: 4,
     slug: "airpods-gen-4",
@@ -58,27 +61,515 @@ export const products = [
     badge: "BUNDLE DEAL",
     description: "AirPods Gen 4.",
     deals: [
-  { quantity: 1, price: 35 },
-  { quantity: 2, price: 60 },
-  { quantity: 5, price: 140 },
+      { quantity: 1, price: 35 },
+      { quantity: 2, price: 60 },
+      { quantity: 5, price: 140 },
       { quantity: 10, price: 250 },
     ],
   },
+
   {
-  id: 5, // Change this to the next unused ID
-  slug: "beats-solo-4",
-  name: "Beats Solo 4",
-  price: 65,
-  category: "Electronics",
-  image: "/beatssolo4.png",
-  badge: "BUNDLE DEAL",
-  description: "Premium wireless headphones with bundle pricing.",
-  deals: [
-    { quantity: 1, price: 60 },
-    { quantity: 2, price: 110 },
-    { quantity: 5, price: 250 },
-  ],
-},
+    id: 5,
+    slug: "beats-solo-4",
+    name: "Beats Solo 4",
+    price: 65,
+    category: "Electronics",
+    image: "/beatssolo4.png",
+    badge: "BUNDLE DEAL",
+    description: "Premium wireless headphones with bundle pricing.",
+    deals: [
+      { quantity: 1, price: 60 },
+      { quantity: 2, price: 110 },
+      { quantity: 5, price: 250 },
+    ],
+  },
+
+  // FRAGRANCES
+
+  {
+    id: 10,
+    slug: "parfums-de-marly",
+    name: "Parfums de Marly",
+    price: 70,
+    category: "Fragrances",
+    image: "/parfums-de-marly.jpg",
+    badge: "NEW",
+    description:
+      "Luxury niche fragrance with exceptional performance and premium quality.",
+    deals: [
+      { quantity: 1, price: 70 },
+      { quantity: 2, price: 130 },
+      { quantity: 5, price: 300 },
+      { quantity: 10, price: 550 },
+    ],
+  },
+
+  {
+    id: 11,
+    slug: "dior-sauvage",
+    name: "Dior Sauvage",
+    price: 50,
+    category: "Fragrances",
+    image: "/dior-sauvage.jpg",
+    deals: [
+      { quantity: 1, price: 50 },
+      { quantity: 2, price: 96 },
+      { quantity: 5, price: 225 },
+      { quantity: 10, price: 420 },
+    ],
+  },
+
+  {
+    id: 12,
+    slug: "creed-aventus",
+    name: "Creed Aventus",
+    price: 50,
+    category: "Fragrances",
+    image: "/creed-aventus.jpg",
+    description: "Premium designer fragrance.",
+    deals: [
+      { quantity: 1, price: 50 },
+      { quantity: 2, price: 96 },
+      { quantity: 5, price: 225 },
+      { quantity: 10, price: 420 },
+    ],
+  },
+
+  {
+    id: 13,
+    slug: "baccarat-rouge-540",
+    name: "Baccarat Rouge 540",
+    price: 50,
+    category: "Fragrances",
+    image: "/baccarat-rouge-540.jpg",
+    description: "Premium designer fragrance.",
+    deals: [
+      { quantity: 1, price: 50 },
+      { quantity: 2, price: 96 },
+      { quantity: 5, price: 225 },
+      { quantity: 10, price: 420 },
+    ],
+  },
+
+  {
+    id: 14,
+    slug: "lv-cologne",
+    name: "Louis Vuitton Cologne",
+    price: 80,
+    category: "Fragrances",
+    image: "/lv-cologne.jpg",
+    badge: "LUXURY",
+    description: "Premium Louis Vuitton fragrance collection.",
+    deals: [
+      { quantity: 1, price: 80 },
+      { quantity: 2, price: 96 },
+      { quantity: 5, price: 225 },
+      { quantity: 10, price: 420 },
+    ],
+  },
+
+  {
+    id: 15,
+    slug: "ysl-y",
+    name: "YSL Y",
+    price: 50,
+    category: "Fragrances",
+    image: "/ysl-y.jpg",
+    description: "Fresh and modern Yves Saint Laurent fragrance.",
+    deals: [
+      { quantity: 1, price: 50 },
+      { quantity: 2, price: 96 },
+      { quantity: 5, price: 225 },
+      { quantity: 10, price: 420 },
+    ],
+  },
+
+  {
+    id: 16,
+    slug: "valentino-uomo",
+    name: "Valentino Uomo",
+    price: 50,
+    category: "Fragrances",
+    image: "/valentino-uomo.jpg",
+    description: "Premium designer fragrance.",
+    deals: [
+      { quantity: 1, price: 50 },
+      { quantity: 2, price: 96 },
+      { quantity: 5, price: 225 },
+      { quantity: 10, price: 420 },
+    ],
+  },
+
+  {
+    id: 17,
+    slug: "tom-ford-oud-wood",
+    name: "Tom Ford Oud Wood",
+    price: 50,
+    category: "Fragrances",
+    image: "/tom-ford-oud-wood.jpg",
+    description: "Premium Tom Ford fragrance.",
+    deals: [
+      { quantity: 1, price: 50 },
+      { quantity: 2, price: 96 },
+      { quantity: 5, price: 225 },
+      { quantity: 10, price: 420 },
+    ],
+  },
+
+  {
+    id: 18,
+    slug: "jean-paul-gaultier-le-male",
+    name: "Jean Paul Gaultier Le Male",
+    price: 50,
+    category: "Fragrances",
+    image: "/jean-paul-gaultier-le-male.jpg",
+    description: "Popular Jean Paul Gaultier fragrance.",
+    deals: [
+      { quantity: 1, price: 50 },
+      { quantity: 2, price: 96 },
+      { quantity: 5, price: 225 },
+      { quantity: 10, price: 420 },
+    ],
+  },
+
+  {
+    id: 19,
+    slug: "ysl-libre",
+    name: "YSL Libre",
+    price: 50,
+    category: "Fragrances",
+    image: "/ysl-libre.jpg",
+    description: "Elegant floral fragrance with a modern and luxurious scent.",
+    deals: [
+      { quantity: 1, price: 50 },
+      { quantity: 2, price: 96 },
+      { quantity: 5, price: 225 },
+      { quantity: 10, price: 420 },
+    ],
+  },
+
+  {
+    id: 20,
+    slug: "jean-paul-gaultier-le-beau-le-parfum",
+    name: "Jean Paul Gaultier Le Beau Le Parfum",
+    price: 50,
+    category: "Fragrances",
+    image: "/jpg-le-beau-le-parfum.jpg",
+    description: "Popular Jean Paul Gaultier fragrance.",
+    deals: [
+      { quantity: 1, price: 50 },
+      { quantity: 2, price: 96 },
+      { quantity: 5, price: 225 },
+      { quantity: 10, price: 420 },
+    ],
+  },
+
+  {
+    id: 21,
+    slug: "jean-paul-gaultier-le-male-elixir",
+    name: "Jean Paul Gaultier Le Male Elixir",
+    price: 50,
+    category: "Fragrances",
+    image: "/jpg-le-male-elixir.jpg",
+    badge: "POPULAR",
+    description: "Premium Jean Paul Gaultier fragrance.",
+    deals: [
+      { quantity: 1, price: 50 },
+      { quantity: 2, price: 96 },
+      { quantity: 5, price: 225 },
+      { quantity: 10, price: 420 },
+    ],
+  },
+
+  {
+    id: 22,
+    slug: "creed-absolute",
+    name: "Creed Absolute",
+    price: 70,
+    category: "Fragrances",
+    image: "/Creed-Absolute.png",
+    description:
+      "A bold and sophisticated fragrance with a rich, fresh scent made to leave a lasting impression.",
+    deals: [
+      { quantity: 1, price: 70 },
+      { quantity: 2, price: 120 },
+      { quantity: 5, price: 250 },
+      { quantity: 10, price: 400 },
+    ],
+  },
+
+  {
+    id: 23,
+    slug: "santal-33",
+    name: "Santal 33",
+    price: 50,
+    category: "Fragrances",
+    image: "/santal-33.jpg",
+    description: "New Drop",
+    deals: [
+      { quantity: 1, price: 50 },
+      { quantity: 2, price: 96 },
+      { quantity: 5, price: 225 },
+      { quantity: 10, price: 420 },
+    ],
+  },
+
+  // NEW FRAGRANCES
+
+  {
+    id: 24,
+    slug: "armani-stronger-with-you-intensely",
+    name: "Armani Stronger With You Intensely",
+    price: 50,
+    category: "Fragrances",
+    image: "/armani-stronger-with-you-intensely.jpg",
+    badge: "POPULAR",
+    description:
+      "Popular Armani fragrance with a warm, sweet and long-lasting scent.",
+    deals: [
+      { quantity: 1, price: 50 },
+      { quantity: 2, price: 96 },
+      { quantity: 5, price: 225 },
+      { quantity: 10, price: 420 },
+    ],
+  },
+
+  {
+    id: 25,
+    slug: "bleu-de-chanel",
+    name: "Bleu de Chanel",
+    price: 50,
+    category: "Fragrances",
+    image: "/bleu-de-chanel.jpg",
+    badge: "POPULAR",
+    description: "Fresh, clean and versatile Chanel fragrance.",
+    deals: [
+      { quantity: 1, price: 50 },
+      { quantity: 2, price: 96 },
+      { quantity: 5, price: 225 },
+      { quantity: 10, price: 420 },
+    ],
+  },
+
+  {
+    id: 26,
+    slug: "azzaro-the-most-wanted",
+    name: "Azzaro The Most Wanted",
+    price: 50,
+    category: "Fragrances",
+    image: "/azzaro-the-most-wanted.jpg",
+    badge: "POPULAR",
+    description: "Bold and sweet men's fragrance with strong performance.",
+    deals: [
+      { quantity: 1, price: 50 },
+      { quantity: 2, price: 96 },
+      { quantity: 5, price: 225 },
+      { quantity: 10, price: 420 },
+    ],
+  },
+
+  {
+    id: 27,
+    slug: "club-de-nuit-intense-man",
+    name: "Club de Nuit Intense Man",
+    price: 50,
+    category: "Fragrances",
+    image: "/club-de-nuit-intense-man.jpg",
+    description: "Popular fresh and masculine fragrance from Armaf.",
+    deals: [
+      { quantity: 1, price: 50 },
+      { quantity: 2, price: 96 },
+      { quantity: 5, price: 225 },
+      { quantity: 10, price: 420 },
+    ],
+  },
+
+  {
+    id: 28,
+    slug: "ysl-myslf",
+    name: "YSL MYSLF",
+    price: 50,
+    category: "Fragrances",
+    image: "/ysl-myslf.jpg",
+    badge: "POPULAR",
+    description:
+      "Modern Yves Saint Laurent fragrance with a clean and fresh scent.",
+    deals: [
+      { quantity: 1, price: 50 },
+      { quantity: 2, price: 96 },
+      { quantity: 5, price: 225 },
+      { quantity: 10, price: 420 },
+    ],
+  },
+
+  {
+    id: 29,
+    slug: "tom-ford-tobacco-vanille",
+    name: "Tom Ford Tobacco Vanille",
+    price: 50,
+    category: "Fragrances",
+    image: "/tom-ford-tobacco-vanille.jpg",
+    badge: "LUXURY",
+    description:
+      "Rich Tom Ford fragrance with warm tobacco and vanilla notes.",
+    deals: [
+      { quantity: 1, price: 50 },
+      { quantity: 2, price: 96 },
+      { quantity: 5, price: 225 },
+      { quantity: 10, price: 420 },
+    ],
+  },
+
+  {
+    id: 30,
+    slug: "armani-acqua-di-gio",
+    name: "Armani Acqua di Giò",
+    price: 50,
+    category: "Fragrances",
+    image: "/armani-acqua-di-gio.jpg",
+    description: "Classic fresh and aquatic Giorgio Armani fragrance.",
+    deals: [
+      { quantity: 1, price: 50 },
+      { quantity: 2, price: 96 },
+      { quantity: 5, price: 225 },
+      { quantity: 10, price: 420 },
+    ],
+  },
+
+  {
+    id: 31,
+    slug: "versace-eros",
+    name: "Versace Eros",
+    price: 50,
+    category: "Fragrances",
+    image: "/versace-eros.jpg",
+    badge: "POPULAR",
+    description: "Fresh, sweet and bold Versace fragrance for men.",
+    deals: [
+      { quantity: 1, price: 50 },
+      { quantity: 2, price: 96 },
+      { quantity: 5, price: 225 },
+      { quantity: 10, price: 420 },
+    ],
+  },
+
+  {
+    id: 32,
+    slug: "carolina-herrera-good-girl",
+    name: "Carolina Herrera Good Girl",
+    price: 50,
+    category: "Fragrances",
+    image: "/carolina-herrera-good-girl.jpg",
+    badge: "POPULAR",
+    description:
+      "Popular women's fragrance with a sweet and sophisticated scent.",
+    deals: [
+      { quantity: 1, price: 50 },
+      { quantity: 2, price: 96 },
+      { quantity: 5, price: 225 },
+      { quantity: 10, price: 420 },
+    ],
+  },
+
+  {
+    id: 33,
+    slug: "burberry-her",
+    name: "Burberry Her",
+    price: 50,
+    category: "Fragrances",
+    image: "/burberry-her.jpg",
+    badge: "POPULAR",
+    description: "Sweet and fruity Burberry fragrance for women.",
+    deals: [
+      { quantity: 1, price: 50 },
+      { quantity: 2, price: 96 },
+      { quantity: 5, price: 225 },
+      { quantity: 10, price: 420 },
+    ],
+  },
+
+  {
+    id: 34,
+    slug: "ysl-black-opium",
+    name: "YSL Black Opium",
+    price: 50,
+    category: "Fragrances",
+    image: "/ysl-black-opium.jpg",
+    badge: "BEST SELLER",
+    description: "Iconic sweet and warm Yves Saint Laurent fragrance.",
+    deals: [
+      { quantity: 1, price: 50 },
+      { quantity: 2, price: 96 },
+      { quantity: 5, price: 225 },
+      { quantity: 10, price: 420 },
+    ],
+  },
+
+  {
+    id: 35,
+    slug: "prada-paradoxe",
+    name: "Prada Paradoxe",
+    price: 50,
+    category: "Fragrances",
+    image: "/prada-paradoxe.jpg",
+    badge: "POPULAR",
+    description: "Modern floral and sweet Prada fragrance for women.",
+    deals: [
+      { quantity: 1, price: 50 },
+      { quantity: 2, price: 96 },
+      { quantity: 5, price: 225 },
+      { quantity: 10, price: 420 },
+    ],
+  },
+
+  {
+    id: 36,
+    slug: "lancome-la-vie-est-belle",
+    name: "Lancôme La Vie Est Belle",
+    price: 50,
+    category: "Fragrances",
+    image: "/lancome-la-vie-est-belle.jpg",
+    description: "Popular sweet and elegant Lancôme fragrance.",
+    deals: [
+      { quantity: 1, price: 50 },
+      { quantity: 2, price: 96 },
+      { quantity: 5, price: 225 },
+      { quantity: 10, price: 420 },
+    ],
+  },
+
+  {
+    id: 37,
+    slug: "chanel-coco-mademoiselle",
+    name: "Chanel Coco Mademoiselle",
+    price: 50,
+    category: "Fragrances",
+    image: "/chanel-coco-mademoiselle.jpg",
+    badge: "POPULAR",
+    description: "Classic Chanel fragrance with a fresh and elegant scent.",
+    deals: [
+      { quantity: 1, price: 50 },
+      { quantity: 2, price: 96 },
+      { quantity: 5, price: 225 },
+      { quantity: 10, price: 420 },
+    ],
+  },
+
+  {
+    id: 38,
+    slug: "dolce-gabbana-light-blue",
+    name: "Dolce & Gabbana Light Blue",
+    price: 50,
+    category: "Fragrances",
+    image: "/dolce-gabbana-light-blue.jpg",
+    description: "Fresh citrus and aquatic Dolce & Gabbana fragrance.",
+    deals: [
+      { quantity: 1, price: 50 },
+      { quantity: 2, price: 96 },
+      { quantity: 5, price: 225 },
+      { quantity: 10, price: 420 },
+    ],
+  },
 
   // SHOES
 
@@ -731,227 +1222,6 @@ export const products = [
     deals: [],
   },
 
-  // FRAGRANCES
-  {
-    id: 10, // Use the next available unique ID
-    slug: "parfums-de-marly",
-    name: "Parfums de Marly",
-    price: 70,
-    category: "Fragrances",
-    image: "/parfums-de-marly.jpg",
-    badge: "NEW",
-    description: "Luxury niche fragrance with exceptional performance and premium quality.",
-    deals: [
-      { quantity: 1, price: 70 },
-      { quantity: 2, price: 130 },
-      { quantity: 5, price: 300 },
-      { quantity: 10, price: 550 },
-    ],
-  },
-  {
-    id: 11,
-    slug: "dior-sauvage",
-    name: "Dior Sauvage",
-    price: 50,
-    category: "Fragrances",
-    image: "/dior-sauvage.jpg",
-    deals: [
-      { quantity: 1, price: 50 },
-      { quantity: 2, price: 96 },
-      { quantity: 5, price: 225 },
-      { quantity: 10, price: 420 },
-    ],
-  },
-  
-  {
-    id: 12,
-    slug: "creed-aventus",
-    name: "Creed Aventus",
-    price: 50,
-    category: "Fragrances",
-    image: "/creed-aventus.jpg",
-    description: "Premium designer fragrance.",
-    deals: [
-      { quantity: 1, price: 50 },
-      { quantity: 2, price: 96 },
-      { quantity: 5, price: 225 },
-      { quantity: 10, price: 420 },
-    ],
-  },
-  
-  {
-    id: 13,
-    slug: "baccarat-rouge-540",
-    name: "Baccarat Rouge 540",
-    price: 50,
-    category: "Fragrances",
-    image: "/baccarat-rouge-540.jpg",
-    description: "Premium designer fragrance.",
-     deals: [
-      { quantity: 1, price: 50 },
-      { quantity: 2, price: 96 },
-      { quantity: 5, price: 225 },
-      { quantity: 10, price: 420 },
-    ],
-  },
-  
-  {
-    id: 15,
-    slug: "lv-cologne",
-    name: "Louis Vuitton Cologne",
-    price: 80,
-    category: "Fragrances",
-    image: "/lv-cologne.jpg",
-    badge: "LUXURY",
-    description: "Premium Louis Vuitton fragrance collection.",
-    deals: [
-      { quantity: 1, price: 80 },
-      { quantity: 2, price: 96 },
-      { quantity: 5, price: 225 },
-      { quantity: 10, price: 420 },
-    ],
-  },
-  
-  {
-    id: 16,
-    slug: "ysl-y",
-    name: "YSL Y",
-    price: 50,
-    category: "Fragrances",
-    image: "/ysl-y.jpg",
-    description: "Fresh and modern Yves Saint Laurent fragrance.",
-   deals: [
-      { quantity: 1, price: 50 },
-      { quantity: 2, price: 96 },
-      { quantity: 5, price: 225 },
-      { quantity: 10, price: 420 },
-    ],
-  },
-  
-  {
-    id: 15,
-    slug: "valentino-uomo",
-    name: "Valentino Uomo",
-    price: 50,
-    category: "Fragrances",
-    image: "/valentino-uomo.jpg",
-    description: "Premium designer fragrance.",
-      deals: [
-      { quantity: 1, price: 50 },
-      { quantity: 2, price: 96 },
-      { quantity: 5, price: 225 },
-      { quantity: 10, price: 420 },
-    ],
-  },
-  
-  {
-    id: 14,
-    slug: "tom-ford-oud-wood",
-    name: "Tom Ford Oud Wood",
-    price: 50,
-    category: "Fragrances",
-    image: "/tom-ford-oud-wood.jpg",
-    description: "Premium Tom Ford fragrance.",
-     deals: [
-      { quantity: 1, price: 50 },
-      { quantity: 2, price: 96 },
-      { quantity: 5, price: 225 },
-      { quantity: 10, price: 420 },
-    ],
-  },
-  
-  {
-    id: 19,
-    slug: "jean-paul-gaultier-le-male",
-    name: "Jean Paul Gaultier Le Male",
-    price: 50,
-    category: "Fragrances",
-    image: "/jean-paul-gaultier-le-male.jpg",
-    description: "Popular Jean Paul Gaultier fragrance.",
-   deals: [
-      { quantity: 1, price: 50 },
-      { quantity: 2, price: 96 },
-      { quantity: 5, price: 225 },
-      { quantity: 10, price: 420 },
-    ],
-  },
-  {
-    id: 20, // use the next available ID
-    slug: "ysl-libre",
-    name: "YSL Libre",
-    price: 50,
-    category: "Fragrances",
-    image: "/ysl-libre.jpg",
-    description: "Elegant floral fragrance with a modern and luxurious scent.",
-    deals: [
-      { quantity: 1, price: 50 },
-      { quantity: 2, price: 96 },
-      { quantity: 5, price: 225 },
-      { quantity: 10, price: 420 },
-    ],
-  },
-  {
-    id: 36,
-    slug: "jean-paul-gaultier-le-beau-le-parfum",
-    name: "Jean Paul Gaultier Le Beau Le Parfum",
-    price: 50,
-    category: "Fragrances",
-    image: "/jpg-le-beau-le-parfum.jpg",
-    description: "Popular Jean Paul Gaultier fragrance.",
-    deals: [
-      { quantity: 1, price: 50 },
-      { quantity: 2, price: 96 },
-      { quantity: 5, price: 225 },
-      { quantity: 10, price: 420 },
-    ],
-  },
-  {
-    id: 37,
-    slug: "jean-paul-gaultier-le-male-elixir",
-    name: "Jean Paul Gaultier Le Male Elixir",
-    price: 50,
-    category: "Fragrances",
-    image: "/jpg-le-male-elixir.jpg",
-    badge: "POPULAR",
-    description: "Premium Jean Paul Gaultier fragrance.",
-    deals: [
-      { quantity: 1, price: 50 },
-      { quantity: 2, price: 96 },
-      { quantity: 5, price: 225 },
-      { quantity: 10, price: 420 },
-    ],
-  },
-  {
-    id: 28,
-    slug: "creed-absolute",
-    name: "Creed Absolute",
-    price: 70,
-    category: "Fragrances",
-    image: "Creed-Absolute.png",
-   description: "A bold and sophisticated fragrance with a rich, fresh scent made to leave a lasting impression.",
-   deals: [
-    { quantity: 1, price: 70 },
-    { quantity: 2, price: 120 },
-    { quantity: 5, price: 250 },
-    { quantity: 10, price: 400 },
-  ],
-  },
-  {
-    id: 13,
-    slug: "santal-33",
-    name: "Santal 33",
-    price: 50,
-    category: "Fragrances",
-    image: "/santal-33.jpg",
-    description: "New Drop",
-     deals: [
-      { quantity: 1, price: 50 },
-      { quantity: 2, price: 96 },
-      { quantity: 5, price: 225 },
-      { quantity: 10, price: 420 },
-    ],
-  },
-
   // SELECTED CLOTHING ONLY
 
   {
@@ -1495,9 +1765,9 @@ export const products = [
   },
 
   // BAGS
-  
+
   {
-    id: 29,
+    id: 40,
     slug: "lv-neverfull",
     name: "LV Neverfull",
     price: 0,
@@ -1506,9 +1776,9 @@ export const products = [
     badge: "BEST SELLER",
     description: "Message for pricing and available options.",
   },
-  
+
   {
-    id: 30,
+    id: 41,
     slug: "lv-onthego",
     name: "LV OnTheGo",
     price: 0,
@@ -1517,9 +1787,9 @@ export const products = [
     badge: "NEW DROP",
     description: "Message for pricing and available options.",
   },
-  
+
   {
-    id: 31,
+    id: 42,
     slug: "lv-speedy",
     name: "LV Speedy",
     price: 0,
@@ -1528,9 +1798,9 @@ export const products = [
     badge: "BEST SELLER",
     description: "Message for pricing and available options.",
   },
-  
+
   {
-    id: 32,
+    id: 43,
     slug: "lv-pochette-metis",
     name: "LV Pochette Metis",
     price: 0,
@@ -1539,9 +1809,9 @@ export const products = [
     badge: "LIMITED STOCK",
     description: "Message for pricing and available options.",
   },
-  
+
   {
-    id: 33,
+    id: 44,
     slug: "ysl-loulou",
     name: "YSL LouLou",
     price: 0,
@@ -1550,9 +1820,9 @@ export const products = [
     badge: "BEST SELLER",
     description: "Message for pricing and available options.",
   },
-  
+
   {
-    id: 34,
+    id: 45,
     slug: "ysl-sunset",
     name: "YSL Sunset",
     price: 0,
@@ -1561,9 +1831,9 @@ export const products = [
     badge: "NEW DROP",
     description: "Message for pricing and available options.",
   },
-  
+
   {
-    id: 35,
+    id: 46,
     slug: "chanel-classic-flap",
     name: "Chanel Classic Flap",
     price: 0,
