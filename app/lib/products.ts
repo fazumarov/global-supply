@@ -338,7 +338,7 @@ export const products = [
     name: "Bleu de Chanel",
     price: 50,
     category: "Fragrances",
-    image: "/bleu-de-chanel.png",
+    image: "/bleu-de-chanel.jpg",
     badge: "POPULAR",
     description: "Fresh, clean and versatile Chanel fragrance.",
     deals: [
