@@ -1,6 +1,5 @@
 export const products = [
   // ELECTRONICS
-
   {
     id: 1,
     slug: "airpods-pro-2",
@@ -9,15 +8,14 @@ export const products = [
     category: "Electronics",
     image: "/airpods-pro.jpg",
     badge: "BUNDLE DEAL",
-    description: "Bundle pricing: 1 for $45, 2 for $80, 5 for $150.",
+    description: "AirPods Pro 2.",
     deals: [
-      { quantity: 1, price: 40 },
-      { quantity: 2, price: 76 },
-      { quantity: 5, price: 175 },
-      { quantity: 10, price: 300 },
-    ],
+  { quantity: 1, price: 40 },
+  { quantity: 2, price: 76 },
+  { quantity: 5, price: 175 },
+  { quantity: 10, price: 300 }, 
+],
   },
-
   {
     id: 2,
     slug: "airpods-pro-3",
@@ -26,15 +24,14 @@ export const products = [
     category: "Electronics",
     image: "/airpods-pro.jpg",
     badge: "BUNDLE DEAL",
-    description: "Bundle pricing: 1 for $60, 2 for $100, 5 for $200.",
-    deals: [
-      { quantity: 1, price: 45 },
-      { quantity: 2, price: 80 },
-      { quantity: 5, price: 190 },
-      { quantity: 10, price: 350 },
-    ],
+    description: "AirPods Pro 3.",
+   deals: [
+  { quantity: 1, price: 45 },
+  { quantity: 2, price: 80 },
+  { quantity: 5, price: 190 },
+  { quantity: 10, price: 350 },
+],
   },
-
   {
     id: 3,
     slug: "airpods-max",
@@ -45,12 +42,12 @@ export const products = [
     badge: "BEST SELLER",
     description: "AirPods Max. Bundle pricing: 2 for $160 each.",
     deals: [
-      { quantity: 1, price: 160 },
-      { quantity: 2, price: 280 },
-      { quantity: 5, price: 650 },
-    ],
+  { quantity: 1, price: 160
+   },
+  { quantity: 2, price: 280 },
+  { quantity: 5, price: 650 },
+],
   },
-
   {
     id: 4,
     slug: "airpods-gen-4",
@@ -59,93 +56,691 @@ export const products = [
     category: "Electronics",
     image: "/airpods-pro.jpg",
     badge: "BUNDLE DEAL",
-    description: "Bundle pricing: 1 for $35, 2 for $55, 5 for $125.",
+    description: "AirPods Gen 4.",
     deals: [
-      { quantity: 1, price: 35 },
-      { quantity: 2, price: 60 },
-      { quantity: 5, price: 140 },
+  { quantity: 1, price: 35 },
+  { quantity: 2, price: 60 },
+  { quantity: 5, price: 140 },
       { quantity: 10, price: 250 },
     ],
   },
-
   {
-    id: 5,
-    slug: "beats-solo-4",
-    name: "Beats Solo 4",
-    price: 65,
-    category: "Electronics",
-    image: "/beatssolo4.png",
-    badge: "BUNDLE DEAL",
-    description: "Premium wireless headphones with bundle pricing.",
-    deals: [
-      { quantity: 1, price: 60 },
-      { quantity: 2, price: 110 },
-      { quantity: 5, price: 250 },
-    ],
-  },
+  id: 5, // Change this to the next unused ID
+  slug: "beats-solo-4",
+  name: "Beats Solo 4",
+  price: 65,
+  category: "Electronics",
+  image: "/beatssolo4.png",
+  badge: "BUNDLE DEAL",
+  description: "Premium wireless headphones with bundle pricing.",
+  deals: [
+    { quantity: 1, price: 60 },
+    { quantity: 2, price: 110 },
+    { quantity: 5, price: 250 },
+  ],
+},
 
   // SHOES
 
   {
-    id: 7,
-    slug: "jordan-4-black-cat",
-    name: "Jordan 4 Black Cat",
+    id: 100,
+    slug: "air-jordan-4-a-ma-maniere",
+    name: "Air Jordan 4 A Ma Maniére",
     price: 100,
+    withBoxPrice: 120,
     category: "Shoes",
-    image: "/air-jordan-4-black-cat.png",
-    badge: "BEST SELLER",
-    description: "$100 without box. $120 with box.",
-    deals: [
-      { quantity: 1, price: 100 },
-      { quantity: 2, price: 190 },
-      { quantity: 5, price: 450 },
-    ],
+    image: "/shoe/air-jordan-4-a-ma-maniere.png",
+    deals: [],
   },
 
   {
-    id: 8,
-    slug: "jordan-4-military-black",
-    name: "Jordan 4 Military Black",
+    id: 101,
+    slug: "air-jordan-4-black-cat",
+    name: "Air Jordan 4 Black Cat",
     price: 100,
+    withBoxPrice: 120,
     category: "Shoes",
-    image: "/air-jordan-4-military-black.png",
-    badge: "BEST SELLER",
-    description: "$100 without box. $120 with box.",
-    deals: [
-      { quantity: 1, price: 100 },
-      { quantity: 2, price: 190 },
-      { quantity: 5, price: 450 },
-    ],
+    image: "/shoe/air-jordan-4-black-cat.png",
+    deals: [],
   },
 
   {
-    id: 9,
-    slug: "jordan-4-white-cement",
-    name: "Jordan 4 White Cement",
+    id: 102,
+    slug: "air-jordan-4-black-cement-bred",
+    name: "Air Jordan 4 Black Cement Bred",
     price: 100,
+    withBoxPrice: 120,
     category: "Shoes",
-    image: "/air-jordan-4-white-cement.png",
-    badge: "LIMITED STOCK",
-    description: "$100 without box. $120 with box.",
-    deals: [
-      { quantity: 1, price: 100 },
-      { quantity: 2, price: 190 },
-      { quantity: 5, price: 450 },
-    ],
+    image: "/shoe/air-jordan-4-black-cement-bred.png",
+    deals: [],
+  },
+
+  {
+    id: 103,
+    slug: "air-jordan-4-brick-by-brick",
+    name: "Air Jordan 4 Brick By Brick",
+    price: 100,
+    withBoxPrice: 120,
+    category: "Shoes",
+    image: "/shoe/air-jordan-4-brick-by-brick.png",
+    deals: [],
+  },
+
+  {
+    id: 104,
+    slug: "air-jordan-4-cave-stone",
+    name: "Air Jordan 4 Cave Stone",
+    price: 100,
+    withBoxPrice: 120,
+    category: "Shoes",
+    image: "/shoe/air-jordan-4-cave-stone.png",
+    deals: [],
+  },
+
+  {
+    id: 105,
+    slug: "air-jordan-4-cool-grey",
+    name: "Air Jordan 4 Cool Grey",
+    price: 100,
+    withBoxPrice: 120,
+    category: "Shoes",
+    image: "/shoe/air-jordan-4-cool-grey.png",
+    deals: [],
+  },
+
+  {
+    id: 106,
+    slug: "air-jordan-4-fire-red",
+    name: "Air Jordan 4 Fire Red",
+    price: 100,
+    withBoxPrice: 120,
+    category: "Shoes",
+    image: "/shoe/air-jordan-4-fire-red.png",
+    deals: [],
+  },
+
+  {
+    id: 107,
+    slug: "air-jordan-4-iced-carmine",
+    name: "Air Jordan 4 Iced Carmine",
+    price: 100,
+    withBoxPrice: 120,
+    category: "Shoes",
+    image: "/shoe/air-jordan-4-iced-carmine.png",
+    deals: [],
+  },
+
+  {
+    id: 108,
+    slug: "air-jordan-4-infrared",
+    name: "Air Jordan 4 Infrared",
+    price: 100,
+    withBoxPrice: 120,
+    category: "Shoes",
+    image: "/shoe/air-jordan-4-infrared.png",
+    deals: [],
+  },
+
+  {
+    id: 109,
+    slug: "air-jordan-4-kaws",
+    name: "Air Jordan 4 KAWS",
+    price: 100,
+    withBoxPrice: 120,
+    category: "Shoes",
+    image: "/shoe/air-jordan-4-kaws.png",
+    deals: [],
+  },
+
+  {
+    id: 110,
+    slug: "air-jordan-4-lightning",
+    name: "Air Jordan 4 Lightning",
+    price: 100,
+    withBoxPrice: 120,
+    category: "Shoes",
+    image: "/shoe/air-jordan-4-lightning.png",
+    deals: [],
+  },
+
+  {
+    id: 111,
+    slug: "air-jordan-4-metallic-green",
+    name: "Air Jordan 4 Metallic Green",
+    price: 100,
+    withBoxPrice: 120,
+    category: "Shoes",
+    image: "/shoe/air-jordan-4-metallic-green.png",
+    deals: [],
+  },
+
+  {
+    id: 112,
+    slug: "air-jordan-4-metallic-purple",
+    name: "Air Jordan 4 Metallic Purple",
+    price: 100,
+    withBoxPrice: 120,
+    category: "Shoes",
+    image: "/shoe/air-jordan-4-metallic-purple.png",
+    deals: [],
+  },
+
+  {
+    id: 113,
+    slug: "air-jordan-4-metallic-red",
+    name: "Air Jordan 4 Metallic Red",
+    price: 100,
+    withBoxPrice: 120,
+    category: "Shoes",
+    image: "/shoe/air-jordan-4-metallic-red.png",
+    deals: [],
+  },
+
+  {
+    id: 114,
+    slug: "air-jordan-4-midnight-navy",
+    name: "Air Jordan 4 Midnight Navy",
+    price: 100,
+    withBoxPrice: 120,
+    category: "Shoes",
+    image: "/shoe/air-jordan-4-midnight-navy.png",
+    deals: [],
+  },
+
+  {
+    id: 115,
+    slug: "air-jordan-4-military-black",
+    name: "Air Jordan 4 Military Black",
+    price: 100,
+    withBoxPrice: 120,
+    category: "Shoes",
+    image: "/shoe/air-jordan-4-military-black.png",
+    deals: [],
+  },
+
+  {
+    id: 116,
+    slug: "air-jordan-4-military-blue",
+    name: "Air Jordan 4 Military Blue",
+    price: 100,
+    withBoxPrice: 120,
+    category: "Shoes",
+    image: "/shoe/air-jordan-4-military-blue.png",
+    deals: [],
+  },
+
+  {
+    id: 117,
+    slug: "air-jordan-4-off-white-sail",
+    name: "Air Jordan 4 Off-White Sail",
+    price: 100,
+    withBoxPrice: 120,
+    category: "Shoes",
+    image: "/shoe/air-jordan-4-off-white-sail.png",
+    deals: [],
+  },
+
+  {
+    id: 118,
+    slug: "air-jordan-4-pure-money",
+    name: "Air Jordan 4 Pure Money",
+    price: 100,
+    withBoxPrice: 120,
+    category: "Shoes",
+    image: "/shoe/air-jordan-4-pure-money.png",
+    deals: [],
+  },
+
+  {
+    id: 119,
+    slug: "air-jordan-4-red-thunder",
+    name: "Air Jordan 4 Red Thunder",
+    price: 100,
+    withBoxPrice: 120,
+    category: "Shoes",
+    image: "/shoe/air-jordan-4-red-thunder.png",
+    deals: [],
+  },
+
+  {
+    id: 120,
+    slug: "air-jordan-4-reimagined-white-cement",
+    name: "Air Jordan 4 Reimagined White Cement",
+    price: 100,
+    withBoxPrice: 120,
+    category: "Shoes",
+    image: "/shoe/air-jordan-4-reimagined-white-cement.png",
+    deals: [],
+  },
+
+  {
+    id: 121,
+    slug: "air-jordan-4-seafoam",
+    name: "Air Jordan 4 Seafoam",
+    price: 100,
+    withBoxPrice: 120,
+    category: "Shoes",
+    image: "/shoe/air-jordan-4-seafoam.png",
+    deals: [],
+  },
+
+  {
+    id: 122,
+    slug: "air-jordan-4-taupe-haze",
+    name: "Air Jordan 4 Taupe Haze",
+    price: 100,
+    withBoxPrice: 120,
+    category: "Shoes",
+    image: "/shoe/air-jordan-4-taupe-haze.png",
+    deals: [],
+  },
+
+  {
+    id: 123,
+    slug: "air-jordan-4-thunder",
+    name: "Air Jordan 4 Thunder",
+    price: 100,
+    withBoxPrice: 120,
+    category: "Shoes",
+    image: "/shoe/air-jordan-4-thunder.png",
+    deals: [],
+  },
+
+  {
+    id: 124,
+    slug: "air-jordan-4-travis-scott-cactus-jack",
+    name: "Air Jordan 4 Travis Scott Cactus Jack",
+    price: 100,
+    withBoxPrice: 120,
+    category: "Shoes",
+    image: "/shoe/air-jordan-4-travis-scott-cactus-jack.png",
+    deals: [],
+  },
+
+  {
+    id: 125,
+    slug: "air-jordan-4-undefeated",
+    name: "Air Jordan 4 Undefeated",
+    price: 100,
+    withBoxPrice: 120,
+    category: "Shoes",
+    image: "/shoe/air-jordan-4-undefeated.png",
+    deals: [],
+  },
+
+  {
+    id: 126,
+    slug: "air-jordan-4-university-blue",
+    name: "Air Jordan 4 University Blue",
+    price: 100,
+    withBoxPrice: 120,
+    category: "Shoes",
+    image: "/shoe/air-jordan-4-university-blue.png",
+    deals: [],
+  },
+
+  {
+    id: 127,
+    slug: "air-jordan-4-vivid-sulfur",
+    name: "Air Jordan 4 Vivid Sulfur",
+    price: 100,
+    withBoxPrice: 120,
+    category: "Shoes",
+    image: "/shoe/air-jordan-4-vivid-sulfur.png",
+    deals: [],
+  },
+
+  {
+    id: 128,
+    slug: "air-jordan-4-white-cement",
+    name: "Air Jordan 4 White Cement",
+    price: 100,
+    withBoxPrice: 120,
+    category: "Shoes",
+    image: "/shoe/air-jordan-4-white-cement.png",
+    deals: [],
+  },
+
+  {
+    id: 129,
+    slug: "air-jordan-5-anthracite",
+    name: "Air Jordan 5 Anthracite",
+    price: 100,
+    withBoxPrice: 120,
+    category: "Shoes",
+    image: "/shoe/air-jordan-5-anthracite.png",
+    deals: [],
+  },
+
+  {
+    id: 130,
+    slug: "air-jordan-5-aqua",
+    name: "Air Jordan 5 Aqua",
+    price: 100,
+    withBoxPrice: 120,
+    category: "Shoes",
+    image: "/shoe/air-jordan-5-aqua.png",
+    deals: [],
+  },
+
+  {
+    id: 131,
+    slug: "air-jordan-5-bel-air",
+    name: "Air Jordan 5 Bel Air",
+    price: 100,
+    withBoxPrice: 120,
+    category: "Shoes",
+    image: "/shoe/air-jordan-5-bel-air.png",
+    deals: [],
+  },
+
+  {
+    id: 132,
+    slug: "air-jordan-5-black-grape",
+    name: "Air Jordan 5 Black Grape",
+    price: 100,
+    withBoxPrice: 120,
+    category: "Shoes",
+    image: "/shoe/air-jordan-5-black-grape.png",
+    deals: [],
+  },
+
+  {
+    id: 133,
+    slug: "air-jordan-5-black-metallic",
+    name: "Air Jordan 5 Black Metallic",
+    price: 100,
+    withBoxPrice: 120,
+    category: "Shoes",
+    image: "/shoe/air-jordan-5-black-metallic.png",
+    deals: [],
+  },
+
+  {
+    id: 134,
+    slug: "air-jordan-5-black-racer-blue",
+    name: "Air Jordan 5 Black Racer Blue",
+    price: 100,
+    withBoxPrice: 120,
+    category: "Shoes",
+    image: "/shoe/air-jordan-5-black-racer-blue.png",
+    deals: [],
+  },
+
+  {
+    id: 135,
+    slug: "air-jordan-5-burgundy",
+    name: "Air Jordan 5 Burgundy",
+    price: 100,
+    withBoxPrice: 120,
+    category: "Shoes",
+    image: "/shoe/air-jordan-5-burgundy.png",
+    deals: [],
+  },
+
+  {
+    id: 136,
+    slug: "air-jordan-5-concord",
+    name: "Air Jordan 5 Concord",
+    price: 100,
+    withBoxPrice: 120,
+    category: "Shoes",
+    image: "/shoe/air-jordan-5-concord.png",
+    deals: [],
+  },
+
+  {
+    id: 137,
+    slug: "air-jordan-5-cool-grey",
+    name: "Air Jordan 5 Cool Grey",
+    price: 100,
+    withBoxPrice: 120,
+    category: "Shoes",
+    image: "/shoe/air-jordan-5-cool-grey.png",
+    deals: [],
+  },
+
+  {
+    id: 138,
+    slug: "air-jordan-5-fire-red",
+    name: "Air Jordan 5 Fire Red",
+    price: 100,
+    withBoxPrice: 120,
+    category: "Shoes",
+    image: "/shoe/air-jordan-5-fire-red.png",
+    deals: [],
+  },
+
+  {
+    id: 139,
+    slug: "air-jordan-5-gore-tex-off-noir",
+    name: "Air Jordan 5 Gore-Tex Off Noir",
+    price: 100,
+    withBoxPrice: 120,
+    category: "Shoes",
+    image: "/shoe/air-jordan-5-gore-tex-off-noir.png",
+    deals: [],
+  },
+
+  {
+    id: 140,
+    slug: "air-jordan-5-grape",
+    name: "Air Jordan 5 Grape",
+    price: 100,
+    withBoxPrice: 120,
+    category: "Shoes",
+    image: "/shoe/air-jordan-5-grape.png",
+    deals: [],
+  },
+
+  {
+    id: 141,
+    slug: "air-jordan-5-green-bean",
+    name: "Air Jordan 5 Green Bean",
+    price: 100,
+    withBoxPrice: 120,
+    category: "Shoes",
+    image: "/shoe/air-jordan-5-green-bean.png",
+    deals: [],
+  },
+
+  {
+    id: 142,
+    slug: "air-jordan-5-laney",
+    name: "Air Jordan 5 Laney",
+    price: 100,
+    withBoxPrice: 120,
+    category: "Shoes",
+    image: "/shoe/air-jordan-5-laney.png",
+    deals: [],
+  },
+
+  {
+    id: 143,
+    slug: "air-jordan-5-metallic-silver",
+    name: "Air Jordan 5 Metallic Silver",
+    price: 100,
+    withBoxPrice: 120,
+    category: "Shoes",
+    image: "/shoe/air-jordan-5-metallic-silver.png",
+    deals: [],
+  },
+
+  {
+    id: 144,
+    slug: "air-jordan-5-michigan",
+    name: "Air Jordan 5 Michigan",
+    price: 100,
+    withBoxPrice: 120,
+    category: "Shoes",
+    image: "/shoe/air-jordan-5-michigan.png",
+    deals: [],
+  },
+
+  {
+    id: 145,
+    slug: "air-jordan-5-midnight-navy",
+    name: "Air Jordan 5 Midnight Navy",
+    price: 100,
+    withBoxPrice: 120,
+    category: "Shoes",
+    image: "/shoe/air-jordan-5-midnight-navy.png",
+    deals: [],
+  },
+
+  {
+    id: 146,
+    slug: "air-jordan-5-moonlight",
+    name: "Air Jordan 5 Moonlight",
+    price: 100,
+    withBoxPrice: 120,
+    category: "Shoes",
+    image: "/shoe/air-jordan-5-moonlight.png",
+    deals: [],
+  },
+
+  {
+    id: 147,
+    slug: "air-jordan-5-off-white",
+    name: "Air Jordan 5 Off-White",
+    price: 100,
+    withBoxPrice: 120,
+    category: "Shoes",
+    image: "/shoe/air-jordan-5-off-white.png",
+    deals: [],
+  },
+
+  {
+    id: 148,
+    slug: "air-jordan-5-oreo",
+    name: "Air Jordan 5 Oreo",
+    price: 100,
+    withBoxPrice: 120,
+    category: "Shoes",
+    image: "/shoe/air-jordan-5-oreo.png",
+    deals: [],
+  },
+
+  {
+    id: 149,
+    slug: "air-jordan-5-psg",
+    name: "Air Jordan 5 PSG",
+    price: 100,
+    withBoxPrice: 120,
+    category: "Shoes",
+    image: "/shoe/air-jordan-5-psg.png",
+    deals: [],
+  },
+
+  {
+    id: 150,
+    slug: "air-jordan-5-raging-bull",
+    name: "Air Jordan 5 Raging Bull",
+    price: 100,
+    withBoxPrice: 120,
+    category: "Shoes",
+    image: "/shoe/air-jordan-5-raging-bull.png",
+    deals: [],
+  },
+
+  {
+    id: 151,
+    slug: "air-jordan-5-seoul",
+    name: "Air Jordan 5 Seoul",
+    price: 100,
+    withBoxPrice: 120,
+    category: "Shoes",
+    image: "/shoe/air-jordan-5-seoul.png",
+    deals: [],
+  },
+
+  {
+    id: 152,
+    slug: "air-jordan-5-supreme",
+    name: "Air Jordan 5 Supreme",
+    price: 100,
+    withBoxPrice: 120,
+    category: "Shoes",
+    image: "/shoe/air-jordan-5-supreme.png",
+    deals: [],
+  },
+
+  {
+    id: 153,
+    slug: "air-jordan-5-top-3",
+    name: "Air Jordan 5 Top 3",
+    price: 100,
+    withBoxPrice: 120,
+    category: "Shoes",
+    image: "/shoe/air-jordan-5-top-3.png",
+    deals: [],
+  },
+
+  {
+    id: 154,
+    slug: "air-jordan-5-toro-bravo",
+    name: "Air Jordan 5 Toro Bravo",
+    price: 100,
+    withBoxPrice: 120,
+    category: "Shoes",
+    image: "/shoe/air-jordan-5-toro-bravo.png",
+    deals: [],
+  },
+
+  {
+    id: 155,
+    slug: "air-jordan-5-unc",
+    name: "Air Jordan 5 UNC",
+    price: 100,
+    withBoxPrice: 120,
+    category: "Shoes",
+    image: "/shoe/air-jordan-5-unc.png",
+    deals: [],
+  },
+
+  {
+    id: 156,
+    slug: "air-jordan-5-white-black",
+    name: "Air Jordan 5 White Black",
+    price: 100,
+    withBoxPrice: 120,
+    category: "Shoes",
+    image: "/shoe/air-jordan-5-white-black.png",
+    deals: [],
+  },
+
+  {
+    id: 157,
+    slug: "air-jordan-5-white-cement",
+    name: "Air Jordan 5 White Cement",
+    price: 100,
+    withBoxPrice: 120,
+    category: "Shoes",
+    image: "/shoe/air-jordan-5-white-cement.png",
+    deals: [],
+  },
+
+  {
+    id: 158,
+    slug: "air-jordan-5-wings",
+    name: "Air Jordan 5 Wings",
+    price: 100,
+    withBoxPrice: 120,
+    category: "Shoes",
+    image: "/shoe/air-jordan-5-wings.png",
+    deals: [],
   },
 
   // FRAGRANCES
-
   {
-    id: 10,
+    id: 10, // Use the next available unique ID
     slug: "parfums-de-marly",
     name: "Parfums de Marly",
     price: 70,
     category: "Fragrances",
     image: "/parfums-de-marly.jpg",
     badge: "NEW",
-    description:
-      "Luxury niche fragrance with exceptional performance and premium quality.",
+    description: "Luxury niche fragrance with exceptional performance and premium quality.",
     deals: [
       { quantity: 1, price: 70 },
       { quantity: 2, price: 130 },
@@ -153,7 +748,6 @@ export const products = [
       { quantity: 10, price: 550 },
     ],
   },
-
   {
     id: 11,
     slug: "dior-sauvage",
@@ -168,7 +762,7 @@ export const products = [
       { quantity: 10, price: 420 },
     ],
   },
-
+  
   {
     id: 12,
     slug: "creed-aventus",
@@ -184,7 +778,7 @@ export const products = [
       { quantity: 10, price: 420 },
     ],
   },
-
+  
   {
     id: 13,
     slug: "baccarat-rouge-540",
@@ -193,14 +787,14 @@ export const products = [
     category: "Fragrances",
     image: "/baccarat-rouge-540.jpg",
     description: "Premium designer fragrance.",
-    deals: [
+     deals: [
       { quantity: 1, price: 50 },
       { quantity: 2, price: 96 },
       { quantity: 5, price: 225 },
       { quantity: 10, price: 420 },
     ],
   },
-
+  
   {
     id: 15,
     slug: "lv-cologne",
@@ -212,11 +806,12 @@ export const products = [
     description: "Premium Louis Vuitton fragrance collection.",
     deals: [
       { quantity: 1, price: 80 },
-      { quantity: 5, price: 400 },
-      { quantity: 10, price: 800 },
+      { quantity: 2, price: 96 },
+      { quantity: 5, price: 225 },
+      { quantity: 10, price: 420 },
     ],
   },
-
+  
   {
     id: 16,
     slug: "ysl-y",
@@ -225,46 +820,46 @@ export const products = [
     category: "Fragrances",
     image: "/ysl-y.jpg",
     description: "Fresh and modern Yves Saint Laurent fragrance.",
-    deals: [
+   deals: [
       { quantity: 1, price: 50 },
       { quantity: 2, price: 96 },
       { quantity: 5, price: 225 },
       { quantity: 10, price: 420 },
     ],
   },
-
+  
   {
-    id: 17,
+    id: 15,
     slug: "valentino-uomo",
     name: "Valentino Uomo",
     price: 50,
     category: "Fragrances",
     image: "/valentino-uomo.jpg",
     description: "Premium designer fragrance.",
-    deals: [
+      deals: [
       { quantity: 1, price: 50 },
       { quantity: 2, price: 96 },
       { quantity: 5, price: 225 },
       { quantity: 10, price: 420 },
     ],
   },
-
+  
   {
-    id: 18,
+    id: 14,
     slug: "tom-ford-oud-wood",
     name: "Tom Ford Oud Wood",
     price: 50,
     category: "Fragrances",
     image: "/tom-ford-oud-wood.jpg",
     description: "Premium Tom Ford fragrance.",
-    deals: [
+     deals: [
       { quantity: 1, price: 50 },
       { quantity: 2, price: 96 },
       { quantity: 5, price: 225 },
       { quantity: 10, price: 420 },
     ],
   },
-
+  
   {
     id: 19,
     slug: "jean-paul-gaultier-le-male",
@@ -273,16 +868,15 @@ export const products = [
     category: "Fragrances",
     image: "/jean-paul-gaultier-le-male.jpg",
     description: "Popular Jean Paul Gaultier fragrance.",
-    deals: [
+   deals: [
       { quantity: 1, price: 50 },
       { quantity: 2, price: 96 },
       { quantity: 5, price: 225 },
       { quantity: 10, price: 420 },
     ],
   },
-
   {
-    id: 20,
+    id: 20, // use the next available ID
     slug: "ysl-libre",
     name: "YSL Libre",
     price: 50,
@@ -296,7 +890,6 @@ export const products = [
       { quantity: 10, price: 420 },
     ],
   },
-
   {
     id: 36,
     slug: "jean-paul-gaultier-le-beau-le-parfum",
@@ -312,7 +905,6 @@ export const products = [
       { quantity: 10, price: 420 },
     ],
   },
-
   {
     id: 37,
     slug: "jean-paul-gaultier-le-male-elixir",
@@ -329,7 +921,6 @@ export const products = [
       { quantity: 10, price: 420 },
     ],
   },
-
   {
     id: 28,
     slug: "creed-absolute",
@@ -337,25 +928,23 @@ export const products = [
     price: 70,
     category: "Fragrances",
     image: "Creed-Absolute.png",
-    description:
-      "A bold and sophisticated fragrance with a rich, fresh scent made to leave a lasting impression.",
-    deals: [
-      { quantity: 1, price: 70 },
-      { quantity: 2, price: 120 },
-      { quantity: 5, price: 250 },
-      { quantity: 10, price: 400 },
-    ],
+   description: "A bold and sophisticated fragrance with a rich, fresh scent made to leave a lasting impression.",
+   deals: [
+    { quantity: 1, price: 70 },
+    { quantity: 2, price: 120 },
+    { quantity: 5, price: 250 },
+    { quantity: 10, price: 400 },
+  ],
   },
-
   {
-    id: 38,
+    id: 13,
     slug: "santal-33",
     name: "Santal 33",
     price: 50,
     category: "Fragrances",
     image: "/santal-33.jpg",
     description: "New Drop",
-    deals: [
+     deals: [
       { quantity: 1, price: 50 },
       { quantity: 2, price: 96 },
       { quantity: 5, price: 225 },
@@ -366,103 +955,667 @@ export const products = [
   // CLOTHING
 
   {
-    id: 21,
-    slug: "spider-hoodie",
-    name: "Spider Hoodie",
-    price: 70,
+    id: 159,
+    slug: "chrome-hearts-black-classic-long-sleeve",
+    name: "Chrome Hearts Black Classic Long Sleeve",
+    price: 50,
     category: "Clothing",
-    image: "/spider-hoodie.png",
-    badge: "BEST SELLER",
-    description: "Spider hoodie. Premium quality.",
-    deals: [
-      { quantity: 1, price: 70 },
-      { quantity: 2, price: 130 },
-      { quantity: 5, price: 300 },
-    ],
+    image: "/clothe/chrome-hearts-black-classic-long-sleeve.png",
+    deals: [],
   },
 
   {
-    id: 22,
-    slug: "spider-sweatpants",
-    name: "Spider Sweatpants",
-    price: 70,
+    id: 160,
+    slug: "chrome-hearts-black-long-sleeve",
+    name: "Chrome Hearts Black Long Sleeve",
+    price: 50,
     category: "Clothing",
-    image: "/spider-sweatpants.png",
-    badge: "NEW DROP",
-    description: "Spider sweatpants. Premium quality.",
-    deals: [
-      { quantity: 1, price: 70 },
-      { quantity: 2, price: 130 },
-      { quantity: 5, price: 300 },
-    ],
+    image: "/clothe/chrome-hearts-black-long-sleeve.png",
+    deals: [],
   },
 
   {
-    id: 23,
+    id: 161,
+    slug: "chrome-hearts-black-pink-long-sleeve",
+    name: "Chrome Hearts Black Pink Long Sleeve",
+    price: 50,
+    category: "Clothing",
+    image: "/clothe/chrome-hearts-black-pink-long-sleeve.png",
+    deals: [],
+  },
+
+  {
+    id: 162,
+    slug: "chrome-hearts-black-tee",
+    name: "Chrome Hearts Black T-Shirt",
+    price: 50,
+    category: "Clothing",
+    image: "/clothe/chrome-hearts-black-tee.png",
+    deals: [],
+  },
+
+  {
+    id: 163,
+    slug: "chrome-hearts-long-sleeve",
+    name: "Chrome Hearts Long Sleeve",
+    price: 50,
+    category: "Clothing",
+    image: "/clothe/chrome-hearts-long-sleeve.png",
+    deals: [],
+  },
+
+  {
+    id: 164,
+    slug: "chrome-hearts-red-long-sleeve",
+    name: "Chrome Hearts Red Long Sleeve",
+    price: 50,
+    category: "Clothing",
+    image: "/clothe/chrome-hearts-red-long-sleeve.png",
+    deals: [],
+  },
+
+  {
+    id: 165,
+    slug: "chrome-hearts-tshirt",
+    name: "Chrome Hearts T-Shirt",
+    price: 50,
+    category: "Clothing",
+    image: "/clothe/chrome-hearts-tshirt.png",
+    deals: [],
+  },
+
+  {
+    id: 166,
+    slug: "chrome-hearts-white-black-raglan",
+    name: "Chrome Hearts White Black Raglan",
+    price: 50,
+    category: "Clothing",
+    image: "/clothe/chrome-hearts-white-black-raglan.png",
+    deals: [],
+  },
+
+  {
+    id: 167,
+    slug: "chrome-hearts-white-blue-raglan",
+    name: "Chrome Hearts White Blue Raglan",
+    price: 50,
+    category: "Clothing",
+    image: "/clothe/chrome-hearts-white-blue-raglan.png",
+    deals: [],
+  },
+
+  {
+    id: 168,
+    slug: "chrome-hearts-white-grey-long-sleeve",
+    name: "Chrome Hearts White Grey Long Sleeve",
+    price: 50,
+    category: "Clothing",
+    image: "/clothe/chrome-hearts-white-grey-long-sleeve.png",
+    deals: [],
+  },
+
+  {
+    id: 169,
+    slug: "chrome-hearts-white-rainbow-long-sleeve",
+    name: "Chrome Hearts White Rainbow Long Sleeve",
+    price: 50,
+    category: "Clothing",
+    image: "/clothe/chrome-hearts-white-rainbow-long-sleeve.png",
+    deals: [],
+  },
+
+  {
+    id: 170,
+    slug: "chrome-hearts-white-tee",
+    name: "Chrome Hearts White T-Shirt",
+    price: 50,
+    category: "Clothing",
+    image: "/clothe/chrome-hearts-white-tee.png",
+    deals: [],
+  },
+
+  {
+    id: 171,
+    slug: "essentials-black-logo-shorts",
+    name: "Essentials Black Logo Shorts",
+    price: 50,
+    category: "Clothing",
+    image: "/clothe/essentials-black-logo-shorts.png",
+    deals: [],
+  },
+
+  {
+    id: 172,
+    slug: "essentials-black-shorts",
+    name: "Essentials Black Shorts",
+    price: 50,
+    category: "Clothing",
+    image: "/clothe/essentials-black-shorts.png",
+    deals: [],
+  },
+
+  {
+    id: 173,
+    slug: "essentials-black-sweatpants",
+    name: "Essentials Black Sweatpants",
+    price: 70,
+    category: "Clothing",
+    image: "/clothe/essentials-black-sweatpants.png",
+    deals: [],
+  },
+
+  {
+    id: 174,
+    slug: "essentials-coral-shorts",
+    name: "Essentials Coral Shorts",
+    price: 50,
+    category: "Clothing",
+    image: "/clothe/essentials-coral-shorts.png",
+    deals: [],
+  },
+
+  {
+    id: 175,
+    slug: "essentials-cream-logo-hoodie",
+    name: "Essentials Cream Logo Hoodie",
+    price: 70,
+    category: "Clothing",
+    image: "/clothe/essentials-cream-logo-hoodie.png",
+    deals: [],
+  },
+
+  {
+    id: 176,
+    slug: "essentials-cream-sweatpants",
+    name: "Essentials Cream Sweatpants",
+    price: 70,
+    category: "Clothing",
+    image: "/clothe/essentials-cream-sweatpants.png",
+    deals: [],
+  },
+
+  {
+    id: 177,
+    slug: "essentials-grey-logo-hoodie",
+    name: "Essentials Grey Logo Hoodie",
+    price: 70,
+    category: "Clothing",
+    image: "/clothe/essentials-grey-logo-hoodie.png",
+    deals: [],
+  },
+
+  {
+    id: 178,
+    slug: "essentials-grey-shorts",
+    name: "Essentials Grey Shorts",
+    price: 50,
+    category: "Clothing",
+    image: "/clothe/essentials-grey-shorts.png",
+    deals: [],
+  },
+
+  {
+    id: 179,
+    slug: "essentials-grey-sweatpants",
+    name: "Essentials Grey Sweatpants",
+    price: 70,
+    category: "Clothing",
+    image: "/clothe/essentials-grey-sweatpants.png",
+    deals: [],
+  },
+
+  {
+    id: 180,
     slug: "essentials-hoodie-beige",
     name: "Essentials Hoodie Beige",
     price: 70,
     category: "Clothing",
-    image: "/essentials-hoodie-beige.png",
-    badge: "BEST SELLER",
-    description: "Essentials beige hoodie. Premium quality.",
-    deals: [
-      { quantity: 1, price: 70 },
-      { quantity: 2, price: 130 },
-      { quantity: 5, price: 300 },
-    ],
+    image: "/clothe/essentials-hoodie-beige.png",
+    deals: [],
   },
 
   {
-    id: 24,
-    slug: "essentials-sweatpants-black",
-    name: "Essentials Sweatpants Black",
+    id: 181,
+    slug: "essentials-hoodie-black",
+    name: "Essentials Hoodie Black",
     price: 70,
     category: "Clothing",
-    image: "/essentials-sweatpants.png",
-    badge: "LIMITED STOCK",
-    description: "Essentials black sweatpants. Premium quality.",
-    deals: [
-      { quantity: 1, price: 70 },
-      { quantity: 2, price: 130 },
-      { quantity: 5, price: 300 },
-    ],
+    image: "/clothe/essentials-hoodie-black.png",
+    deals: [],
   },
 
   {
-    id: 25,
-    slug: "chrome-hearts-t-hirt",
-    name: "Chrome Hearts T-Shirt",
-    price: 60,
+    id: 182,
+    slug: "essentials-lightgrey-shorts",
+    name: "Essentials Lightgrey Shorts",
+    price: 50,
     category: "Clothing",
-    image: "/chrome-hearts-tshirt.png",
-    badge: "BEST SELLER",
-    description: "Chrome Hearts style t-shirt.",
-    deals: [
-      { quantity: 1, price: 60 },
-      { quantity: 2, price: 110 },
-      { quantity: 5, price: 250 },
-    ],
+    image: "/clothe/essentials-lightgrey-shorts.png",
+    deals: [],
   },
 
   {
-    id: 26,
-    slug: "chrome-hearts-long-sleeve",
-    name: "Chrome Hearts Long Sleeve",
-    price: 60,
+    id: 183,
+    slug: "essentials-red-fear-of-god-hoodie",
+    name: "Essentials Red Fear Of God Hoodie",
+    price: 70,
     category: "Clothing",
-    image: "/chrome-hearts-long-sleeve.png",
-    badge: "NEW DROP",
-    description: "Chrome Hearts style long sleeve.",
-    deals: [
-      { quantity: 1, price: 60 },
-      { quantity: 2, price: 110 },
-      { quantity: 5, price: 250 },
-    ],
+    image: "/clothe/essentials-red-fear-of-god-hoodie.png",
+    deals: [],
+  },
+
+  {
+    id: 184,
+    slug: "essentials-red-fear-of-god-sweatpants",
+    name: "Essentials Red Fear Of God Sweatpants",
+    price: 70,
+    category: "Clothing",
+    image: "/clothe/essentials-red-fear-of-god-sweatpants.png",
+    deals: [],
+  },
+
+  {
+    id: 185,
+    slug: "essentials-sweatpants",
+    name: "Essentials Sweatpants",
+    price: 70,
+    category: "Clothing",
+    image: "/clothe/essentials-sweatpants.png",
+    deals: [],
+  },
+
+  {
+    id: 186,
+    slug: "essentials-taupe-logo-hoodie",
+    name: "Essentials Taupe Logo Hoodie",
+    price: 70,
+    category: "Clothing",
+    image: "/clothe/essentials-taupe-logo-hoodie.png",
+    deals: [],
+  },
+
+  {
+    id: 187,
+    slug: "essentials-taupe-sweatpants",
+    name: "Essentials Taupe Sweatpants",
+    price: 70,
+    category: "Clothing",
+    image: "/clothe/essentials-taupe-sweatpants.png",
+    deals: [],
+  },
+
+  {
+    id: 188,
+    slug: "sp5der-black-basic-hoodie",
+    name: "SP5DER Black Basic Hoodie",
+    price: 70,
+    category: "Clothing",
+    image: "/clothe/sp5der-black-basic-hoodie.png",
+    deals: [],
+  },
+
+  {
+    id: 189,
+    slug: "sp5der-black-basic-sweatpants",
+    name: "SP5DER Black Basic Sweatpants",
+    price: 70,
+    category: "Clothing",
+    image: "/clothe/sp5der-black-basic-sweatpants.png",
+    deals: [],
+  },
+
+  {
+    id: 190,
+    slug: "sp5der-black-pink-splatter-hoodie",
+    name: "SP5DER Black Pink Splatter Hoodie",
+    price: 70,
+    category: "Clothing",
+    image: "/clothe/sp5der-black-pink-splatter-hoodie.png",
+    deals: [],
+  },
+
+  {
+    id: 191,
+    slug: "sp5der-black-pink-splatter-sweatpants",
+    name: "SP5DER Black Pink Splatter Sweatpants",
+    price: 70,
+    category: "Clothing",
+    image: "/clothe/sp5der-black-pink-splatter-sweatpants.png",
+    deals: [],
+  },
+
+  {
+    id: 192,
+    slug: "sp5der-black-pink-web-hoodie",
+    name: "SP5DER Black Pink Web Hoodie",
+    price: 70,
+    category: "Clothing",
+    image: "/clothe/sp5der-black-pink-web-hoodie.png",
+    deals: [],
+  },
+
+  {
+    id: 193,
+    slug: "sp5der-black-pink-web-sweatpants",
+    name: "SP5DER Black Pink Web Sweatpants",
+    price: 70,
+    category: "Clothing",
+    image: "/clothe/sp5der-black-pink-web-sweatpants.png",
+    deals: [],
+  },
+
+  {
+    id: 194,
+    slug: "sp5der-floral-black-hoodie",
+    name: "SP5DER Floral Black Hoodie",
+    price: 70,
+    category: "Clothing",
+    image: "/clothe/sp5der-floral-black-hoodie.png",
+    deals: [],
+  },
+
+  {
+    id: 195,
+    slug: "sp5der-floral-black-shorts",
+    name: "SP5DER Floral Black Shorts",
+    price: 50,
+    category: "Clothing",
+    image: "/clothe/sp5der-floral-black-shorts.png",
+    deals: [],
+  },
+
+  {
+    id: 196,
+    slug: "sp5der-floral-black-sweatpants",
+    name: "SP5DER Floral Black Sweatpants",
+    price: 70,
+    category: "Clothing",
+    image: "/clothe/sp5der-floral-black-sweatpants.png",
+    deals: [],
+  },
+
+  {
+    id: 197,
+    slug: "sp5der-floral-blue-shorts",
+    name: "SP5DER Floral Blue Shorts",
+    price: 50,
+    category: "Clothing",
+    image: "/clothe/sp5der-floral-blue-shorts.png",
+    deals: [],
+  },
+
+  {
+    id: 198,
+    slug: "sp5der-floral-burgundy-hoodie",
+    name: "SP5DER Floral Burgundy Hoodie",
+    price: 70,
+    category: "Clothing",
+    image: "/clothe/sp5der-floral-burgundy-hoodie.png",
+    deals: [],
+  },
+
+  {
+    id: 199,
+    slug: "sp5der-floral-burgundy-sweatpants",
+    name: "SP5DER Floral Burgundy Sweatpants",
+    price: 70,
+    category: "Clothing",
+    image: "/clothe/sp5der-floral-burgundy-sweatpants.png",
+    deals: [],
+  },
+
+  {
+    id: 200,
+    slug: "sp5der-floral-charcoal-hoodie",
+    name: "SP5DER Floral Charcoal Hoodie",
+    price: 70,
+    category: "Clothing",
+    image: "/clothe/sp5der-floral-charcoal-hoodie.png",
+    deals: [],
+  },
+
+  {
+    id: 201,
+    slug: "sp5der-floral-charcoal-sweatpants",
+    name: "SP5DER Floral Charcoal Sweatpants",
+    price: 70,
+    category: "Clothing",
+    image: "/clothe/sp5der-floral-charcoal-sweatpants.png",
+    deals: [],
+  },
+
+  {
+    id: 202,
+    slug: "sp5der-floral-grey-hoodie",
+    name: "SP5DER Floral Grey Hoodie",
+    price: 70,
+    category: "Clothing",
+    image: "/clothe/sp5der-floral-grey-hoodie.png",
+    deals: [],
+  },
+
+  {
+    id: 203,
+    slug: "sp5der-floral-grey-shorts",
+    name: "SP5DER Floral Grey Shorts",
+    price: 50,
+    category: "Clothing",
+    image: "/clothe/sp5der-floral-grey-shorts.png",
+    deals: [],
+  },
+
+  {
+    id: 204,
+    slug: "sp5der-floral-grey-sweatpants",
+    name: "SP5DER Floral Grey Sweatpants",
+    price: 70,
+    category: "Clothing",
+    image: "/clothe/sp5der-floral-grey-sweatpants.png",
+    deals: [],
+  },
+
+  {
+    id: 205,
+    slug: "sp5der-floral-lightblue-hoodie",
+    name: "SP5DER Floral Lightblue Hoodie",
+    price: 70,
+    category: "Clothing",
+    image: "/clothe/sp5der-floral-lightblue-hoodie.png",
+    deals: [],
+  },
+
+  {
+    id: 206,
+    slug: "sp5der-floral-lightblue-sweatpants",
+    name: "SP5DER Floral Lightblue Sweatpants",
+    price: 70,
+    category: "Clothing",
+    image: "/clothe/sp5der-floral-lightblue-sweatpants.png",
+    deals: [],
+  },
+
+  {
+    id: 207,
+    slug: "sp5der-floral-pink-shorts",
+    name: "SP5DER Floral Pink Shorts",
+    price: 50,
+    category: "Clothing",
+    image: "/clothe/sp5der-floral-pink-shorts.png",
+    deals: [],
+  },
+
+  {
+    id: 208,
+    slug: "sp5der-floral-red-shorts",
+    name: "SP5DER Floral Red Shorts",
+    price: 50,
+    category: "Clothing",
+    image: "/clothe/sp5der-floral-red-shorts.png",
+    deals: [],
+  },
+
+  {
+    id: 209,
+    slug: "sp5der-grey-green-hoodie",
+    name: "SP5DER Grey Green Hoodie",
+    price: 70,
+    category: "Clothing",
+    image: "/clothe/sp5der-grey-green-hoodie.png",
+    deals: [],
+  },
+
+  {
+    id: 210,
+    slug: "sp5der-grey-green-sweatpants",
+    name: "SP5DER Grey Green Sweatpants",
+    price: 70,
+    category: "Clothing",
+    image: "/clothe/sp5der-grey-green-sweatpants.png",
+    deals: [],
+  },
+
+  {
+    id: 211,
+    slug: "sp5der-grey-stars-hoodie",
+    name: "SP5DER Grey Stars Hoodie",
+    price: 70,
+    category: "Clothing",
+    image: "/clothe/sp5der-grey-stars-hoodie.png",
+    deals: [],
+  },
+
+  {
+    id: 212,
+    slug: "sp5der-grey-stars-sweatpants",
+    name: "SP5DER Grey Stars Sweatpants",
+    price: 70,
+    category: "Clothing",
+    image: "/clothe/sp5der-grey-stars-sweatpants.png",
+    deals: [],
+  },
+
+  {
+    id: 213,
+    slug: "sp5der-hot-pink-web-hoodie",
+    name: "SP5DER Hot Pink Web Hoodie",
+    price: 70,
+    category: "Clothing",
+    image: "/clothe/sp5der-hot-pink-web-hoodie.png",
+    deals: [],
+  },
+
+  {
+    id: 214,
+    slug: "sp5der-hot-pink-web-sweatpants",
+    name: "SP5DER Hot Pink Web Sweatpants",
+    price: 70,
+    category: "Clothing",
+    image: "/clothe/sp5der-hot-pink-web-sweatpants.png",
+    deals: [],
+  },
+
+  {
+    id: 215,
+    slug: "sp5der-lavender-splatter-hoodie",
+    name: "SP5DER Lavender Splatter Hoodie",
+    price: 70,
+    category: "Clothing",
+    image: "/clothe/sp5der-lavender-splatter-hoodie.png",
+    deals: [],
+  },
+
+  {
+    id: 216,
+    slug: "sp5der-lavender-sweatpants",
+    name: "SP5DER Lavender Sweatpants",
+    price: 70,
+    category: "Clothing",
+    image: "/clothe/sp5der-lavender-sweatpants.png",
+    deals: [],
+  },
+
+  {
+    id: 217,
+    slug: "sp5der-lightblue-white-hoodie",
+    name: "SP5DER Lightblue White Hoodie",
+    price: 70,
+    category: "Clothing",
+    image: "/clothe/sp5der-lightblue-white-hoodie.png",
+    deals: [],
+  },
+
+  {
+    id: 218,
+    slug: "sp5der-lightblue-white-sweatpants",
+    name: "SP5DER Lightblue White Sweatpants",
+    price: 70,
+    category: "Clothing",
+    image: "/clothe/sp5der-lightblue-white-sweatpants.png",
+    deals: [],
+  },
+
+  {
+    id: 219,
+    slug: "sp5der-navy-atlanta-hoodie",
+    name: "SP5DER Navy Atlanta Hoodie",
+    price: 70,
+    category: "Clothing",
+    image: "/clothe/sp5der-navy-atlanta-hoodie.png",
+    deals: [],
+  },
+
+  {
+    id: 220,
+    slug: "sp5der-navy-sweatpants",
+    name: "SP5DER Navy Sweatpants",
+    price: 70,
+    category: "Clothing",
+    image: "/clothe/sp5der-navy-sweatpants.png",
+    deals: [],
+  },
+
+  {
+    id: 221,
+    slug: "sp5der-purple-sweatpants",
+    name: "SP5DER Purple Sweatpants",
+    price: 70,
+    category: "Clothing",
+    image: "/clothe/sp5der-purple-sweatpants.png",
+    deals: [],
+  },
+
+  {
+    id: 222,
+    slug: "sp5der-purple-web-hoodie",
+    name: "SP5DER Purple Web Hoodie",
+    price: 70,
+    category: "Clothing",
+    image: "/clothe/sp5der-purple-web-hoodie.png",
+    deals: [],
+  },
+
+  {
+    id: 223,
+    slug: "spider-hoodie",
+    name: "Spider Hoodie",
+    price: 70,
+    category: "Clothing",
+    image: "/clothe/spider-hoodie.png",
+    deals: [],
+  },
+
+  {
+    id: 224,
+    slug: "spider-sweatpants",
+    name: "Spider Sweatpants",
+    price: 70,
+    category: "Clothing",
+    image: "/clothe/spider-sweatpants.png",
+    deals: [],
   },
 
   // BAGS
-
+  
   {
     id: 29,
     slug: "lv-neverfull",
@@ -473,7 +1626,7 @@ export const products = [
     badge: "BEST SELLER",
     description: "Message for pricing and available options.",
   },
-
+  
   {
     id: 30,
     slug: "lv-onthego",
@@ -484,7 +1637,7 @@ export const products = [
     badge: "NEW DROP",
     description: "Message for pricing and available options.",
   },
-
+  
   {
     id: 31,
     slug: "lv-speedy",
@@ -495,7 +1648,7 @@ export const products = [
     badge: "BEST SELLER",
     description: "Message for pricing and available options.",
   },
-
+  
   {
     id: 32,
     slug: "lv-pochette-metis",
@@ -506,7 +1659,7 @@ export const products = [
     badge: "LIMITED STOCK",
     description: "Message for pricing and available options.",
   },
-
+  
   {
     id: 33,
     slug: "ysl-loulou",
@@ -517,7 +1670,7 @@ export const products = [
     badge: "BEST SELLER",
     description: "Message for pricing and available options.",
   },
-
+  
   {
     id: 34,
     slug: "ysl-sunset",
@@ -528,7 +1681,7 @@ export const products = [
     badge: "NEW DROP",
     description: "Message for pricing and available options.",
   },
-
+  
   {
     id: 35,
     slug: "chanel-classic-flap",
