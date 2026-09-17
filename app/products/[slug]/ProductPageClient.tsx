@@ -236,13 +236,6 @@ export default function ProductPageClient({ product }: { product: Product }) {
               </div>
             </div>
 
-            <div className="mt-8">
-              <h2 className="text-2xl font-black mb-4">Description</h2>
-              <p className="text-gray-400 leading-relaxed">
-                {product.description}
-              </p>
-            </div>
-
             {product.price === 0 ? (
               <a
                 href="https://t.me/GlobalSupplyTM"
