@@ -156,11 +156,11 @@ export const products = [
   category: "Fragrances",
   image: "/dior-sauvage.jpg",
   deals: [
-    { quantity: 1, price: 50,},
-    { quantity: 2, price: 80 },
-    { quantity: 5, price: 200 },
-    { quantity: 10, price: 350 },
-  ],
+      { quantity: 1, price: 50 },
+      { quantity: 2, price: 96 },
+      { quantity: 5, price: 225 },
+      { quantity: 10, price: 420 },
+    ],
 },
 
 {
@@ -172,11 +172,11 @@ export const products = [
   image: "/creed-aventus.jpg",
   description: "Premium designer fragrance.",
   deals: [
-    { quantity: 1, price: 50,},
-    { quantity: 2, price: 80 },
-    { quantity: 5, price: 200 },
-    { quantity: 10, price: 350 },
-  ],
+      { quantity: 1, price: 50 },
+      { quantity: 2, price: 96 },
+      { quantity: 5, price: 225 },
+      { quantity: 10, price: 420 },
+    ],
 },
 
 {
@@ -188,11 +188,11 @@ export const products = [
   image: "/baccarat-rouge-540.jpg",
   description: "Premium designer fragrance.",
    deals: [
-    { quantity: 1, price: 50,},
-    { quantity: 2, price: 80 },
-    { quantity: 5, price: 200 },
-    { quantity: 10, price: 350 },
-  ],
+      { quantity: 1, price: 50 },
+      { quantity: 2, price: 96 },
+      { quantity: 5, price: 225 },
+      { quantity: 10, price: 420 },
+    ],
 },
 
 {
@@ -220,11 +220,11 @@ export const products = [
   image: "/ysl-y.jpg",
   description: "Fresh and modern Yves Saint Laurent fragrance.",
  deals: [
-  { quantity: 1, price: 50 },
-  { quantity: 2, price: 90 },
-  { quantity: 5, price: 200 },
-  { quantity: 10, price: 350 },
-],
+      { quantity: 1, price: 50 },
+      { quantity: 2, price: 96 },
+      { quantity: 5, price: 225 },
+      { quantity: 10, price: 420 },
+    ],
 },
 
 {
@@ -236,11 +236,11 @@ export const products = [
   image: "/valentino-uomo.jpg",
   description: "Premium designer fragrance.",
     deals: [
-    { quantity: 1, price: 50,},
-    { quantity: 2, price: 80 },
-    { quantity: 5, price: 200 },
-    { quantity: 10, price: 350 },
-  ],
+      { quantity: 1, price: 50 },
+      { quantity: 2, price: 96 },
+      { quantity: 5, price: 225 },
+      { quantity: 10, price: 420 },
+    ],
 },
 
 {
@@ -252,11 +252,11 @@ export const products = [
   image: "/tom-ford-oud-wood.jpg",
   description: "Premium Tom Ford fragrance.",
    deals: [
-    { quantity: 1, price: 50,},
-    { quantity: 2, price: 80 },
-    { quantity: 5, price: 200 },
-    { quantity: 10, price: 350 },
-  ],
+      { quantity: 1, price: 50 },
+      { quantity: 2, price: 96 },
+      { quantity: 5, price: 225 },
+      { quantity: 10, price: 420 },
+    ],
 },
 
 {
@@ -268,11 +268,11 @@ export const products = [
   image: "/jean-paul-gaultier-le-male.jpg",
   description: "Popular Jean Paul Gaultier fragrance.",
  deals: [
-  { quantity: 1, price: 50 },
-  { quantity: 2, price: 90 },
-  { quantity: 5, price: 200 },
-  { quantity: 10, price: 350 },
-],
+      { quantity: 1, price: 50 },
+      { quantity: 2, price: 96 },
+      { quantity: 5, price: 225 },
+      { quantity: 10, price: 420 },
+    ],
 },
 {
   id: 20, // use the next available ID
@@ -283,11 +283,11 @@ export const products = [
   image: "/ysl-libre.jpg",
   description: "Elegant floral fragrance with a modern and luxurious scent.",
   deals: [
-  { quantity: 1, price: 50 },
-  { quantity: 2, price: 90 },
-  { quantity: 5, price: 200 },
-  { quantity: 10, price: 350 },
-],
+      { quantity: 1, price: 50 },
+      { quantity: 2, price: 96 },
+      { quantity: 5, price: 225 },
+      { quantity: 10, price: 420 },
+    ],
 },
 {
   id: 36,
@@ -298,11 +298,11 @@ export const products = [
   image: "/jpg-le-beau-le-parfum.jpg",
   description: "Popular Jean Paul Gaultier fragrance.",
   deals: [
-    { quantity: 1, price: 50 },
-    { quantity: 2, price: 90 },
-    { quantity: 5, price: 200 },
-    { quantity: 10, price: 350 },
-  ],
+      { quantity: 1, price: 50 },
+      { quantity: 2, price: 96 },
+      { quantity: 5, price: 225 },
+      { quantity: 10, price: 420 },
+    ],
 },
 {
   id: 37,
@@ -314,11 +314,11 @@ export const products = [
   badge: "POPULAR",
   description: "Premium Jean Paul Gaultier fragrance.",
   deals: [
-    { quantity: 1, price: 50 },
-    { quantity: 2, price: 90 },
-    { quantity: 5, price: 200 },
-    { quantity: 10, price: 350 },
-  ],
+      { quantity: 1, price: 50 },
+      { quantity: 2, price: 96 },
+      { quantity: 5, price: 225 },
+      { quantity: 10, price: 420 },
+    ],
 },
 {
   id: 28,
@@ -344,11 +344,11 @@ export const products = [
   image: "/santal-33.jpg",
   description: "New Drop",
    deals: [
-    { quantity: 1, price: 50,},
-    { quantity: 2, price: 80 },
-    { quantity: 5, price: 200 },
-    { quantity: 10, price: 350 },
-  ],
+      { quantity: 1, price: 50 },
+      { quantity: 2, price: 96 },
+      { quantity: 5, price: 225 },
+      { quantity: 10, price: 420 },
+    ],
 },
 // CLOTHING
 
