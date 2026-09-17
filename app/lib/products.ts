@@ -367,22 +367,6 @@ export const products = [
   },
 
   {
-    id: 27,
-    slug: "club-de-nuit-intense-man",
-    name: "Club de Nuit Intense Man",
-    price: 50,
-    category: "Fragrances",
-    image: "/club-de-nuit-intense-man.png",
-    description: "Popular fresh and masculine fragrance from Armaf.",
-    deals: [
-      { quantity: 1, price: 50 },
-      { quantity: 2, price: 96 },
-      { quantity: 5, price: 225 },
-      { quantity: 10, price: 420 },
-    ],
-  },
-
-  {
     id: 28,
     slug: "ysl-myslf",
     name: "YSL MYSLF",
