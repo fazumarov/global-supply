@@ -952,471 +952,10 @@ export const products = [
     ],
   },
 
-  // CORRECTED CLOTHING - extracted from the original 2-page catalog
-// Hoodies/sweatpants = $70; T-shirts/long sleeves/raglans/shorts = $50
+  // SELECTED CLOTHING ONLY
 
   {
-    id: 200,
-    slug: "sp5der-grey-green-hoodie",
-    name: "SP5DER Grey Green Hoodie",
-    price: 70,
-    category: "Clothing",
-    image: "/clothing-corrected/sp5der-grey-green-hoodie.png",
-    deals: [],
-  },
-
-  {
-    id: 201,
-    slug: "sp5der-light-blue-hoodie",
-    name: "SP5DER Light Blue Hoodie",
-    price: 70,
-    category: "Clothing",
-    image: "/clothing-corrected/sp5der-light-blue-hoodie.png",
-    deals: [],
-  },
-
-  {
-    id: 202,
-    slug: "sp5der-black-pink-hoodie",
-    name: "SP5DER Black Pink Hoodie",
-    price: 70,
-    category: "Clothing",
-    image: "/clothing-corrected/sp5der-black-pink-hoodie.png",
-    deals: [],
-  },
-
-  {
-    id: 203,
-    slug: "sp5der-pink-hoodie",
-    name: "SP5DER Pink Hoodie",
-    price: 70,
-    category: "Clothing",
-    image: "/clothing-corrected/sp5der-pink-hoodie.png",
-    deals: [],
-  },
-
-  {
-    id: 204,
-    slug: "sp5der-black-pink-web-hoodie",
-    name: "SP5DER Black Pink Web Hoodie",
-    price: 70,
-    category: "Clothing",
-    image: "/clothing-corrected/sp5der-black-pink-web-hoodie.png",
-    deals: [],
-  },
-
-  {
-    id: 205,
-    slug: "sp5der-grey-green-sweatpants",
-    name: "SP5DER Grey Green Sweatpants",
-    price: 70,
-    category: "Clothing",
-    image: "/clothing-corrected/sp5der-grey-green-sweatpants.png",
-    deals: [],
-  },
-
-  {
-    id: 206,
-    slug: "sp5der-light-blue-sweatpants",
-    name: "SP5DER Light Blue Sweatpants",
-    price: 70,
-    category: "Clothing",
-    image: "/clothing-corrected/sp5der-light-blue-sweatpants.png",
-    deals: [],
-  },
-
-  {
-    id: 207,
-    slug: "sp5der-black-pink-sweatpants",
-    name: "SP5DER Black Pink Sweatpants",
-    price: 70,
-    category: "Clothing",
-    image: "/clothing-corrected/sp5der-black-pink-sweatpants.png",
-    deals: [],
-  },
-
-  {
-    id: 208,
-    slug: "sp5der-pink-sweatpants",
-    name: "SP5DER Pink Sweatpants",
-    price: 70,
-    category: "Clothing",
-    image: "/clothing-corrected/sp5der-pink-sweatpants.png",
-    deals: [],
-  },
-
-  {
-    id: 209,
-    slug: "sp5der-black-pink-web-sweatpants",
-    name: "SP5DER Black Pink Web Sweatpants",
-    price: 70,
-    category: "Clothing",
-    image: "/clothing-corrected/sp5der-black-pink-web-sweatpants.png",
-    deals: [],
-  },
-
-  {
-    id: 210,
-    slug: "sp5der-grey-stars-hoodie",
-    name: "SP5DER Grey Stars Hoodie",
-    price: 70,
-    category: "Clothing",
-    image: "/clothing-corrected/sp5der-grey-stars-hoodie.png",
-    deals: [],
-  },
-
-  {
-    id: 211,
-    slug: "sp5der-purple-web-hoodie",
-    name: "SP5DER Purple Web Hoodie",
-    price: 70,
-    category: "Clothing",
-    image: "/clothing-corrected/sp5der-purple-web-hoodie.png",
-    deals: [],
-  },
-
-  {
-    id: 212,
-    slug: "sp5der-lavender-hoodie",
-    name: "SP5DER Lavender Hoodie",
-    price: 70,
-    category: "Clothing",
-    image: "/clothing-corrected/sp5der-lavender-hoodie.png",
-    deals: [],
-  },
-
-  {
-    id: 213,
-    slug: "sp5der-black-basic-hoodie",
-    name: "SP5DER Black Basic Hoodie",
-    price: 70,
-    category: "Clothing",
-    image: "/clothing-corrected/sp5der-black-basic-hoodie.png",
-    deals: [],
-  },
-
-  {
-    id: 214,
-    slug: "sp5der-atlanta-navy-hoodie",
-    name: "SP5DER Atlanta Navy Hoodie",
-    price: 70,
-    category: "Clothing",
-    image: "/clothing-corrected/sp5der-atlanta-navy-hoodie.png",
-    deals: [],
-  },
-
-  {
-    id: 215,
-    slug: "sp5der-grey-stars-sweatpants",
-    name: "SP5DER Grey Stars Sweatpants",
-    price: 70,
-    category: "Clothing",
-    image: "/clothing-corrected/sp5der-grey-stars-sweatpants.png",
-    deals: [],
-  },
-
-  {
-    id: 216,
-    slug: "sp5der-purple-sweatpants",
-    name: "SP5DER Purple Sweatpants",
-    price: 70,
-    category: "Clothing",
-    image: "/clothing-corrected/sp5der-purple-sweatpants.png",
-    deals: [],
-  },
-
-  {
-    id: 217,
-    slug: "sp5der-lavender-sweatpants",
-    name: "SP5DER Lavender Sweatpants",
-    price: 70,
-    category: "Clothing",
-    image: "/clothing-corrected/sp5der-lavender-sweatpants.png",
-    deals: [],
-  },
-
-  {
-    id: 218,
-    slug: "sp5der-black-basic-sweatpants",
-    name: "SP5DER Black Basic Sweatpants",
-    price: 70,
-    category: "Clothing",
-    image: "/clothing-corrected/sp5der-black-basic-sweatpants.png",
-    deals: [],
-  },
-
-  {
-    id: 219,
-    slug: "sp5der-atlanta-navy-sweatpants",
-    name: "SP5DER Atlanta Navy Sweatpants",
-    price: 70,
-    category: "Clothing",
-    image: "/clothing-corrected/sp5der-atlanta-navy-sweatpants.png",
-    deals: [],
-  },
-
-  {
-    id: 220,
-    slug: "sp5der-black-floral-hoodie",
-    name: "SP5DER Black Floral Hoodie",
-    price: 70,
-    category: "Clothing",
-    image: "/clothing-corrected/sp5der-black-floral-hoodie.png",
-    deals: [],
-  },
-
-  {
-    id: 221,
-    slug: "sp5der-grey-floral-hoodie",
-    name: "SP5DER Grey Floral Hoodie",
-    price: 70,
-    category: "Clothing",
-    image: "/clothing-corrected/sp5der-grey-floral-hoodie.png",
-    deals: [],
-  },
-
-  {
-    id: 222,
-    slug: "sp5der-light-blue-floral-hoodie",
-    name: "SP5DER Light Blue Floral Hoodie",
-    price: 70,
-    category: "Clothing",
-    image: "/clothing-corrected/sp5der-light-blue-floral-hoodie.png",
-    deals: [],
-  },
-
-  {
-    id: 223,
-    slug: "sp5der-burgundy-floral-hoodie",
-    name: "SP5DER Burgundy Floral Hoodie",
-    price: 70,
-    category: "Clothing",
-    image: "/clothing-corrected/sp5der-burgundy-floral-hoodie.png",
-    deals: [],
-  },
-
-  {
-    id: 224,
-    slug: "sp5der-charcoal-floral-hoodie",
-    name: "SP5DER Charcoal Floral Hoodie",
-    price: 70,
-    category: "Clothing",
-    image: "/clothing-corrected/sp5der-charcoal-floral-hoodie.png",
-    deals: [],
-  },
-
-  {
-    id: 225,
-    slug: "sp5der-black-floral-sweatpants",
-    name: "SP5DER Black Floral Sweatpants",
-    price: 70,
-    category: "Clothing",
-    image: "/clothing-corrected/sp5der-black-floral-sweatpants.png",
-    deals: [],
-  },
-
-  {
-    id: 226,
-    slug: "sp5der-grey-floral-sweatpants",
-    name: "SP5DER Grey Floral Sweatpants",
-    price: 70,
-    category: "Clothing",
-    image: "/clothing-corrected/sp5der-grey-floral-sweatpants.png",
-    deals: [],
-  },
-
-  {
-    id: 227,
-    slug: "sp5der-light-blue-floral-sweatpants",
-    name: "SP5DER Light Blue Floral Sweatpants",
-    price: 70,
-    category: "Clothing",
-    image: "/clothing-corrected/sp5der-light-blue-floral-sweatpants.png",
-    deals: [],
-  },
-
-  {
-    id: 228,
-    slug: "sp5der-burgundy-floral-sweatpants",
-    name: "SP5DER Burgundy Floral Sweatpants",
-    price: 70,
-    category: "Clothing",
-    image: "/clothing-corrected/sp5der-burgundy-floral-sweatpants.png",
-    deals: [],
-  },
-
-  {
-    id: 229,
-    slug: "sp5der-charcoal-floral-sweatpants",
-    name: "SP5DER Charcoal Floral Sweatpants",
-    price: 70,
-    category: "Clothing",
-    image: "/clothing-corrected/sp5der-charcoal-floral-sweatpants.png",
-    deals: [],
-  },
-
-  {
-    id: 230,
-    slug: "essentials-black-minimal-hoodie",
-    name: "Essentials Black Minimal Hoodie",
-    price: 70,
-    category: "Clothing",
-    image: "/clothing-corrected/essentials-black-minimal-hoodie.png",
-    deals: [],
-  },
-
-  {
-    id: 231,
-    slug: "essentials-cream-logo-hoodie",
-    name: "Essentials Cream Logo Hoodie",
-    price: 70,
-    category: "Clothing",
-    image: "/clothing-corrected/essentials-cream-logo-hoodie.png",
-    deals: [],
-  },
-
-  {
-    id: 232,
-    slug: "essentials-grey-minimal-hoodie",
-    name: "Essentials Grey Minimal Hoodie",
-    price: 70,
-    category: "Clothing",
-    image: "/clothing-corrected/essentials-grey-minimal-hoodie.png",
-    deals: [],
-  },
-
-  {
-    id: 233,
-    slug: "essentials-taupe-minimal-hoodie",
-    name: "Essentials Taupe Minimal Hoodie",
-    price: 70,
-    category: "Clothing",
-    image: "/clothing-corrected/essentials-taupe-minimal-hoodie.png",
-    deals: [],
-  },
-
-  {
-    id: 234,
-    slug: "essentials-red-fear-of-god-hoodie",
-    name: "Essentials Red Fear of God Hoodie",
-    price: 70,
-    category: "Clothing",
-    image: "/clothing-corrected/essentials-red-fear-of-god-hoodie.png",
-    deals: [],
-  },
-
-  {
-    id: 235,
-    slug: "essentials-black-sweatpants",
-    name: "Essentials Black Sweatpants",
-    price: 70,
-    category: "Clothing",
-    image: "/clothing-corrected/essentials-black-sweatpants.png",
-    deals: [],
-  },
-
-  {
-    id: 236,
-    slug: "essentials-cream-sweatpants",
-    name: "Essentials Cream Sweatpants",
-    price: 70,
-    category: "Clothing",
-    image: "/clothing-corrected/essentials-cream-sweatpants.png",
-    deals: [],
-  },
-
-  {
-    id: 237,
-    slug: "essentials-grey-sweatpants",
-    name: "Essentials Grey Sweatpants",
-    price: 70,
-    category: "Clothing",
-    image: "/clothing-corrected/essentials-grey-sweatpants.png",
-    deals: [],
-  },
-
-  {
-    id: 238,
-    slug: "essentials-taupe-sweatpants",
-    name: "Essentials Taupe Sweatpants",
-    price: 70,
-    category: "Clothing",
-    image: "/clothing-corrected/essentials-taupe-sweatpants.png",
-    deals: [],
-  },
-
-  {
-    id: 239,
-    slug: "essentials-red-sweatpants",
-    name: "Essentials Red Sweatpants",
-    price: 70,
-    category: "Clothing",
-    image: "/clothing-corrected/essentials-red-sweatpants.png",
-    deals: [],
-  },
-
-  {
-    id: 240,
-    slug: "chrome-hearts-black-long-sleeve",
-    name: "Chrome Hearts Black Long Sleeve",
-    price: 50,
-    category: "Clothing",
-    image: "/clothing-corrected/chrome-hearts-black-long-sleeve.png",
-    deals: [],
-  },
-
-  {
-    id: 241,
-    slug: "chrome-hearts-white-black-raglan",
-    name: "Chrome Hearts White Black Raglan",
-    price: 50,
-    category: "Clothing",
-    image: "/clothing-corrected/chrome-hearts-white-black-raglan.png",
-    deals: [],
-  },
-
-  {
-    id: 242,
-    slug: "chrome-hearts-white-rainbow-long-sleeve",
-    name: "Chrome Hearts White Rainbow Long Sleeve",
-    price: 50,
-    category: "Clothing",
-    image: "/clothing-corrected/chrome-hearts-white-rainbow-long-sleeve.png",
-    deals: [],
-  },
-
-  {
-    id: 243,
-    slug: "chrome-hearts-white-blue-raglan",
-    name: "Chrome Hearts White Blue Raglan",
-    price: 50,
-    category: "Clothing",
-    image: "/clothing-corrected/chrome-hearts-white-blue-raglan.png",
-    deals: [],
-  },
-
-  {
-    id: 244,
-    slug: "chrome-hearts-white-grey-long-sleeve",
-    name: "Chrome Hearts White Grey Long Sleeve",
-    price: 50,
-    category: "Clothing",
-    image: "/clothing-corrected/chrome-hearts-white-grey-long-sleeve.png",
-    deals: [],
-  },
-
-  {
-    id: 245,
-    slug: "chrome-hearts-black-tshirt",
-    name: "Chrome Hearts Black T-Shirt",
-    price: 50,
-    category: "Clothing",
-    image: "/clothing-corrected/chrome-hearts-black-tshirt.png",
-    deals: [],
-  },
-
-  {
-    id: 246,
+    id: 500,
     slug: "chrome-hearts-black-logo-long-sleeve",
     name: "Chrome Hearts Black Logo Long Sleeve",
     price: 50,
@@ -1426,27 +965,17 @@ export const products = [
   },
 
   {
-    id: 247,
-    slug: "chrome-hearts-red-long-sleeve",
-    name: "Chrome Hearts Red Long Sleeve",
+    id: 501,
+    slug: "chrome-hearts-black-long-sleeve",
+    name: "Chrome Hearts Black Long Sleeve",
     price: 50,
     category: "Clothing",
-    image: "/clothing-corrected/chrome-hearts-red-long-sleeve.png",
+    image: "/clothing-corrected/chrome-hearts-black-long-sleeve.png",
     deals: [],
   },
 
   {
-    id: 248,
-    slug: "chrome-hearts-white-tshirt",
-    name: "Chrome Hearts White T-Shirt",
-    price: 50,
-    category: "Clothing",
-    image: "/clothing-corrected/chrome-hearts-white-tshirt.png",
-    deals: [],
-  },
-
-  {
-    id: 249,
+    id: 502,
     slug: "chrome-hearts-black-pink-long-sleeve",
     name: "Chrome Hearts Black Pink Long Sleeve",
     price: 50,
@@ -1456,27 +985,47 @@ export const products = [
   },
 
   {
-    id: 250,
-    slug: "essentials-grey-shorts",
-    name: "Essentials Grey Shorts",
+    id: 503,
+    slug: "chrome-hearts-black-tshirt",
+    name: "Chrome Hearts Black T-Shirt",
     price: 50,
     category: "Clothing",
-    image: "/clothing-corrected/essentials-grey-shorts.png",
+    image: "/clothing-corrected/chrome-hearts-black-tshirt.png",
     deals: [],
   },
 
   {
-    id: 251,
-    slug: "essentials-black-shorts",
-    name: "Essentials Black Shorts",
+    id: 504,
+    slug: "chrome-hearts-white-black-raglan",
+    name: "Chrome Hearts White Black Raglan",
     price: 50,
     category: "Clothing",
-    image: "/clothing-corrected/essentials-black-shorts.png",
+    image: "/clothing-corrected/chrome-hearts-white-black-raglan.png",
     deals: [],
   },
 
   {
-    id: 252,
+    id: 505,
+    slug: "chrome-hearts-white-blue-raglan",
+    name: "Chrome Hearts White Blue Raglan",
+    price: 50,
+    category: "Clothing",
+    image: "/clothing-corrected/chrome-hearts-white-blue-raglan.png",
+    deals: [],
+  },
+
+  {
+    id: 506,
+    slug: "chrome-hearts-white-rainbow-long-sleeve",
+    name: "Chrome Hearts White Rainbow Long Sleeve",
+    price: 50,
+    category: "Clothing",
+    image: "/clothing-corrected/chrome-hearts-white-rainbow-long-sleeve.png",
+    deals: [],
+  },
+
+  {
+    id: 507,
     slug: "essentials-black-logo-shorts",
     name: "Essentials Black Logo Shorts",
     price: 50,
@@ -1486,17 +1035,27 @@ export const products = [
   },
 
   {
-    id: 253,
-    slug: "essentials-white-grey-shorts",
-    name: "Essentials White Grey Shorts",
+    id: 508,
+    slug: "essentials-black-shorts",
+    name: "Essentials Black Shorts",
     price: 50,
     category: "Clothing",
-    image: "/clothing-corrected/essentials-white-grey-shorts.png",
+    image: "/clothing-corrected/essentials-black-shorts.png",
     deals: [],
   },
 
   {
-    id: 254,
+    id: 509,
+    slug: "essentials-black-sweatpants",
+    name: "Essentials Black Sweatpants",
+    price: 70,
+    category: "Clothing",
+    image: "/clothing-corrected/essentials-black-sweatpants.png",
+    deals: [],
+  },
+
+  {
+    id: 510,
     slug: "essentials-coral-shorts",
     name: "Essentials Coral Shorts",
     price: 50,
@@ -1506,17 +1065,257 @@ export const products = [
   },
 
   {
-    id: 255,
-    slug: "sp5der-black-floral-shorts",
-    name: "SP5DER Black Floral Shorts",
-    price: 50,
+    id: 511,
+    slug: "essentials-cream-logo-hoodie",
+    name: "Essentials Cream Logo Hoodie",
+    price: 70,
     category: "Clothing",
-    image: "/clothing-corrected/sp5der-black-floral-shorts.png",
+    image: "/clothing-corrected/essentials-cream-logo-hoodie.png",
     deals: [],
   },
 
   {
-    id: 256,
+    id: 512,
+    slug: "essentials-cream-sweatpants",
+    name: "Essentials Cream Sweatpants",
+    price: 70,
+    category: "Clothing",
+    image: "/clothing-corrected/essentials-cream-sweatpants.png",
+    deals: [],
+  },
+
+  {
+    id: 513,
+    slug: "essentials-grey-minimal-hoodie",
+    name: "Essentials Grey Minimal Hoodie",
+    price: 70,
+    category: "Clothing",
+    image: "/clothing-corrected/essentials-grey-minimal-hoodie.png",
+    deals: [],
+  },
+
+  {
+    id: 514,
+    slug: "essentials-grey-shorts",
+    name: "Essentials Grey Shorts",
+    price: 50,
+    category: "Clothing",
+    image: "/clothing-corrected/essentials-grey-shorts.png",
+    deals: [],
+  },
+
+  {
+    id: 515,
+    slug: "essentials-grey-sweatpants",
+    name: "Essentials Grey Sweatpants",
+    price: 70,
+    category: "Clothing",
+    image: "/clothing-corrected/essentials-grey-sweatpants.png",
+    deals: [],
+  },
+
+  {
+    id: 516,
+    slug: "essentials-red-fear-of-god-hoodie",
+    name: "Essentials Red Fear of God Hoodie",
+    price: 70,
+    category: "Clothing",
+    image: "/clothing-corrected/essentials-red-fear-of-god-hoodie.png",
+    deals: [],
+  },
+
+  {
+    id: 517,
+    slug: "essentials-red-sweatpants",
+    name: "Essentials Red Sweatpants",
+    price: 70,
+    category: "Clothing",
+    image: "/clothing-corrected/essentials-red-sweatpants.png",
+    deals: [],
+  },
+
+  {
+    id: 518,
+    slug: "essentials-taupe-minimal-hoodie",
+    name: "Essentials Taupe Minimal Hoodie",
+    price: 70,
+    category: "Clothing",
+    image: "/clothing-corrected/essentials-taupe-minimal-hoodie.png",
+    deals: [],
+  },
+
+  {
+    id: 519,
+    slug: "essentials-taupe-sweatpants",
+    name: "Essentials Taupe Sweatpants",
+    price: 70,
+    category: "Clothing",
+    image: "/clothing-corrected/essentials-taupe-sweatpants.png",
+    deals: [],
+  },
+
+  {
+    id: 520,
+    slug: "essentials-white-grey-shorts",
+    name: "Essentials White Grey Shorts",
+    price: 50,
+    category: "Clothing",
+    image: "/clothing-corrected/essentials-white-grey-shorts.png",
+    deals: [],
+  },
+
+  {
+    id: 521,
+    slug: "sp5der-atlanta-navy-hoodie",
+    name: "SP5DER Atlanta Navy Hoodie",
+    price: 70,
+    category: "Clothing",
+    image: "/clothing-corrected/sp5der-atlanta-navy-hoodie.png",
+    deals: [],
+  },
+
+  {
+    id: 522,
+    slug: "sp5der-atlanta-navy-sweatpants",
+    name: "SP5DER Atlanta Navy Sweatpants",
+    price: 70,
+    category: "Clothing",
+    image: "/clothing-corrected/sp5der-atlanta-navy-sweatpants.png",
+    deals: [],
+  },
+
+  {
+    id: 523,
+    slug: "sp5der-black-basic-hoodie",
+    name: "SP5DER Black Basic Hoodie",
+    price: 70,
+    category: "Clothing",
+    image: "/clothing-corrected/sp5der-black-basic-hoodie.png",
+    deals: [],
+  },
+
+  {
+    id: 524,
+    slug: "sp5der-black-basic-sweatpants",
+    name: "SP5DER Black Basic Sweatpants",
+    price: 70,
+    category: "Clothing",
+    image: "/clothing-corrected/sp5der-black-basic-sweatpants.png",
+    deals: [],
+  },
+
+  {
+    id: 525,
+    slug: "sp5der-black-floral-hoodie",
+    name: "SP5DER Black Floral Hoodie",
+    price: 70,
+    category: "Clothing",
+    image: "/clothing-corrected/sp5der-black-floral-hoodie.png",
+    deals: [],
+  },
+
+  {
+    id: 526,
+    slug: "sp5der-black-pink-hoodie",
+    name: "SP5DER Black Pink Hoodie",
+    price: 70,
+    category: "Clothing",
+    image: "/clothing-corrected/sp5der-black-pink-hoodie.png",
+    deals: [],
+  },
+
+  {
+    id: 527,
+    slug: "sp5der-black-pink-sweatpants",
+    name: "SP5DER Black Pink Sweatpants",
+    price: 70,
+    category: "Clothing",
+    image: "/clothing-corrected/sp5der-black-pink-sweatpants.png",
+    deals: [],
+  },
+
+  {
+    id: 528,
+    slug: "sp5der-black-pink-web-hoodie",
+    name: "SP5DER Black Pink Web Hoodie",
+    price: 70,
+    category: "Clothing",
+    image: "/clothing-corrected/sp5der-black-pink-web-hoodie.png",
+    deals: [],
+  },
+
+  {
+    id: 529,
+    slug: "sp5der-black-pink-web-sweatpants",
+    name: "SP5DER Black Pink Web Sweatpants",
+    price: 70,
+    category: "Clothing",
+    image: "/clothing-corrected/sp5der-black-pink-web-sweatpants.png",
+    deals: [],
+  },
+
+  {
+    id: 530,
+    slug: "sp5der-blue-floral-shorts",
+    name: "SP5DER Blue Floral Shorts",
+    price: 50,
+    category: "Clothing",
+    image: "/clothing-corrected/sp5der-blue-floral-shorts.png",
+    deals: [],
+  },
+
+  {
+    id: 531,
+    slug: "sp5der-burgundy-floral-hoodie",
+    name: "SP5DER Burgundy Floral Hoodie",
+    price: 70,
+    category: "Clothing",
+    image: "/clothing-corrected/sp5der-burgundy-floral-hoodie.png",
+    deals: [],
+  },
+
+  {
+    id: 532,
+    slug: "sp5der-burgundy-floral-sweatpants",
+    name: "SP5DER Burgundy Floral Sweatpants",
+    price: 70,
+    category: "Clothing",
+    image: "/clothing-corrected/sp5der-burgundy-floral-sweatpants.png",
+    deals: [],
+  },
+
+  {
+    id: 533,
+    slug: "sp5der-charcoal-floral-hoodie",
+    name: "SP5DER Charcoal Floral Hoodie",
+    price: 70,
+    category: "Clothing",
+    image: "/clothing-corrected/sp5der-charcoal-floral-hoodie.png",
+    deals: [],
+  },
+
+  {
+    id: 534,
+    slug: "sp5der-charcoal-floral-sweatpants",
+    name: "SP5DER Charcoal Floral Sweatpants",
+    price: 70,
+    category: "Clothing",
+    image: "/clothing-corrected/sp5der-charcoal-floral-sweatpants.png",
+    deals: [],
+  },
+
+  {
+    id: 535,
+    slug: "sp5der-grey-floral-hoodie",
+    name: "SP5DER Grey Floral Hoodie",
+    price: 70,
+    category: "Clothing",
+    image: "/clothing-corrected/sp5der-grey-floral-hoodie.png",
+    deals: [],
+  },
+
+  {
+    id: 536,
     slug: "sp5der-grey-floral-shorts",
     name: "SP5DER Grey Floral Shorts",
     price: 50,
@@ -1526,7 +1325,117 @@ export const products = [
   },
 
   {
-    id: 257,
+    id: 537,
+    slug: "sp5der-grey-floral-sweatpants",
+    name: "SP5DER Grey Floral Sweatpants",
+    price: 70,
+    category: "Clothing",
+    image: "/clothing-corrected/sp5der-grey-floral-sweatpants.png",
+    deals: [],
+  },
+
+  {
+    id: 538,
+    slug: "sp5der-grey-green-hoodie",
+    name: "SP5DER Grey Green Hoodie",
+    price: 70,
+    category: "Clothing",
+    image: "/clothing-corrected/sp5der-grey-green-hoodie.png",
+    deals: [],
+  },
+
+  {
+    id: 539,
+    slug: "sp5der-grey-green-sweatpants",
+    name: "SP5DER Grey Green Sweatpants",
+    price: 70,
+    category: "Clothing",
+    image: "/clothing-corrected/sp5der-grey-green-sweatpants.png",
+    deals: [],
+  },
+
+  {
+    id: 540,
+    slug: "sp5der-grey-stars-hoodie",
+    name: "SP5DER Grey Stars Hoodie",
+    price: 70,
+    category: "Clothing",
+    image: "/clothing-corrected/sp5der-grey-stars-hoodie.png",
+    deals: [],
+  },
+
+  {
+    id: 541,
+    slug: "sp5der-grey-stars-sweatpants",
+    name: "SP5DER Grey Stars Sweatpants",
+    price: 70,
+    category: "Clothing",
+    image: "/clothing-corrected/sp5der-grey-stars-sweatpants.png",
+    deals: [],
+  },
+
+  {
+    id: 542,
+    slug: "sp5der-lavender-hoodie",
+    name: "SP5DER Lavender Hoodie",
+    price: 70,
+    category: "Clothing",
+    image: "/clothing-corrected/sp5der-lavender-hoodie.png",
+    deals: [],
+  },
+
+  {
+    id: 543,
+    slug: "sp5der-lavender-sweatpants",
+    name: "SP5DER Lavender Sweatpants",
+    price: 70,
+    category: "Clothing",
+    image: "/clothing-corrected/sp5der-lavender-sweatpants.png",
+    deals: [],
+  },
+
+  {
+    id: 544,
+    slug: "sp5der-light-blue-floral-hoodie",
+    name: "SP5DER Light Blue Floral Hoodie",
+    price: 70,
+    category: "Clothing",
+    image: "/clothing-corrected/sp5der-light-blue-floral-hoodie.png",
+    deals: [],
+  },
+
+  {
+    id: 545,
+    slug: "sp5der-light-blue-floral-sweatpants",
+    name: "SP5DER Light Blue Floral Sweatpants",
+    price: 70,
+    category: "Clothing",
+    image: "/clothing-corrected/sp5der-light-blue-floral-sweatpants.png",
+    deals: [],
+  },
+
+  {
+    id: 546,
+    slug: "sp5der-light-blue-hoodie",
+    name: "SP5DER Light Blue Hoodie",
+    price: 70,
+    category: "Clothing",
+    image: "/clothing-corrected/sp5der-light-blue-hoodie.png",
+    deals: [],
+  },
+
+  {
+    id: 547,
+    slug: "sp5der-light-blue-sweatpants",
+    name: "SP5DER Light Blue Sweatpants",
+    price: 70,
+    category: "Clothing",
+    image: "/clothing-corrected/sp5der-light-blue-sweatpants.png",
+    deals: [],
+  },
+
+  {
+    id: 548,
     slug: "sp5der-pink-floral-shorts",
     name: "SP5DER Pink Floral Shorts",
     price: 50,
@@ -1536,22 +1445,52 @@ export const products = [
   },
 
   {
-    id: 258,
+    id: 549,
+    slug: "sp5der-pink-hoodie",
+    name: "SP5DER Pink Hoodie",
+    price: 70,
+    category: "Clothing",
+    image: "/clothing-corrected/sp5der-pink-hoodie.png",
+    deals: [],
+  },
+
+  {
+    id: 550,
+    slug: "sp5der-pink-sweatpants",
+    name: "SP5DER Pink Sweatpants",
+    price: 70,
+    category: "Clothing",
+    image: "/clothing-corrected/sp5der-pink-sweatpants.png",
+    deals: [],
+  },
+
+  {
+    id: 551,
+    slug: "sp5der-purple-sweatpants",
+    name: "SP5DER Purple Sweatpants",
+    price: 70,
+    category: "Clothing",
+    image: "/clothing-corrected/sp5der-purple-sweatpants.png",
+    deals: [],
+  },
+
+  {
+    id: 552,
+    slug: "sp5der-purple-web-hoodie",
+    name: "SP5DER Purple Web Hoodie",
+    price: 70,
+    category: "Clothing",
+    image: "/clothing-corrected/sp5der-purple-web-hoodie.png",
+    deals: [],
+  },
+
+  {
+    id: 553,
     slug: "sp5der-red-floral-shorts",
     name: "SP5DER Red Floral Shorts",
     price: 50,
     category: "Clothing",
     image: "/clothing-corrected/sp5der-red-floral-shorts.png",
-    deals: [],
-  },
-
-  {
-    id: 259,
-    slug: "sp5der-blue-floral-shorts",
-    name: "SP5DER Blue Floral Shorts",
-    price: 50,
-    category: "Clothing",
-    image: "/clothing-corrected/sp5der-blue-floral-shorts.png",
     deals: [],
   },
 
