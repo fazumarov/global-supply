@@ -21,13 +21,23 @@ export default function ProductPageClient({
   product: Product;
 }) {
   const deals: Deal[] =
-    product.deals || [{ quantity: 1, price: product.price }];
+    product.deals && product.deals.length > 0
+      ? product.deals
+      : [{ quantity: 1, price: product.price }];
 
   const [selectedDeal, setSelectedDeal] = useState<Deal>(
     deals[0] || { quantity: 1, price: product.price }
   );
 
   const [withBox, setWithBox] = useState(false);
+
+  const isShoe = product.category === "Shoes";
+
+  const hasBulkDeals =
+    !isShoe &&
+    product.deals &&
+    product.deals.length > 1 &&
+    product.price !== 0;
 
   function getPriceEach(deal: Deal) {
     return deal.price / deal.quantity;
@@ -43,12 +53,8 @@ export default function ProductPageClient({
 
   const cheapestPriceEach =
     deals.length > 0
-      ? Math.min(
-          ...deals.map((deal) => deal.price / deal.quantity)
-        )
+      ? Math.min(...deals.map((deal) => deal.price / deal.quantity))
       : product.price;
-
-  const isShoe = product.category === "Shoes";
 
   const selectedPrice =
     isShoe && withBox && product.withBoxPrice
@@ -87,6 +93,7 @@ export default function ProductPageClient({
         </a>
 
         <div className="grid md:grid-cols-2 gap-12 mt-8">
+          {/* PRODUCT IMAGE */}
           <div className="bg-zinc-950 border border-white/10 rounded-[2rem] overflow-hidden">
             <Image
               src={product.image}
@@ -98,6 +105,7 @@ export default function ProductPageClient({
             />
           </div>
 
+          {/* PRODUCT INFO */}
           <div>
             {product.badge && (
               <div className="inline-flex rounded-full bg-white text-black px-4 py-2 text-xs font-black tracking-widest">
@@ -113,6 +121,7 @@ export default function ProductPageClient({
               {product.category}
             </p>
 
+            {/* MAIN PRICE */}
             <div className="mt-6 flex items-center gap-3 flex-wrap">
               {product.originalPrice && (
                 <span className="text-2xl text-gray-500 line-through">
@@ -133,11 +142,10 @@ export default function ProductPageClient({
               )}
             </div>
 
+            {/* SHOE BOX OPTION */}
             {isShoe && product.withBoxPrice && (
               <div className="mt-8">
-                <h3 className="text-xl font-black mb-4">
-                  BOX OPTION
-                </h3>
+                <h3 className="text-xl font-black mb-4">BOX OPTION</h3>
 
                 <div className="grid grid-cols-2 gap-3">
                   <button
@@ -148,9 +156,7 @@ export default function ProductPageClient({
                         : "border-white/10 bg-zinc-950 hover:border-white/30"
                     }`}
                   >
-                    <div className="font-black">
-                      Without Box
-                    </div>
+                    <div className="font-black">Without Box</div>
                     <div className="text-2xl font-black mt-1">
                       ${product.price}
                     </div>
@@ -164,9 +170,7 @@ export default function ProductPageClient({
                         : "border-white/10 bg-zinc-950 hover:border-white/30"
                     }`}
                   >
-                    <div className="font-black">
-                      With Box
-                    </div>
+                    <div className="font-black">With Box</div>
                     <div className="text-2xl font-black mt-1">
                       ${product.withBoxPrice}
                     </div>
@@ -175,108 +179,88 @@ export default function ProductPageClient({
               </div>
             )}
 
-            {!isShoe &&
-              deals.length > 0 &&
-              product.price !== 0 && (
-                <div className="mt-8">
-                  <h3 className="text-xl font-black mb-4">
-                    BULK DEALS
-                  </h3>
+            {/* BULK DEALS */}
+            {hasBulkDeals && (
+              <div className="mt-8">
+                <h3 className="text-xl font-black mb-4">BULK DEALS</h3>
 
-                  <div className="space-y-3">
-                    {deals.map((deal) => {
-                      const priceEach =
-                        getPriceEach(deal);
+                <div className="space-y-3">
+                  {deals.map((deal) => {
+                    const priceEach = getPriceEach(deal);
+                    const regularTotal = getRegularTotal(deal);
+                    const savings = getSavings(deal);
 
-                      const regularTotal =
-                        getRegularTotal(deal);
+                    const isSelected =
+                      selectedDeal.quantity === deal.quantity;
 
-                      const savings =
-                        getSavings(deal);
+                    const isBestValue =
+                      deal.quantity > 1 &&
+                      priceEach === cheapestPriceEach;
 
-                      const isSelected =
-                        selectedDeal.quantity ===
-                        deal.quantity;
+                    return (
+                      <button
+                        key={deal.quantity}
+                        onClick={() => setSelectedDeal(deal)}
+                        className={`relative w-full flex items-center justify-between rounded-2xl px-4 py-5 border transition ${
+                          isSelected
+                            ? "border-green-500 bg-zinc-900"
+                            : "border-white/10 bg-zinc-950 hover:border-white/30"
+                        }`}
+                      >
+                        <div className="text-left">
+                          <span className="font-black block">
+                            Buy {deal.quantity}
+                          </span>
 
-                      const isBestValue =
-                        deal.quantity > 1 &&
-                        priceEach === cheapestPriceEach;
+                          {deal.quantity > 1 && (
+                            <div className="flex items-center gap-1 mt-1 text-xs font-bold">
+                              <span className="text-gray-400">
+                                $
+                                {Number.isInteger(priceEach)
+                                  ? priceEach
+                                  : priceEach.toFixed(2)}{" "}
+                                each
+                              </span>
 
-                      return (
-                        <button
-                          key={deal.quantity}
-                          onClick={() =>
-                            setSelectedDeal(deal)
-                          }
-                          className={`relative w-full flex items-center justify-between rounded-2xl px-4 py-5 border transition ${
-                            isSelected
-                              ? "border-green-500 bg-zinc-900"
-                              : "border-white/10 bg-zinc-950 hover:border-white/30"
-                          }`}
-                        >
-                          <div className="text-left">
-                            <span className="font-black block">
-                              Buy {deal.quantity}
-                            </span>
-
-                            {deal.quantity > 1 && (
-                              <div className="flex items-center gap-1 mt-1 text-xs font-bold">
-                                <span className="text-gray-400">
-                                  $
-                                  {Number.isInteger(
-                                    priceEach
-                                  )
-                                    ? priceEach
-                                    : priceEach.toFixed(2)}{" "}
-                                  each
-                                </span>
-
-                                {savings > 0 && (
-                                  <>
-                                    <span className="text-gray-500">
-                                      ·
-                                    </span>
-
-                                    <span className="text-green-400">
-                                      Save $
-                                      {savings.toFixed(0)}
-                                    </span>
-                                  </>
-                                )}
-                              </div>
-                            )}
-                          </div>
-
-                          <div className="flex flex-col items-end">
-                            <div className="flex items-center gap-2">
-                              {deal.quantity > 1 &&
-                                savings > 0 && (
-                                  <span className="text-sm text-gray-500 line-through font-bold">
-                                    $
-                                    {regularTotal.toFixed(
-                                      0
-                                    )}
+                              {savings > 0 && (
+                                <>
+                                  <span className="text-gray-500">·</span>
+                                  <span className="text-green-400">
+                                    Save ${savings.toFixed(0)}
                                   </span>
-                                )}
-
-                              <span className="text-2xl font-black">
-                                ${deal.price}
-                              </span>
+                                </>
+                              )}
                             </div>
+                          )}
+                        </div>
 
-                            {isBestValue && (
-                              <span className="mt-2 bg-lime-400 text-black text-[10px] font-black px-3 py-1 rounded-md">
-                                BEST VALUE
+                        <div className="flex flex-col items-end">
+                          <div className="flex items-center gap-2">
+                            {deal.quantity > 1 && savings > 0 && (
+                              <span className="text-sm text-gray-500 line-through font-bold">
+                                ${regularTotal.toFixed(0)}
                               </span>
                             )}
-                          </div>
-                        </button>
-                      );
-                    })}
-                  </div>
-                </div>
-              )}
 
+                            <span className="text-2xl font-black">
+                              ${deal.price}
+                            </span>
+                          </div>
+
+                          {isBestValue && (
+                            <span className="mt-2 bg-lime-400 text-black text-[10px] font-black px-3 py-1 rounded-md">
+                              BEST VALUE
+                            </span>
+                          )}
+                        </div>
+                      </button>
+                    );
+                  })}
+                </div>
+              </div>
+            )}
+
+            {/* BENEFITS */}
             <div className="mt-8 bg-zinc-950 border border-white/10 rounded-[2rem] p-6">
               <div className="space-y-3">
                 <p>✓ Premium Quality</p>
@@ -286,6 +270,7 @@ export default function ProductPageClient({
               </div>
             </div>
 
+            {/* PURCHASE */}
             {product.price === 0 ? (
               <a
                 href="https://t.me/GlobalSupplyTM"
