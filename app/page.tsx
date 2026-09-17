@@ -256,7 +256,7 @@ Please send payment information.`;
                       <img
                         src={product.image}
                         alt={product.name}
-                        className="h-full w-full object-cover group-hover:scale-105 transition duration-500"
+                        className="h-full w-full object-contain p-3 group-hover:scale-105 transition duration-500"
                       />
                     </div>
                   </a>
