@@ -314,15 +314,13 @@ export const products = [
     ],
   },
 
-  // NEW FRAGRANCES
-
   {
     id: 24,
     slug: "armani-stronger-with-you-intensely",
     name: "Armani Stronger With You Intensely",
     price: 50,
     category: "Fragrances",
-    image: "/armani-stronger-with-you-intensely.jpg",
+    image: "/armani-stronger-with-you-intensely.png",
     badge: "POPULAR",
     description:
       "Popular Armani fragrance with a warm, sweet and long-lasting scent.",
@@ -340,7 +338,7 @@ export const products = [
     name: "Bleu de Chanel",
     price: 50,
     category: "Fragrances",
-    image: "/bleu-de-chanel.jpg",
+    image: "/bleu-de-chanel.png",
     badge: "POPULAR",
     description: "Fresh, clean and versatile Chanel fragrance.",
     deals: [
@@ -357,7 +355,7 @@ export const products = [
     name: "Azzaro The Most Wanted",
     price: 50,
     category: "Fragrances",
-    image: "/azzaro-the-most-wanted.jpg",
+    image: "/azzaro-the-most-wanted.png",
     badge: "POPULAR",
     description: "Bold and sweet men's fragrance with strong performance.",
     deals: [
@@ -374,7 +372,7 @@ export const products = [
     name: "Club de Nuit Intense Man",
     price: 50,
     category: "Fragrances",
-    image: "/club-de-nuit-intense-man.jpg",
+    image: "/club-de-nuit-intense-man.png",
     description: "Popular fresh and masculine fragrance from Armaf.",
     deals: [
       { quantity: 1, price: 50 },
@@ -390,7 +388,7 @@ export const products = [
     name: "YSL MYSLF",
     price: 50,
     category: "Fragrances",
-    image: "/ysl-myslf.jpg",
+    image: "/ysl-myslf.png",
     badge: "POPULAR",
     description:
       "Modern Yves Saint Laurent fragrance with a clean and fresh scent.",
@@ -408,7 +406,7 @@ export const products = [
     name: "Tom Ford Tobacco Vanille",
     price: 50,
     category: "Fragrances",
-    image: "/tom-ford-tobacco-vanille.jpg",
+    image: "/tom-ford-tobacco-vanille.png",
     badge: "LUXURY",
     description:
       "Rich Tom Ford fragrance with warm tobacco and vanilla notes.",
@@ -426,7 +424,7 @@ export const products = [
     name: "Armani Acqua di Giò",
     price: 50,
     category: "Fragrances",
-    image: "/armani-acqua-di-gio.jpg",
+    image: "/armani-acqua-di-gio.png",
     description: "Classic fresh and aquatic Giorgio Armani fragrance.",
     deals: [
       { quantity: 1, price: 50 },
@@ -442,7 +440,7 @@ export const products = [
     name: "Versace Eros",
     price: 50,
     category: "Fragrances",
-    image: "/versace-eros.jpg",
+    image: "/versace-eros.png",
     badge: "POPULAR",
     description: "Fresh, sweet and bold Versace fragrance for men.",
     deals: [
@@ -459,7 +457,7 @@ export const products = [
     name: "Carolina Herrera Good Girl",
     price: 50,
     category: "Fragrances",
-    image: "/carolina-herrera-good-girl.jpg",
+    image: "/carolina-herrera-good-girl.png",
     badge: "POPULAR",
     description:
       "Popular women's fragrance with a sweet and sophisticated scent.",
@@ -477,7 +475,7 @@ export const products = [
     name: "Burberry Her",
     price: 50,
     category: "Fragrances",
-    image: "/burberry-her.jpg",
+    image: "/burberry-her.png",
     badge: "POPULAR",
     description: "Sweet and fruity Burberry fragrance for women.",
     deals: [
@@ -494,7 +492,7 @@ export const products = [
     name: "YSL Black Opium",
     price: 50,
     category: "Fragrances",
-    image: "/ysl-black-opium.jpg",
+    image: "/ysl-black-opium.png",
     badge: "BEST SELLER",
     description: "Iconic sweet and warm Yves Saint Laurent fragrance.",
     deals: [
@@ -511,7 +509,7 @@ export const products = [
     name: "Prada Paradoxe",
     price: 50,
     category: "Fragrances",
-    image: "/prada-paradoxe.jpg",
+    image: "/prada-paradoxe.png",
     badge: "POPULAR",
     description: "Modern floral and sweet Prada fragrance for women.",
     deals: [
@@ -528,7 +526,7 @@ export const products = [
     name: "Lancôme La Vie Est Belle",
     price: 50,
     category: "Fragrances",
-    image: "/lancome-la-vie-est-belle.jpg",
+    image: "/lancome-la-vie-est-belle.png",
     description: "Popular sweet and elegant Lancôme fragrance.",
     deals: [
       { quantity: 1, price: 50 },
@@ -544,7 +542,7 @@ export const products = [
     name: "Chanel Coco Mademoiselle",
     price: 50,
     category: "Fragrances",
-    image: "/chanel-coco-mademoiselle.jpg",
+    image: "/chanel-coco-mademoiselle.png",
     badge: "POPULAR",
     description: "Classic Chanel fragrance with a fresh and elegant scent.",
     deals: [
@@ -561,7 +559,7 @@ export const products = [
     name: "Dolce & Gabbana Light Blue",
     price: 50,
     category: "Fragrances",
-    image: "/dolce-gabbana-light-blue.jpg",
+    image: "/dolce-gabbana-light-blue.png",
     description: "Fresh citrus and aquatic Dolce & Gabbana fragrance.",
     deals: [
       { quantity: 1, price: 50 },
